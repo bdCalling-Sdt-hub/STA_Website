@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-color: #333;
+}
+
+
+/* .swiper-button-next {
+  color: aqua !important;
+  right: -20px !important;
+  bottom: 0px !important;
+} */
