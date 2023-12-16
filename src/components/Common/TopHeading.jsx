@@ -1,8 +1,8 @@
 const TopHeading = ({ blueText, description = "" }) => {
   return (
-    <div className="text-center my-10">
-      <h2 className="text-3xl font-bold text-primary">{blueText}</h2>
-      <p className="w-3/4 mx-auto mt-4">{description}</p>
+    <div className="text-center">
+      <h2 className="text-[24px] text-[#99D31B] font-normal font-family: Roboto">{blueText}</h2>
+      <p className="text-[54px] text-white font-family: Roboto;">{description}</p>
     </div>
   );
 };

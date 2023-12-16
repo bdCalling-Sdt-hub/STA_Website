@@ -1,15 +1,28 @@
+import TopHeading from "../Common/TopHeading";
 import { Button } from "../ui/button";
+import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
 
 const JoinUs = () => {
   return (
-    <div className="bg-primary flex items-center justify-between px-10 rounded-md h-[250px] my-14 container">
-      <h2 className="text-4xl text-white font-medium">
-        Start Your Best Online/Offline
-        <br /> Course with Us
-      </h2>
-      <Button className="px-16 py-6 text-xl bg-white text-primary">
-        Join Us
-      </Button>
+    <div className="container mt-[228px]">
+      <div className="h-14 rounded-t-3xl bg-[#99D31B]">
+      </div>
+
+      <div className="relative p-[84px] mb-[84px] rounded-3xl -mt-6 bg-gradient-to-b from-[#353534] to-[#5C5C5C]">
+        <img className="absolute top-[100px] right-0 z-0" src="/images/message.png" alt="" />
+        <TopHeading blueText={'Contacts'} description="Get free consultation" />
+        <div className="grid grid-cols-2 gap-8 mt-8">
+          <Input placeholder="Full Name" className="bg-[#333333] border-0 text-white placeholder:text-white" />
+          <Input placeholder="Address" className="bg-[#333333] border-0 text-white placeholder:text-white" />
+        </div>
+        <Textarea
+          placeholder="Your Message"
+          className="h-[225px] mt-4 bg-[#333333] border-0 text-white placeholder:text-white"
+        />
+        <img className="absolute bottom-[50px] left-0 z-0" src="/images/message.png" alt="" />
+      </div>
+
     </div>
   );
 };

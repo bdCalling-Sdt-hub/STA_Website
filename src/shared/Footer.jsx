@@ -9,18 +9,22 @@ import {
   Youtube,
 } from "lucide-react";
 import Image from "next/image";
+import { IoIosMail } from "react-icons/io";
 import Link from "next/link";
 import footerLink from "../../public/db/footer.json";
+import style from "./navbar.module.css"
+import { FaBehance, FaDribbble, FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
-  const { usefulLinks, popularCourses, description, contacts, paymentImages } =
+  const { usefulLinks, usefulLinks2, services, description, contacts, paymentImages } =
     footerLink;
 
   return (
-    <footer className="bg-[#e6f8ff]">
-      <div className="container py-16">
-        <div className="grid grid-cols-4 gap-8 text-base-content">
-          <aside>
+    <footer className={style.bkImage}>
+
+      <div className="container py-16 bg-[#333] rounded-[40px]">
+        <div className="grid grid-cols-6 gap-8 text-base-content">
+          <aside className="col-span-2 px-8">
             <a href="#">
               <Image
                 src="/images/logo.png"
@@ -29,111 +33,123 @@ const Footer = () => {
                 height={100}
               />
             </a>
-            <p className="mt-4">{description}</p>
-            <h4 className="font-bold mt-4 mb-2">Share Now</h4>
-            <div className="flex items-center gap-2">
+            <p className="mt-4 text-[18px] font-family: Roboto; text-[#D6D6D6]">{description}</p>
+            <div className="flex items-center gap-2 mt-[25px]">
               <Icon>
-                <Facebook color="#e8e3e3" />
+                <Phone color="#99D31B" size={24} />
               </Icon>
-              <Icon>
-                <Linkedin color="#e8e3e3" />
-              </Icon>
-              <Icon>
-                <Youtube color="#e8e3e3" />
-              </Icon>
-              <Icon>
-                <Mail color="#e8e3e3" />
-              </Icon>
-              <Icon>
-                <Send color="#e8e3e3" />
-              </Icon>
-            </div>
-          </aside>
-          <nav>
-            <header className="font-bold mb-6">Useful Links</header>
-            {usefulLinks.map((link, index) => (
-              <Link
-                key={index}
-                href={link?.link}
-                className="block mb-2 hover:underline transition"
-              >
-                {link?.title}
-              </Link>
-            ))}
-          </nav>
-          <nav>
-            <header className="font-bold mb-6">Popular Courses</header>
-            {popularCourses.map((link, index) => (
-              <Link
-                key={index}
-                href="/courses"
-                className="block mb-2 hover:underline transition"
-              >
-                {link?.title}
-              </Link>
-            ))}
-          </nav>
-          <nav>
-            <header className="font-bold mb-6">Contact Info</header>
-            <div className="flex items-center gap-2">
-              <Icon>
-                <Phone color="#e8e3e3" size={25} />
-              </Icon>
-              <p>+88 01321231802</p>
+              <p className="text-[#ADADAD]">+88 01321231802</p>
             </div>
             <div className="flex items-center gap-2 mt-4">
               <Icon>
-                <Mail color="#e8e3e3" />
+                <IoIosMail color="#99D31B" size={30} />
               </Icon>
-              <p>learn.bdcalling@gmail.com</p>
+              <p className="text-[#ADADAD]">learn.bdcalling@gmail.com</p>
             </div>
-            <div className="flex items-center gap-2 mt-4">
+            <div className="flex items-center gap-2 mt-4  ms-2">
               <Icon>
-                <MapPinned size={40} color="#e8e3e3" absoluteStrokeWidth />
+                <MapPinned size={30} color="#99D31B" absoluteStrokeWidth />
               </Icon>
-              <p>
+              <p className="text-[#ADADAD]">
                 Daisy Garden, House 14,Block A, Banasree, main road, Dhaka-1219
               </p>
             </div>
-            <h3 className="my-4 text-lg">Online Transaction Method</h3>
-            <div className="flex gap-1">
-              {paymentImages.map((img, index) => (
-                <div key={index} className="bg-white  rounded-md px-2 py-1">
-                  <Link href="/payment">
-                    <Image
-                      src={img.imgLink}
-                      alt={`${img.title} logo`}
-                      width={80}
-                      height={80}
-                    />
+
+            <h4 className="font-bold ms-2 mt-[28px] mb-2 text-[22px] text-white">FOLLOW US</h4>
+
+            <div className="flex items-center gap-2">
+              <Icon>
+                {/* <Facebook color="#99D31B" /> */}
+                <FaFacebookF color="#99D31B" size={24} />
+              </Icon>
+              <Icon>
+                {/* <Linkedin color="#99D31B" /> */}
+                <FaLinkedinIn color="#99D31B" size={24} />
+              </Icon>
+              <Icon>
+                {/* <Youtube color="#99D31B" /> */}
+                <FaDribbble color="#99D31B" size={20} />
+              </Icon>
+              <Icon>
+                {/* <Mail color="#99D31B" /> */}
+                <FaBehance color="#99D31B" size={20} />
+              </Icon>
+              <Icon>
+                <Send color="#99D31B" />
+              </Icon>
+            </div>
+
+
+          </aside>
+
+          <div className="col-span-4">
+            <div className="flex">
+              <nav className="">
+                <header className="font-bold mb-6 text-white">SERVICES</header>
+                {services.map((link, index) => (
+                  <Link
+                    key={index}
+                    href="/courses"
+                    className="block mb-2 hover:underline transition text-[#D6D6D6] mt-[20px]"
+                  >
+                    {link?.title}
                   </Link>
-                </div>
-              ))}
+                ))}
+              </nav>
+
+              <nav className="ms-40">
+                <header className="font-bold mb-6 text-white">INFORMATION</header>
+                {usefulLinks.map((link, index) => (
+                  <Link
+                    key={index}
+                    href={link?.link}
+                    className="block mb-2 hover:underline transition text-[#D6D6D6]"
+                  >
+                    {link?.title}
+                  </Link>
+                ))}
+              </nav>
+
+              <nav className="ms-20">
+                <header className="font-bold mb-12"></header>
+
+                {usefulLinks2.map((link, index) => (
+                  <Link
+                    key={index}
+                    href={link?.link}
+                    className="block mb-2 hover:underline transition text-[#D6D6D6]"
+                  >
+                    {link?.title}
+                  </Link>
+                ))}
+              </nav>
             </div>
-            <div className="bg-white rounded-md px-2 py-1 mt-3 w-[190px] text-center">
-              <Link href="/payment">
-                <Image
-                  src="/images/ssl.png"
-                  alt="logo"
-                  width={150}
-                  height={150}
-                />
-              </Link>
+            <div className="mt-28">
+              <h1 className="text-white mb-[30px] text-[22px] font-family: Roboto;">SUBSCRIBE OUR NEWSLETTER</h1>
+              <form>
+                {/* <header className="footer-title text-white">SUBSCRIBE OUR NEWSLETTER</header> */}
+                <fieldset className="form-control w-80">
+                  {/* <label className="label">
+                    <span className="label-text">Enter your email address</span>
+                  </label> */}
+                  <div className="join w-[648px]">
+                    <input type="text" placeholder="Email Address" className="input input-bordered join-item w-[448px] bg-[#5C5C5C] text-[#D6D6D6] placeholder:text-[#D6D6D6]" />
+                    <button className="btn bg-[#99D31B] p-2 text-white font-family: Roboto rounded-lg join-item border-4 border-[#5C5C5C]">Subscribe Now</button>
+                  </div>
+                </fieldset>
+              </form>
             </div>
-          </nav>
+          </div>
+
         </div>
       </div>
-      <div className="border-t py-6">
-        <div className="container flex items-center justify-between">
-          <div>
-            <a href="#" className="border-r mr-1 px-1">
-              Privacy Policy
-            </a>
-            <a href="#">Terms & Conditions</a>
-          </div>
-          <div>
-            <p>© 2023 Learn bdCalling. All Rights Reserved.</p>
-          </div>
+
+      <div className="py-6 text-center">
+        <div className="container">
+          <a href="#" className=" mr-1 px-1 text-[#D6D6D6]">
+            Copyright 2023 Theme by <span className="text-[#99D31B]">Sparktech.Agency</span> | All Rights Reserved
+          </a>
+
         </div>
       </div>
     </footer>

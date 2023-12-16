@@ -5,3 +5,8 @@
 .textColor::after {
     color: green !important;
 }
+
+.bkImage {
+    background-image: url("/images/footer-bg 1.png");
+    padding-top: 100px;
+}

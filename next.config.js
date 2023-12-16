@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   server: {
     target: "server",
-    port: 3000,
+    port: 3001,
     host: '192.168.10.14'
   }
 }

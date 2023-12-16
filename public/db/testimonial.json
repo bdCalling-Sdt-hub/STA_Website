@@ -1,35 +1,39 @@
 {
   "testimonialList": [
     {
-      "image": "/images/2.jpg",
+      "qutes66": "/images/qutes.png",
+      "qutes99": "/images/qutes99.png",
       "name": "Sergio Marcino",
-      "designation": "UI/UX Designer Student",
-      "feedback": "“The Mobile App Development course at bdcalling IT LTD was a valuable and engaging experience. The instructors were knowledgeable and supportive, and the hands-on projects helped solidify our understanding. While the content was comprehensive, some organization improvements and more frequent assessments could enhance the "
+      "designation": "CEO Spark Tech",
+      "feedback": "Software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing team skilled in the technologies."
     },
-
     {
-      "image": "/images/02.jpg",
+      "qutes66": "/images/qutes.png",
+      "qutes99": "/images/qutes99.png",
       "name": "Emily Johnson",
-      "designation": "Web Developer Student",
-      "feedback": "“The Web Development course provided by bdcalling IT LTD was fantastic. The instructors were very helpful, and the practical exercises were insightful. I particularly enjoyed the real-world projects that allowed me to apply what I learned."
+      "designation": "CEO bdCalling",
+      "feedback": "Software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing team skilled in the technologies."
     },
     {
-      "image": "/images/05.jpg",
+      "qutes66": "/images/qutes.png",
+      "qutes99": "/images/qutes99.png",
       "name": "Alex Rodriguez",
-      "designation": "Data Science Student",
-      "feedback": "“I had a great experience with the Data Science course at bdcalling IT LTD. The course content was in-depth, and the instructors were knowledgeable. The hands-on labs and projects were valuable in gaining practical skills."
+      "designation": "CEO bdCalling",
+      "feedback": "Software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing team skilled in the technologies."
     },
     {
-      "image": "/images/07.jpg",
+      "qutes66": "/images/qutes.png",
+      "qutes99": "/images/qutes99.png",
       "name": "Sophie Williams",
-      "designation": "Cybersecurity Student",
-      "feedback": "“The Cybersecurity course at bdcalling IT LTD was challenging and rewarding. The instructors were experts in the field, and the course material was up-to-date. I appreciated the focus on practical skills and real-world scenarios."
+      "designation": "CEO bdCalling",
+      "feedback": "Software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing team skilled in the technologies."
     },
     {
-      "image": "/images/08.jpg",
+      "qutes66": "/images/qutes.png",
+      "qutes99": "/images/qutes99.png",
       "name": "Carlos Martinez",
-      "designation": "Machine Learning Student",
-      "feedback": "“I thoroughly enjoyed the Machine Learning course at bdcalling IT LTD. The content was well-structured, and the instructors were passionate about the subject. The hands-on projects allowed me to apply machine learning concepts in a practical way."
+      "designation": "CEO bdCalling",
+      "feedback": "Software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing team skilled in the technologies."
     }
   ]
 }

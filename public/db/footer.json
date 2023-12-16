@@ -1,63 +1,55 @@
 {
-  "description": "What brings innovation to everything we do is collaboration. We help each other, solve issues we face, we enjoys sweet talks. We shape up each other’s ideas to bring the best out of them.",
+  "description": "A top tier software development team assisting owners ",
   "usefulLinks": [
     {
       "title": "About Us",
       "link": "/about"
     },
     {
+      "title": "Portfolio",
+      "link": "/portfolio"
+    },
+    {
+      "title": "Team",
+      "link": "/team"
+    },
+    {
       "title": "Contact Us",
       "link": "/contact"
+    }
+  ],
+
+  "usefulLinks2": [
+    {
+      "title": "Service",
+      "link": "/service"
     },
     {
-      "title": "Success Story",
-      "link": "/success-stories"
+      "title": "Terms & Conditions",
+      "link": "/terms-and-conditions"
     },
     {
-      "title": "Free Seminar Schedule",
-      "link": "/free-seminar"
-    },
-    {
-      "title": "Mentors",
-      "link": "/mentors"
+      "title": "Privacy Policy",
+      "link": "/privacy-policy"
     },
     {
       "title": "Refund Policy",
-      "link": ""
+      "link": "/refund-policy"
     }
   ],
-  "popularCourses": [
+
+  "services": [
     {
-      "title": "Lead Generation-Data Entry",
+      "title": "UI/UX Design",
       "link": ""
     },
     {
-      "title": "Digital Marketing",
+      "title": "Mobile App Development",
       "link": "contact"
     },
     {
-      "title": "WordPress Specialist",
+      "title": "Web Development",
       "link": "success-stories"
-    },
-    {
-      "title": "Graphics Designer",
-      "link": ""
-    },
-    {
-      "title": "UX/UI Designer",
-      "link": ""
-    },
-    {
-      "title": "APP Developer with Flutter",
-      "link": ""
-    },
-    {
-      "title": "Front-End Development",
-      "link": ""
-    },
-    {
-      "title": "MERN STACK Developer",
-      "link": ""
     }
   ],
   "contacts": [
@@ -75,7 +67,13 @@
     }
   ],
   "paymentImages": [
-    { "imgLink": "/images/bkash.png", "title": "bkash" },
-    { "imgLink": "/images/nagad.png", "title": "nagad" }
+    {
+      "imgLink": "/images/bkash.png",
+      "title": "bkash"
+    },
+    {
+      "imgLink": "/images/nagad.png",
+      "title": "nagad"
+    }
   ]
 }
