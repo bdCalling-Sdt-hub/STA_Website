@@ -31,11 +31,11 @@ export function Navbar() {
     },
     {
       title: "Service",
-      path: "/contact"
+      path: "/services"
     },
     {
       title: "Portfolio",
-      path: "/mentors"
+      path: "/portfolio"
     },
     {
       title: "Career",

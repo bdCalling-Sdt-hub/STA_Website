@@ -9,7 +9,7 @@ const Services = () => {
 
             <div className='text-center'>
                 <p className="text-[#99D31B] text-[24px]">SERVICES</p>
-                <h1 className="text-4xl font-normal leading-tight text-[54px] font-family: 'Roboto',">
+                <h1 className="text-4xl font-semibold leading-tight text-[54px] font-family: 'Roboto',">
                     <span className="text-white">Feel The Power Of Technology</span>
                     <br />
                     <span className="text-white">Software Service</span>

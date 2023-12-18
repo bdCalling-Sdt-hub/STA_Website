@@ -7,7 +7,7 @@ import Choose from '@/components/Services/Choose';
 import FreeConsulting from '@/components/Services/FreeConsulting';
 import React from 'react';
 
-const servicesPage = () => {
+const PortfolioPage = () => {
     return (
         <div>
             <Breadcrumbs />
@@ -21,8 +21,8 @@ const servicesPage = () => {
 };
 
 
-export default servicesPage;
+export default PortfolioPage;
 
-servicesPage.getLayout = function getLayout(page) {
+PortfolioPage.getLayout = function getLayout(page) {
     return <RootLayout>{page}</RootLayout>
 }
