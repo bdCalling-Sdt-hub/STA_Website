@@ -1,22 +1,25 @@
 import About from "@/components/About/About";
+import Achievement from "@/components/About/Achievement";
+import Breadcrumbs from "@/components/About/Breadcrumbs";
 import Experts from "@/components/About/Experts";
-import TotalCourse from "@/components/About/TotalCourse";
+import FAQ from "@/components/About/FAQ";
+import FreeConsulting from "@/components/About/FreeConsulting";
+import OurClients from "@/components/About/OurClients";
 import WhatBdCalling from "@/components/About/WhatBdCalling";
 import Subscribe from "@/components/Common/Subscribe";
+import Testimonial from "@/components/Home/Testimonial";
 import RootLayout from "@/components/Layouts/RootLayout";
 
 const AboutPage = () => {
   return (
-    <div className="container">
+    <div>
+      <Breadcrumbs />
       <About />
-      <WhatBdCalling />
-      {/* <OurVision /> */}
-      <Experts />
-      <TotalCourse />
-      <Subscribe
-        title="Say Hello to Learn with!"
-        description="Unlock a world of knowledge and endless growth opportunities"
-      />
+      <Achievement />
+      <Testimonial />
+      <FAQ />
+      <OurClients />
+      <FreeConsulting />
     </div>
   );
 };

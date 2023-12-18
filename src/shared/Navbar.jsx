@@ -31,15 +31,15 @@ export function Navbar() {
     },
     {
       title: "Service",
-      path: "/service"
+      path: "/contact"
     },
     {
       title: "Portfolio",
-      path: "/portfolio"
+      path: "/mentors"
     },
     {
       title: "Career",
-      path: "/career"
+      path: "/success-stories"
     },
   ]
 
