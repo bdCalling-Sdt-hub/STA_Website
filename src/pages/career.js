@@ -1,4 +1,11 @@
+import Achievement from '@/components/Career/Achievement';
 import Breadcrumbs from '@/components/Career/Breadcrumbs';
+import Choose from '@/components/Career/Choose';
+import FreeConsulting from '@/components/Career/FreeConsulting';
+import JobOpening from '@/components/Career/JobOpening';
+import Services from '@/components/Career/Services';
+import SubmitDetails from '@/components/Career/SubmitDetails';
+import TeamMate from '@/components/Career/TeamMate';
 import RootLayout from '@/components/Layouts/RootLayout';
 import React from 'react';
 
@@ -6,11 +13,13 @@ const CareerPage = () => {
     return (
         <div>
             <Breadcrumbs />
-            {/* <Choose />
+            <Choose />
             <Services />
             <Achievement />
-            <Testimonial />
-            <FreeConsulting /> */}
+            <TeamMate />
+            <JobOpening />
+            <SubmitDetails />
+            <FreeConsulting />
         </div>
     );
 };

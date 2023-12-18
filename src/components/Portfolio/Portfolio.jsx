@@ -12,12 +12,12 @@ const Portfolio = () => {
             {
                 portfolioList.map((portfolio, index) => (
                     <div key={index}>
-                        <div className={`${style.bkImage} flex flex-col items-center `}>
+                        <div className={`${style.bkImage} flex flex-col items-center`}>
                             <div className='flex items-center pt-[80px] gap-1'>
                                 <img className='w-[85px] h-[85px]' src={portfolio.icon} alt="" />
                                 <p className='w-[356px] text-[50px] text-white font-semibold'>{portfolio.iconTitle}</p>
                             </div>
-                            <img className='w-[475px] text-[50px] pt-[60px]' src={portfolio.bottomImage} alt="" />
+                            <img className={`w-[475px] text-[50px] pt-[60px] hover:scale-125 ${style.bottomImage}`} src={portfolio.bottomImage} alt="" />
                         </div>
                         <div>
                             <p className='text-[#99D31B] text-[34px] font-semibold font-family: Roboto mt-[20px]'>{portfolio.iconTitle}</p>
