@@ -39,7 +39,7 @@ export function Navbar() {
     },
     {
       title: "Career",
-      path: "/success-stories"
+      path: "/career"
     },
   ]
 
