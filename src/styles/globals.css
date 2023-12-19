@@ -37,3 +37,38 @@ body {
 :root {
   --swiper-navigation-size: 24px !important;
 }
+
+
+
+/* ------------animation------------- */
+@keyframes round-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes round-rotate-backwards {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* @keyframes round-rotate {
+  to {
+    transform: rotate(360deg) translateX(500px);
+  }
+}
+
+@keyframes round-rotate-backwards {
+  to {
+    transform: rotate(-360deg) translateX(500px);
+  }
+} */
+
+.animate-round-rotate {
+  animation: round-rotate 24s linear infinite;
+}
+
+.animate-round-rotate-backwards {
+  animation: round-rotate-backwards 24s linear infinite;
+}

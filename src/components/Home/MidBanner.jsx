@@ -11,7 +11,7 @@ import { Button } from "../ui/button";
 const MidBanner = () => {
 
   return (
-    <div className=" h-auto mt-[157px] pb-20">
+    <div className=" h-auto mt-[157px] pb-20" data-aos="fade-right">
       <div className="grid grid-cols-2 gap-20 items-center container">
         <div className="w-[624px] h-[513px]">
           <img src="/images/mid-banner.png" alt="banner image" />
