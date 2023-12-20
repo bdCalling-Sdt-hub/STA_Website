@@ -20,11 +20,19 @@ const Testimonial = () => {
 
   return (
     <div className="container mt-[209px]">
-      <HeadingText sTitle={"TESTIMONIAL"} title={"Some Words From Our Happy"} subTitle={"Clients"} />
+      <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <HeadingText sTitle={"TESTIMONIAL"} title={"Some Words From Our Happy"} subTitle={"Clients"} />
+      </div>
 
       <div className="grid grid-cols-2">
 
         <Swiper
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
           modules={[Navigation]}
           spaceBetween={60}
           // slidesPerView={1}
@@ -68,10 +76,14 @@ const Testimonial = () => {
           }
         </Swiper >
 
-        <div>
+        <div data-aos="zoom-in">
           <img className="mt-[40px]" src="/images/testimonial-image.png" alt="" />
         </div>
 
+
+        <div className='relative'>
+          <img className="absolute bottom-[00px] left-[950px] w-[1096px]" src="/images/shape/10.png" alt="" />
+        </div>
 
       </div >
     </div >

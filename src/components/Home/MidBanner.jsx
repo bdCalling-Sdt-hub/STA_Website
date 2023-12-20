@@ -11,12 +11,14 @@ import { Button } from "../ui/button";
 const MidBanner = () => {
 
   return (
-    <div className=" h-auto mt-[157px] pb-20" data-aos="fade-right">
+    <div className=" h-auto mt-[157px]" >
       <div className="grid grid-cols-2 gap-20 items-center container">
-        <div className="w-[624px] h-[513px]">
+        <div className="w-[624px] h-[513px]" data-aos="fade-down-right">
           <img src="/images/mid-banner.png" alt="banner image" />
         </div>
-        <div className="space-y-8">
+
+
+        <div className="space-y-8" data-aos="fade-down-left">
           <p className="text-[#99D31B] text-[24px]">WHY CHOOSE US</p>
           <h1 className="text-5xl font-normal leading-tight text-[54px] font-family: 'Roboto'">
             <span className="text-white">We're Best In Software </span>
@@ -45,6 +47,27 @@ const MidBanner = () => {
             </div>
           </div>
         </div>
+
+        {/* ----------------- */}
+        <div className="relative">
+          {/* <img className="absolute top-[100px] left-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
+          <img className="absolute " src="/images/shape/2.png" alt="" />
+          <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/3.png" alt="" />
+          <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" />
+          <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/5.png" alt="" />
+          <img className="absolute top-[150px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+          <img className="absolute bottom-[200px] left-[980px] animate-round-rotate" src="/images/shape/7.png" alt="" />
+          <img className="absolute bottom-[200px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+          <img className="absolute bottom-[400px] left-[160px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+          <img className="absolute top-[150px] left-[200px] animate-round-rotate360" src="/images/shape/3.png" alt="" /> */}
+          <img className="absolute bottom-[500px] -left-[150px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
+          <img className="absolute bottom-[600px] -right-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" />
+          <img className="absolute -bottom-[100px] -right-[700px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
+          <img className="absolute -bottom-[100px] left-[00px] animate-round-rotate360" src="/images/shape/2.png" alt="" />
+          <img className="absolute bottom-[50px] right-[400px]" src="/images/shape/9.png" alt="" />
+        </div>
+
+
 
       </div>
 

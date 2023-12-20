@@ -5,7 +5,7 @@ import { Textarea } from "../ui/textarea";
 
 const JoinUs = () => {
   return (
-    <div className="container mt-[228px]">
+    <div className="container mt-[228px]" data-aos="fade-down">
       <div className="h-14 rounded-t-3xl bg-[#99D31B]">
       </div>
 
@@ -21,6 +21,10 @@ const JoinUs = () => {
           className="h-[225px] mt-4 bg-[#333333] border-0 text-white placeholder:text-white"
         />
         <img className="absolute bottom-[50px] left-0 z-0" src="/images/message.png" alt="" />
+      </div>
+
+      <div className='relative'>
+        <img className="absolute -bottom-[300px] -left-[300px] w-[896px] h-[896px]" src="/images/shape/9.png" alt="" />
       </div>
 
     </div>
