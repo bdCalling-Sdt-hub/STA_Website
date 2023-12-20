@@ -64,6 +64,13 @@ const TeamMember = () => {
 
             </div>
 
+            <div className="relative">
+                <img className="absolute bottom-[550px] left-[650px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute -top-[20px] left-[200px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute top-[0px] right-[150px] animate-round-rotate" src="/images/shape/4.png" alt="" />
+                <img className="absolute bottom-[550px] right-[250px] animate-round-rotate360" src="/images/shape/2.png" alt="" />
+            </div>
+
         </div>
     );
 };

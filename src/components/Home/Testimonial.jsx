@@ -86,6 +86,12 @@ const Testimonial = () => {
         </div>
 
       </div >
+
+      <div className="relative">
+        <img className="absolute top-[0px] -left-[100px] animate-round-rotate" src="/images/shape/11.png" alt="" />
+        <img className="absolute top-[130px] -right-[180px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
+        <img className="absolute bottom-[600px] -right-[150px] animate-round-rotate360" src="/images/shape/2.png" alt="" />
+      </div>
     </div >
   );
 };

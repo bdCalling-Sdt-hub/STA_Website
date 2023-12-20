@@ -152,6 +152,11 @@ const Footer = () => {
 
         </div>
       </div>
+
+      <div className='relative'>
+        <img className="absolute -top-[150px] left-[180px] animate-round-rotate360 -z-0" src="/images/shape/6.png" alt="" />
+        <img className="absolute -top-[250px] right-[180px] animate-round-rotate -z-0" src="/images/shape/4.png" alt="" />
+      </div>
     </footer>
   );
 };

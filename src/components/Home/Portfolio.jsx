@@ -61,94 +61,11 @@ const Portfolio = () => {
 
 
 
-
-                {/* <div className="grid grid-flow-col gap-5 overflow-x-auto">
-                    <div className='relative group'>
-                        <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] w-[372px] hover:bg-gradient-to-t from-[#99D31B] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
-                            <img className='mt-[30px]' src="/images/shaadii-biyaah.png" alt="" />
-                            <div className='mt-[33px] flex gap-3'>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                            </div>
-                            <img className='mt-[50px]' src="/images/shaadii-biyaah-app.png" alt="" />
-                            <Button className="hidden absolute right-0 bottom-1 rounded-full h-[40px] w-[40px] bg-white group-hover:flex me-2 mb-2" variant="outline" size="icon">
-                                <FaArrowRight className="h-[30px] w-[30px]" color='#99D31B' />
-                            </Button>
-                        </div>
-                    </div>
-
-                    <div className='relative group'>
-                        <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] w-[372px] hover:bg-gradient-to-t from-[#99D31B] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
-                            <img className='mt-[30px]' src="/images/shaadii-biyaah.png" alt="" />
-                            <div className='mt-[33px] flex gap-3'>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                            </div>
-                            <img className='mt-[50px]' src="/images/shaadii-biyaah-app.png" alt="" />
-                            <Button className="hidden absolute right-0 bottom-1 rounded-full h-[40px] w-[40px] bg-white group-hover:flex me-2 mb-2" variant="outline" size="icon">
-                                <FaArrowRight className="h-[30px] w-[30px]" color='#99D31B' />
-                            </Button>
-                        </div>
-                    </div>
-                    <div className='relative group'>
-                        <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] w-[372px] hover:bg-gradient-to-t from-[#99D31B] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
-                            <img className='mt-[30px]' src="/images/shaadii-biyaah.png" alt="" />
-                            <div className='mt-[33px] flex gap-3'>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                            </div>
-                            <img className='mt-[50px]' src="/images/shaadii-biyaah-app.png" alt="" />
-                            <Button className="hidden absolute right-0 bottom-1 rounded-full h-[40px] w-[40px] bg-white group-hover:flex me-2 mb-2" variant="outline" size="icon">
-                                <FaArrowRight className="h-[30px] w-[30px]" color='#99D31B' />
-                            </Button>
-                        </div>
-                    </div>
-                    <div className='relative group'>
-                        <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] w-[372px] hover:bg-gradient-to-t from-[#99D31B] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
-                            <img className='mt-[30px]' src="/images/shaadii-biyaah.png" alt="" />
-                            <div className='mt-[33px] flex gap-3'>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                            </div>
-                            <img className='mt-[50px]' src="/images/shaadii-biyaah-app.png" alt="" />
-                            <Button className="hidden absolute right-0 bottom-1 rounded-full h-[40px] w-[40px] bg-white group-hover:flex me-2 mb-2" variant="outline" size="icon">
-                                <FaArrowRight className="h-[30px] w-[30px]" color='#99D31B' />
-                            </Button>
-                        </div>
-                    </div>
-                    <div className='relative group'>
-                        <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] w-[372px] hover:bg-gradient-to-t from-[#99D31B] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
-                            <img className='mt-[30px]' src="/images/shaadii-biyaah.png" alt="" />
-                            <div className='mt-[33px] flex gap-3'>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                            </div>
-                            <img className='mt-[50px]' src="/images/shaadii-biyaah-app.png" alt="" />
-                            <Button className="hidden absolute right-0 bottom-1 rounded-full h-[40px] w-[40px] bg-white group-hover:flex me-2 mb-2" variant="outline" size="icon">
-                                <FaArrowRight className="h-[30px] w-[30px]" color='#99D31B' />
-                            </Button>
-                        </div>
-                    </div>
-                    <div className='relative group'>
-                        <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] w-[372px] hover:bg-gradient-to-t from-[#99D31B] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
-                            <img className='mt-[30px]' src="/images/shaadii-biyaah.png" alt="" />
-                            <div className='mt-[33px] flex gap-3'>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                                <p className='bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]'>UI/UX Design</p>
-                            </div>
-                            <img className='mt-[50px]' src="/images/shaadii-biyaah-app.png" alt="" />
-                            <Button className="hidden absolute right-0 bottom-1 rounded-full h-[40px] w-[40px] bg-white group-hover:flex me-2 mb-2" variant="outline" size="icon">
-                                <FaArrowRight className="h-[30px] w-[30px]" color='#99D31B' />
-                            </Button>
-                        </div>
-                    </div>
-                </div> */}
+                <div className="relative">
+                    <img className="absolute bottom-[540px] left-[170px] animate-round-rotate -z-10" src="/images/shape/11.png" alt="" />
+                    <img className="absolute top-[10px] left-[100px] animate-round-rotate -z-10" src="/images/shape/11.png" alt="" />
+                    <img className="absolute top-[10px] right-[150px] animate-round-rotate360 -z-10" src="/images/shape/6.png" alt="" />
+                </div>
 
 
             </div>
