@@ -1,25 +1,16 @@
+
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import { Button } from "@/components/ui/button";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
-import { cn } from "@/lib/utils";
-import { usePathname } from 'next/navigation';
-import Image from "next/image";
+import { AlignJustify, X } from "lucide-react";
 import Link from "next/link";
-import * as React from "react";
+import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
-export function Navbar() {
-  const currentRoute = usePathname();
-  const [title, setTitle] = React.useState("Home");
+const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const [isActive, setIsActive] = useState("Home");
+
   const items = [
     {
       title: "Home",
@@ -43,39 +34,52 @@ export function Navbar() {
     },
   ]
 
-
   return (
-
-    <div className="sticky top-0 bg-[#333] z-10">
-      <div className="container navbar">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
-            <ul tabIndex={0} className={`menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-52`}>
-              {
-                items.map((item, index) => <li key={index} className='font-semibold text-white hover:text-green-500'>
-                  <Link href={item.path}>{item.title}</Link>
-                </li>)
-              }
-            </ul>
+    <div className="bg-[#333] sticky top-0 z-50 py-4">
+      <nav className="container lg:flex items-center w-full justify-between">
+        <div className="flex items-center justify-between">
+          <Link href="/">
+            <img className="w-24 md:w-36" src="/images/logo.png" alt="logo" />
+          </Link>
+          <div
+            className="lg:hidden cursor-pointer text-white active:duration-300"
+            onClick={() => setOpen(!open)}
+          >
+            {!open ? <AlignJustify /> : <X />}
           </div>
-          <Link href="/"><Image src="/images/logo.png" alt="logo" width={150} height={100} /></Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {
-              items.map((item, index) => <li key={index} onClick={() => setTitle(item.title)} className={`${title === item.title ? "text-[#99D31B]" : "text-white"} font-semibold hover:text-[#99D31B]`}>
-                <Link href={item.path}>{item.title}</Link>
-              </li>)
-            }
-          </ul>
+
+        <ul
+          className={`space-y-5 lg:space-y-0 lg:flex gap-10 items-center bg-[#333] lg:bg-transparent p-4 lg:p-0  absolute lg:static  h-auto ${open ? "left-0 top-14 w-full" : "left-0 -top-96"
+            }`}
+        >
+          {items.map((item, index) => (
+            <li onClick={() => setIsActive(item.title)} key={index} className={`hover:text-[#99D31B] duration-100 ${isActive === item.title ? "text-[#99D31B]" : "text-white"}`}>
+              <Link href={item.path}>{item.title}</Link>
+            </li>
+          ))}
+
+          {
+            open && <Button className="btn btn-outline text-[#99D31B] bg-[#333] hover:bg-[#99D31B] hover:text-white">Contact Us <FaArrowRight></FaArrowRight>
+            </Button>
+          }
+
+
+
+        </ul>
+        {/* <Button className="w-[200px] btn btn-outline text-[#99D31B] bg-[#333] hover:bg-[#99D31B] hover:text-white hidden lg:block">
+          Contact Us <FaArrowRight></FaArrowRight>
+        </Button> */}
+
+        <div className="hidden lg:flex items-center justify-center gap-2 bg-[#333] border-[1px] border-[#99D31B] text-[#99D31B] px-4 py-2 rounded-lg
+        hover:bg-[#99D31B] hover:text-white">
+          <p>Contact Us</p>
+          <p><FaArrowRight></FaArrowRight></p>
         </div>
-        <div className="navbar-end">
-          <a className="btn btn-outline text-[#99D31B]">Contact Us <FaArrowRight></FaArrowRight></a>
-        </div>
-      </div>
+
+      </nav>
     </div>
   );
-}
+};
+
+export default Navbar;

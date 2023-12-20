@@ -1,7 +1,7 @@
 import Footer from "@/shared/Footer";
-import { Navbar } from "@/shared/Navbar";
+import Navbar from "@/shared/Navbar";
 import Welcome from "@/shared/Welcome";
-import React,{useEffect,useState} from 'react'
+import React, { useEffect, useState } from 'react'
 
 const RootLayout = ({ children }) => {
 
@@ -20,8 +20,8 @@ const RootLayout = ({ children }) => {
 
   return (
     <div>
-      
-      {showComponents==false?<Welcome/>:
+
+      {showComponents == false ? <Welcome /> :
         <>
           <Navbar />
           {children}

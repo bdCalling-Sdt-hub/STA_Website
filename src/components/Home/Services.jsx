@@ -5,17 +5,19 @@ import { ChevronRight } from 'lucide-react';
 
 const Services = () => {
     return (
-        <div className=" h-auto mt-[200px] pb-14">
+        <div className="h-auto mt-[150px] pb-14" >
 
-            <div className='text-center'>
-                <p className="text-[#99D31B] text-[24px]">SERVICES</p>
-                <h1 className="text-4xl font-semibold leading-tight text-[54px] font-family: 'Roboto',">
-                    <span className="text-white">Feel The Power Of Technology</span>
-                    <br />
-                    <span className="text-white">Software Service</span>
-                </h1>
+            <div className='relative text-center z-20'>
+                <div data-aos="zoom-in">
+                    <p className="text-[#99D31B] text-[24px]">SERVICES</p>
+                    <h1 className="text-4xl font-semibold leading-tight text-[54px] font-family: 'Roboto',">
+                        <span className="text-white">Feel The Power Of Technology</span>
+                        <br />
+                        <span className="text-white">Software Service</span>
+                    </h1>
+                </div>
 
-                <div className="container grid grid-cols-3 mt-[124px]">
+                <div className="container grid grid-cols-3 mt-[124px] z-50" data-aos="flip-left" data-aos-duration="3000">
                     <div className='relative group p-4'>
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-700">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
@@ -54,8 +56,14 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
+                <img className="absolute -z-10 top-[100px] right-[0px] w-[1100px]" src="/images/shape/10.png" alt="" />
             </div>
 
+
+            <div className="relative">
+                <img className="absolute bottom-[450px] right-[400px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute top-[100px] right-[200px] animate-round-rotate360 inline-block" src="/images/shape/2.png" alt="" />
+            </div>
         </div>
     );
 };
