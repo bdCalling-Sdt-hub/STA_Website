@@ -56,7 +56,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <img className="absolute -z-10 top-[100px] right-[0px] w-[1100px]" src="/images/shape/10.png" alt="" />
+                <img className="absolute -z-10 top-[100px] right-[0px] h-[700px] w-[400px] mt-[300px]" src="/images/shape/10.png" alt="" />
             </div>
 
 

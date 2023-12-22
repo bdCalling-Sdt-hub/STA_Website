@@ -11,7 +11,7 @@ const Achievement = () => {
             <div className={`text-center`}>
 
                 <div className="container grid grid-cols-4 mt-[124px]">
-                    <div className='relative group my-[100px]'>
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
@@ -22,7 +22,7 @@ const Achievement = () => {
                         </div>
                     </div>
 
-                    <div className='relative group my-[100px]'>
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
@@ -33,7 +33,8 @@ const Achievement = () => {
 
                         </div>
                     </div>
-                    <div className='relative group my-[100px]'>
+
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
@@ -44,7 +45,8 @@ const Achievement = () => {
 
                         </div>
                     </div>
-                    <div className='relative group my-[100px]'>
+
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
@@ -56,6 +58,13 @@ const Achievement = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <img className="absolute top-[2650px] right-[220px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute top-[2850px] left-[120px] animate-round-rotate" src="/images/shape/11.png" alt="" />
+
+                <img className="absolute top-[2150px] -right-[100px] w-[400px] me-[100px]" src="/images/shape/10.png" alt="" />
             </div>
 
         </div>

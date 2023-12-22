@@ -36,6 +36,22 @@ const BreadcrumbsCardDetails = ({ title, homePage, homePageLink, presentPage, pr
                     </ol>
                 </nav>
             </div>
+            <div>
+                <img className="absolute top-[100px] left-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
+
+                <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/3.png" alt="" />
+                {/* <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" /> */}
+                <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/5.png" alt="" />
+                <img className="absolute top-[150px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                {/* <img className="absolute bottom-[200px] left-[980px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}
+                <img className="absolute bottom-[400px] left-[280px] animate-round-rotate" src="/images/shape/4.png" alt="" />
+                <img className="absolute bottom-[420px] left-[160px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute bottom-[620px] right-[560px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute top-[150px] left-[200px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
+                {/* <img className="absolute bottom-[150px] right-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" /> */}
+                <img className="absolute -top-[400px] -right-[300px] animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
+                <img className="absolute -top-[450px] -left-[400px] animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
+            </div>
         </div>
     )
 }

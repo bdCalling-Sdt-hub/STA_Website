@@ -6,11 +6,15 @@ const FreeConsulting = () => {
   return (
     <div className="bg-[#99D31B] h-[211px] px-10  mt-[154px]">
       <div className="grid grid-cols-12  text-center container">
-        <div className="col-span-10">
+        <div className="col-span-10" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
           <p className="text-white mb-3 text-[45px] font-semibold font-family: Roboto text-left leading-none mt-[52px]">Looking for the Best software development <br /> company?</p>
         </div>
 
-        <div>
+        <div data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
           <Button className=' bg-[#99D31B] border hover:bg-white hover:text-[#99D31B] mt-[85px] text-[18px] font-normal font-family: Roboto; px-[30px] py-[20px] h-[40px]'>Free Consulting
             <span className='ms-2'><FaArrowRight></FaArrowRight></span>
           </Button>

@@ -10,7 +10,7 @@ const PortfolioRelated = () => {
 
     return (
         <div>
-            <div className='my-auto mt-[150px] flex flex-col items-center justify-center'>
+            <div className='my-auto mt-[150px] flex flex-col items-center justify-center' data-aos="zoom-in">
                 <p className='text-[#99D31B] text-[24px] font-family: Roboto font-semibold text-start px-[30px]'>Portfolio</p>
 
                 <p className='text-[#F7F9F3] text-[54px] mt-[10px] font-family: Roboto font-semibold text-start px-[30px]'>Related Portfolio </p>
@@ -19,7 +19,9 @@ const PortfolioRelated = () => {
                 {
                     portfolioList.slice(0, 2).map((portfolio, index) => (
                         <Link href={`/portfolio/${portfolio.id}`} key={index}>
-                            <div>
+                            <div data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000">
                                 <div className={`${style.bkImage} flex flex-col items-center`}>
                                     <div className='flex items-center pt-[80px] gap-1'>
                                         <img className='w-[85px] h-[85px]' src={portfolio.icon} alt="" />

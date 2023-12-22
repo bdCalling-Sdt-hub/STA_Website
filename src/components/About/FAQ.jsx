@@ -14,7 +14,7 @@ const FAQ = () => {
         <div className="pt-[190px] pb-14 container">
 
             <div className='grid grid-cols-2'>
-                <div className='text-start'>
+                <div className='text-start' data-aos="fade-down-right">
                     <p className="text-[#99D31B] text-[24px]">OUR FAQ</p>
                     <h1 className="mt-[15px] font-semibold text-[54px] leading-tight font-family: 'Roboto',">
                         <span className="text-white">Best Awwards And</span>
@@ -24,7 +24,7 @@ const FAQ = () => {
 
                 </div>
 
-                <div>
+                <div data-aos="fade-down-left">
                     <div className={`collapse collapse-plus`}>
 
                         <input
@@ -87,6 +87,13 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="relative">
+                <img className="absolute -top-[500px] -left-[300px]" src="/images/shape/9.png" alt="" />
+                <img className="absolute bottom-[50px] -right-[150px] animate-round-rotate" src="/images/shape/11.png" alt="" />
+                <img className="absolute -bottom-[200px] -right-[100px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                {/* <img className="absolute top-[100px] right-[200px] animate-round-rotate360 inline-block" src="/images/shape/2.png" alt="" /> */}
             </div>
 
         </div>

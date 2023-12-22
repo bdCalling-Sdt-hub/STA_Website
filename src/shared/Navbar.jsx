@@ -35,8 +35,8 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="bg-[#333] sticky top-0 z-50 py-4">
-      <nav className="container lg:flex items-center w-full justify-between">
+    <div className="bg-[#333] sticky top-0 z-50 py-4 h-[100px]">
+      <nav className="container lg:flex items-center w-full justify-between  mt-[15px]">
         <div className="flex items-center justify-between">
           <Link href="/">
             <img className="w-24 md:w-36" src="/images/logo.png" alt="logo" />
@@ -54,7 +54,7 @@ const Navbar = () => {
             }`}
         >
           {items.map((item, index) => (
-            <li onClick={() => setIsActive(item.title)} key={index} className={`hover:text-[#99D31B] duration-100 ${isActive === item.title ? "text-[#99D31B]" : "text-white"}`}>
+            <li onClick={() => setIsActive(item.title)} key={index} className={`hover:text-[#99D31B] duration-100 text-[18px] ${isActive === item.title ? "text-[#99D31B] font-bold font-'Poppins' " : "text-white"} font-'Poppins'`}>
               <Link href={item.path}>{item.title}</Link>
             </li>
           ))}

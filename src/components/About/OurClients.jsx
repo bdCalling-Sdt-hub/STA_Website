@@ -29,13 +29,15 @@ const OurClients = () => {
         <div className="pt-[190px] pb-14 container">
 
             <div className='text-center'>
-                <p className="text-[#99D31B] text-[24px]">OUR CLIENTS</p>
-                <h1 className="mt-[15px]font-normal text-[54px] leading-tight font-family: 'Roboto',">
-                    <span className="text-white">We Have Had The Pleasure Of</span>
-                    <br />
-                    <span className="text-white">Working Some Clients</span>
-                </h1>
+                <div data-aos="zoom-in">
+                    <p className="text-[#99D31B] text-[24px]">OUR CLIENTS</p>
+                    <h1 className="mt-[15px]font-normal text-[54px] leading-tight font-family: 'Roboto',">
+                        <span className="text-white">We Have Had The Pleasure Of</span>
+                        <br />
+                        <span className="text-white">Working Some Clients</span>
+                    </h1>
 
+                </div>
 
 
                 <Swiper
@@ -60,6 +62,11 @@ const OurClients = () => {
                     ))}
                 </Swiper>
 
+            </div>
+
+            <div className="relative">
+                <img className="absolute bottom-[50px] right-[250px] animate-round-rotate360" src="/images/shape/2.png" alt="" />
+                <img className="absolute bottom-[100px] left-[250px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
             </div>
 
         </div>

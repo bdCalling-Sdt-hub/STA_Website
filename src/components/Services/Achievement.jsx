@@ -6,12 +6,12 @@ import style from '@/styles/services.achievement.module.css'
 
 const Achievement = () => {
     return (
-        <div className={`mt-[200px]  ${style.bkImage}`}>
+        <div className={`mt-[200px]  ${style.bkImage} z-50`}>
 
-            <div className={`text-center`}>
+            <div className={`text-center z-50`}>
 
                 <div className="container grid grid-cols-4 mt-[124px]">
-                    <div className='relative group my-[100px]'>
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
@@ -22,7 +22,7 @@ const Achievement = () => {
                         </div>
                     </div>
 
-                    <div className='relative group my-[100px]'>
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
@@ -33,7 +33,7 @@ const Achievement = () => {
 
                         </div>
                     </div>
-                    <div className='relative group my-[100px]'>
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
@@ -44,7 +44,7 @@ const Achievement = () => {
 
                         </div>
                     </div>
-                    <div className='relative group my-[100px]'>
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
@@ -56,6 +56,10 @@ const Achievement = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <img className="absolute top-[2650px] right-[420px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
             </div>
 
         </div>

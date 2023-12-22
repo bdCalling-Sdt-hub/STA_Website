@@ -21,7 +21,7 @@ const MidBanner = () => {
         <div className="space-y-8" data-aos="fade-down-left">
           <p className="text-[#99D31B] text-[24px]">WHY CHOOSE US</p>
           <h1 className="text-5xl font-normal leading-tight text-[54px] font-family: 'Roboto'">
-            <span className="text-white">We're Best In Software </span>
+            <span className="text-white">We&#39;re Best In Software </span>
             <br />
             <span className="text-white">Development</span>
           </h1>

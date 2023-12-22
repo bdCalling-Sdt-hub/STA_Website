@@ -24,8 +24,8 @@ const JoinUs = () => {
       </div>
 
       <div className='relative'>
-        <img className="absolute -bottom-[300px] -left-[300px] w-[896px] h-[896px]" src="/images/shape/9.png" alt="" />
-        <img className="absolute -top-[80px] -left-[200px] animate-round-rotate z-10" src="/images/shape/7.png" alt="" />
+        <img className="absolute -bottom-[300px] -left-[300px] w-[400px] h-[896px]" src="/images/shape/9.png" alt="" />
+        <img className="absolute -top-[80px] -left-[200px] animate-round-rotate" src="/images/shape/7.png" alt="" />
         <img className="absolute -top-[30px] right-[900px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
         <img className="absolute top-[0px] right-[500px] animate-round-rotate360" src="/images/shape/2.png" alt="" />
         <img className="absolute -top-[120px] -right-[100px] animate-round-rotate" src="/images/shape/11.png" alt="" />

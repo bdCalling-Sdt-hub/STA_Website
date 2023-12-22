@@ -21,7 +21,7 @@ const Portfolio = () => {
                 <div data-aos="zoom-in">
                     <p className="text-[#99D31B] text-[24px]">PORTFOLIO</p>
                     <h1 className="mt-[15px] text-4xl font-normal text-[54px] leading-tight font-family: 'Roboto',">
-                        <span className="text-white">Let's Check Some Awesome Work</span>
+                        <span className="text-white">Let&#39;s Check Some Awesome Work</span>
                         <br />
                         <span className="text-white">From SparkTech</span>
                     </h1>
@@ -29,9 +29,11 @@ const Portfolio = () => {
 
 
 
-                <div data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000">
+                <div
+                // data-aos="flip-left"
+                //     data-aos-easing="ease-out-cubic"
+                //     data-aos-duration="2000"
+                >
                     <Swiper
                         spaceBetween={18}
                         slidesPerView={5}
@@ -39,7 +41,7 @@ const Portfolio = () => {
                     >
                         {portfolioList.map((portfolio, index) => (
                             <SwiperSlide key={index}>
-                                <div className='relative group mt-[70px]'>
+                                <div className='relative group mt-[70px]' data-aos="zoom-in">
                                     <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] hover:bg-gradient-to-t from-[#99D31B] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
                                         <img className='mt-[30px] h-[50px] w-[50px]' src={portfolio.icon} alt="" />
                                         <p className='text-[24px] text-white'>{portfolio.iconTitle}</p>

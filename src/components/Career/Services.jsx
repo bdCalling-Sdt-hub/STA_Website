@@ -8,12 +8,12 @@ const Services = () => {
         <div className=" h-auto mt-[200px] pb-14">
 
             <div className='text-center'>
-                <h1 className="text-4xl font-semibold leading-tight text-[54px] font-family: 'Roboto',">
+                <h1 className="text-4xl font-semibold leading-tight text-[54px] font-family: 'Roboto'," data-aos="zoom-in">
                     <span className="text-white">Our Core Valuesy</span>
                 </h1>
 
                 <div className="container grid grid-cols-3 gap-y-24 mt-[124px]">
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="flip-left" data-aos-duration="3000">
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-700">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
                             <div className='my-auto'>
@@ -24,7 +24,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="flip-left" data-aos-duration="3000">
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-700">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
                             <div className='my-auto'>
@@ -35,7 +35,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="flip-left" data-aos-duration="3000">
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-700">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
                             <div className='my-auto'>
@@ -46,18 +46,18 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="flip-left" data-aos-duration="3000">
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-700">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
                             <div className='my-auto'>
                                 <h1 className='text-white font-bold text-[24px] skew-y-6'>Excellence</h1>
-                                <p className='text-white text-[18px] mt-[28px] px-4 skew-y-6'>Striving for excellence is our hallmark, propelling us to craft extraordinary work that showcases our team's exceptional dedication and competence.</p>
+                                <p className='text-white text-[18px] mt-[28px] px-4 skew-y-6'>Striving for excellence is our hallmark, propelling us to craft extraordinary work that showcases our team&#39;s exceptional dedication and competence.</p>
                             </div>
 
                         </div>
                     </div>
 
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="flip-left" data-aos-duration="3000">
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-700">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
                             <div className='my-auto'>
@@ -68,7 +68,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="flip-left" data-aos-duration="3000">
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-700">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
                             <div className='my-auto'>

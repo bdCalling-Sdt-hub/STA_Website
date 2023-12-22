@@ -19,11 +19,10 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="container mt-[209px]">
-      <div data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
-      >
+    <div className="container mt-[209px]" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+      <div>
         <HeadingText sTitle={"TESTIMONIAL"} title={"Some Words From Our Happy"} subTitle={"Clients"} />
       </div>
 

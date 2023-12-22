@@ -9,13 +9,15 @@ const Achievement = () => {
         <div className=" h-auto mt-[200px] pb-14">
 
             <div className='text-center'>
-                <p className="text-white text-[24px]"><span className='text-[#99D31B] text-[24px]'>We have a great</span> achievement</p>
-                <h1 className="font-semibold leading-tight text-[54px] font-family: 'Roboto' mt-[15px]">
-                    <span className="text-white">Our best achievement!</span>
-                </h1>
+                <div data-aos="zoom-in">
+                    <p className="text-white text-[24px]"><span className='text-[#99D31B] text-[24px]'>We have a great</span> achievement</p>
+                    <h1 className="font-semibold leading-tight text-[54px] font-family: 'Roboto' mt-[15px]">
+                        <span className="text-white">Our best achievement!</span>
+                    </h1>
+                </div>
 
                 <div className="container grid grid-cols-4 mt-[124px]">
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform -skew-y-6  h-[246px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
@@ -29,7 +31,7 @@ const Achievement = () => {
                         </div>
                     </div>
 
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform -skew-y-6  h-[246px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
@@ -42,7 +44,7 @@ const Achievement = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform -skew-y-6  h-[246px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
@@ -55,7 +57,7 @@ const Achievement = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className='relative group p-4'>
+                    <div className='relative group p-4' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform -skew-y-6  h-[246px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
@@ -71,6 +73,10 @@ const Achievement = () => {
                 </div>
             </div>
 
+
+            <div>
+                <img className="absolute top-[2150px] right-[420px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+            </div>
         </div>
     );
 };
