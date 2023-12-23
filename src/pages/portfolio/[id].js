@@ -7,6 +7,7 @@ import Testimonial from '@/components/Portfolio/Testimonial';
 import Achievement from '@/components/Portfolio/Achievement';
 import PortfolioRelated from '@/components/Portfolio/PortfolioRelated';
 import FreeConsulting from '@/components/Portfolio/FreeConsulting';
+import { dm_sans, poppins } from '../_app';
 
 const PortfolioDetails = () => {
 
@@ -28,35 +29,35 @@ const PortfolioDetails = () => {
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" src={portfolio.bottomImage} alt="banner image" />
                     </div>
-                    <p className='w-[356px] text-[50px] text-white font-family: Roboto font-semibold' data-aos="fade-right">{portfolio.iconTitle}</p>
-                    <p className='text-[#D6D6D6] text-[22px] font-family: Roboto font-medium' data-aos="fade-left">{portfolio.title.join(" - ")}</p>
+                    <p className={`${poppins.className}  text-[50px] text-white font-semibold`} data-aos="fade-right">{portfolio.iconTitle}</p>
+                    <p className={`${dm_sans.className} text-[#D6D6D6] text-[22px] font-medium`} data-aos="fade-left">{portfolio.title.join(" - ")}</p>
                 </div>
 
                 <div style={{ boxShadow: "0px 0px 30px 0px rgba(255, 255, 255, 0.07)", borderRadius: "15px" }} className='col-span-4 w-[424px]' data-aos="fade-down">
                     <div className='h-[90px] border border-[#99D31B] text-center rounded-t-xl flex items-center justify-center'>
-                        <p className='text-white text-[34px] font-semibold font-family: Roboto justify-center'>Project Information</p>
+                        <p className={`${poppins.className} text-white text-[34px] font-semibold justify-center`}>Project Information</p>
                     </div>
-                    <div className='text-start text-white p-4'>
+                    <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>CLIENT NAME</p>
                         <p>Omar Aly</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
-                    <div className='text-start text-white p-4'>
+                    <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>CLIENT NAME</p>
                         <p>Omar Aly</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
-                    <div className='text-start text-white p-4'>
+                    <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>CLIENT NAME</p>
                         <p>Omar Aly</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
-                    <div className='text-start text-white p-4'>
+                    <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>CLIENT NAME</p>
                         <p>Omar Aly</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
-                    <div className='text-start text-white p-4'>
+                    <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>CLIENT NAME</p>
                         <p>Omar Aly</p>
                     </div>
@@ -67,12 +68,12 @@ const PortfolioDetails = () => {
 
             <div className='text-white grid grid-cols-12 mt-[100px] container'>
                 <div className='col-span-3' data-aos="fade-right">
-                    <p className='font-family: Roboto text-[24px] font-semibold'>About the Project</p>
+                    <p className={`${poppins.className} text-[24px] font-semibold`}>About the Project</p>
                 </div>
                 <div className='col-span-9 mb-[150px]' data-aos="fade-left">
-                    <p className='font-family: Roboto text-[34px] font-normal text-[#F5F5F5] '>The Tamara project revolves around optimizing the largest BNPL (Buy Now, Pay Later) platform in Saudi Arabia, Tamara.</p>
-                    <p className='font-family: Roboto text-[34px] font-normal text-[#F5F5F5] mt-[30px]'>Our collaboration involved adding innovative features and refining the platform&#39;s design for enhanced aesthetics and user experience.</p>
-                    <p className='font-family: Roboto text-[34px] font-normal text-[#F5F5F5] mt-[30px]'>The result was an expanded set of capabilities that elevated user engagement on the Tamara platform.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5]`}>The Tamara project revolves around optimizing the largest BNPL (Buy Now, Pay Later) platform in Saudi Arabia, Tamara.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5] mt-[30px]`}>Our collaboration involved adding innovative features and refining the platform&#39;s design for enhanced aesthetics and user experience.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5] mt-[30px]`}>The result was an expanded set of capabilities that elevated user engagement on the Tamara platform.</p>
                 </div>
             </div>
 
@@ -86,28 +87,28 @@ const PortfolioDetails = () => {
 
             <div className='text-white grid grid-cols-12 mt-[100px] container'>
                 <div className='col-span-3'>
-                    <p className='font-family: Roboto text-[24px] font-semibold' data-aos="fade-right">Problems</p>
+                    <p className={`${poppins.className} text-[24px] font-semibold`} data-aos="fade-right">Problems</p>
                 </div>
                 <div className='col-span-9' data-aos="fade-left">
-                    <p className='font-family: Roboto text-[34px] font-normal text-[#F5F5F5] '>Tamara wanted to add a feature that would allow users to browse stores with greater convenience and make purchases without having to leave the app.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5]`}>Tamara wanted to add a feature that would allow users to browse stores with greater convenience and make purchases without having to leave the app.</p>
                 </div>
             </div>
 
             <div className='text-white grid grid-cols-12 mt-[100px] container'>
                 <div className='col-span-3'>
-                    <p className='font-family: Roboto text-[24px] font-semibold' data-aos="fade-right">Challanges</p>
+                    <p className={`${poppins.className} text-[24px] font-semibold`} data-aos="fade-right">Challanges</p>
                 </div>
                 <div className='col-span-9' data-aos="fade-left">
-                    <p className='font-family: Roboto text-[34px] font-normal text-[#F5F5F5] '>Our Design challenges included optimizing user flow for one-tap checkout, ensuring payment security, maintaining consistency & compatibility across devices for a seamless user experience.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5]`}>Our Design challenges included optimizing user flow for one-tap checkout, ensuring payment security, maintaining consistency & compatibility across devices for a seamless user experience.</p>
                 </div>
             </div>
 
             <div className='text-white grid grid-cols-12 mt-[100px] container'>
                 <div className='col-span-3'>
-                    <p className='font-family: Roboto text-[24px] font-semibold' data-aos="fade-right">Our Solutions</p>
+                    <p className={`${poppins.className} text-[24px] font-semibold`} data-aos="fade-right">Our Solutions</p>
                 </div>
                 <div className='col-span-9' data-aos="fade-left">
-                    <p className='font-family: Roboto text-[34px] font-normal text-[#F5F5F5] '>We integrated a “One-tap checkout” option that allows users to quickly complete their purchases without the need for multiple steps. Also, We applied minimalist design, ensuring that the app provides an aesthetic and engaging experience.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5]`}>We integrated a “One-tap checkout” option that allows users to quickly complete their purchases without the need for multiple steps. Also, We applied minimalist design, ensuring that the app provides an aesthetic and engaging experience.</p>
                 </div>
             </div>
 
@@ -118,10 +119,10 @@ const PortfolioDetails = () => {
 
             <div className='text-white grid grid-cols-12 mt-[150px] container'>
                 <div className='col-span-3' data-aos="fade-right">
-                    <p className='font-family: Roboto text-[24px] font-semibold'>Features</p>
+                    <p className={`${poppins.className} text-[24px] font-semibold`}> </p>
                 </div>
                 <div className='col-span-9' data-aos="fade-left">
-                    <p className='font-family: Roboto text-[34px] font-normal text-[#F5F5F5] '>Our collective endeavors aimed to offer Tamara&#39;s users a more captivating, efficient, and delightful platform experience.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5]`}>Our collective endeavors aimed to offer Tamara&#39;s users a more captivating, efficient, and delightful platform experience.</p>
                 </div>
             </div>
 

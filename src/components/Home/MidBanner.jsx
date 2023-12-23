@@ -7,6 +7,7 @@ import {
 import { ChevronDown, Search, Star } from "lucide-react";
 import { FaArrowRight } from "react-icons/fa6";
 import { Button } from "../ui/button";
+import { dm_sans, poppins } from "@/pages/_app";
 
 const MidBanner = () => {
 
@@ -19,31 +20,31 @@ const MidBanner = () => {
 
 
         <div className="space-y-8" data-aos="fade-down-left">
-          <p className="text-[#99D31B] text-[24px]">WHY CHOOSE US</p>
-          <h1 className="text-5xl font-normal leading-tight text-[54px] font-family: 'Roboto'">
+          <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>WHY CHOOSE US</p>
+          <h1 className={`${poppins.className} font-semibold leading-tight text-[54px]`}>
             <span className="text-white">We&#39;re Best In Software </span>
             <br />
             <span className="text-white">Development</span>
           </h1>
-          <p className="text-white text-[22px]">
+          <p className={`${dm_sans.className} text-white text-[22px]`}>
             Software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing team skilled in the technologies.
           </p>
           <div className="grid grid-cols-2">
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
-              <p className="text-white text-[20px] text-[20px]">Web development tehnology</p>
+              <p className={`${dm_sans.className} text-white text-[20px]`}>Web development tehnology</p>
             </div>
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
-              <p className="text-white text-[20px]">Top skilled engineers</p>
+              <p className={`${dm_sans.className} text-white text-[20px]`}>Top skilled engineers</p>
             </div>
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
-              <p className="text-white text-[20px]">10 Years of experience</p>
+              <p className={`${dm_sans.className} text-white text-[20px]`}>10 Years of experience</p>
             </div>
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
-              <p className="text-white text-[20px]">Best Features Keep Us Ahed</p>
+              <p className={`${dm_sans.className} text-white text-[20px]`}>Best Features Keep Us Ahed</p>
             </div>
           </div>
         </div>

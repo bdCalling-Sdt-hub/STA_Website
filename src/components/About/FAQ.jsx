@@ -1,3 +1,4 @@
+import { dm_sans, poppins } from '@/pages/_app';
 import React, { useState } from 'react';
 
 const FAQ = () => {
@@ -15,8 +16,8 @@ const FAQ = () => {
 
             <div className='grid grid-cols-2'>
                 <div className='text-start' data-aos="fade-down-right">
-                    <p className="text-[#99D31B] text-[24px]">OUR FAQ</p>
-                    <h1 className="mt-[15px] font-semibold text-[54px] leading-tight font-family: 'Roboto',">
+                    <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>OUR FAQ</p>
+                    <h1 className={`${poppins.className} mt-[15px] font-semibold text-[54px] leading-tight`}>
                         <span className="text-white">Best Awwards And</span>
                         <br />
                         <span className="text-white">Recognition</span>
@@ -34,10 +35,10 @@ const FAQ = () => {
                             onClick={() => handleInputChange('my-accordion-1')}
                         />
 
-                        <div className={`collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-1" ? 'text-[#99D31B]' : 'text-white'}`}>
+                        <div className={`${poppins.className} collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-1" ? 'text-[#99D31B]' : 'text-white'}`}>
                             01 Business Events
                         </div>
-                        <div className="collapse-content text-white text-[16px]">
+                        <div className={`${dm_sans.className} collapse-content text-white text-[16px]`}>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero sit enim esse quidem maiores assumenda architecto deleniti doloribus porro id vero expedita, magni accusantium sint reprehenderit voluptatum deserunt, repudiandae quaerat, distinctio nobis temporibus itaque sed neque.</p>
                         </div>
                     </div>
@@ -49,10 +50,10 @@ const FAQ = () => {
                             onClick={() => handleInputChange('my-accordion-2')}
                         />
 
-                        <div className={`collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-2" ? 'text-[#99D31B]' : 'text-white'}`}>
+                        <div className={`${poppins.className} collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-2" ? 'text-[#99D31B]' : 'text-white'}`}>
                             02 Development & Design
                         </div>
-                        <div className="collapse-content text-white text-[16px]">
+                        <div className={`${dm_sans.className} collapse-content text-white text-[16px]`}>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero sit enim esse quidem maiores assumenda architecto deleniti doloribus porro id vero expedita, magni accusantium sint reprehenderit voluptatum deserunt, repudiandae quaerat, distinctio nobis temporibus itaque sed neque.</p>
                         </div>
                     </div>
@@ -64,10 +65,10 @@ const FAQ = () => {
                             onClick={() => handleInputChange('my-accordion-3')}
                         />
 
-                        <div className={`collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-3" ? 'text-[#99D31B]' : 'text-white'}`}>
+                        <div className={`${poppins.className} collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-3" ? 'text-[#99D31B]' : 'text-white'}`}>
                             03 Analysis
                         </div>
-                        <div className="collapse-content text-white text-[16px]">
+                        <div className={`${dm_sans.className} collapse-content text-white text-[16px]`}>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero sit enim esse quidem maiores assumenda architecto deleniti doloribus porro id vero expedita, magni accusantium sint reprehenderit voluptatum deserunt, repudiandae quaerat, distinctio nobis temporibus itaque sed neque.</p>
                         </div>
                     </div>
@@ -79,10 +80,10 @@ const FAQ = () => {
                             onClick={() => handleInputChange('my-accordion-4')}
                         />
 
-                        <div className={`collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-4" ? 'text-[#99D31B]' : 'text-white'}`}>
+                        <div className={`${poppins.className} collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-4" ? 'text-[#99D31B]' : 'text-white'}`}>
                             04 Start With Mentors
                         </div>
-                        <div className="collapse-content text-white text-[16px]">
+                        <div className={`${dm_sans.className} collapse-content text-white text-[16px]`}>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero sit enim esse quidem maiores assumenda architecto deleniti doloribus porro id vero expedita, magni accusantium sint reprehenderit voluptatum deserunt, repudiandae quaerat, distinctio nobis temporibus itaque sed neque.</p>
                         </div>
                     </div>

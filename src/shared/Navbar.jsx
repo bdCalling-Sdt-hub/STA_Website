@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import { Button } from "@/components/ui/button";
+import { poppins } from "@/pages/_app";
 import { AlignJustify, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -54,7 +55,7 @@ const Navbar = () => {
             }`}
         >
           {items.map((item, index) => (
-            <li onClick={() => setIsActive(item.title)} key={index} className={`hover:text-[#99D31B] duration-100 text-[18px] ${isActive === item.title ? "text-[#99D31B] font-bold font-'Poppins' " : "text-white"} font-'Poppins'`}>
+            <li onClick={() => setIsActive(item.title)} key={index} className={`${poppins.className} hover:text-[#99D31B] duration-100 text-[18px] ${isActive === item.title ? "text-[#99D31B] font-bold " : "text-white"}`}>
               <Link href={item.path}>{item.title}</Link>
             </li>
           ))}

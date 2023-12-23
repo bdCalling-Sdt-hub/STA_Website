@@ -9,6 +9,7 @@ import HeadingText from "../Common/headingText";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { dm_sans, poppins } from "@/pages/_app";
 
 const Testimonial = () => {
   const { testimonialList } = testimonials;
@@ -52,7 +53,7 @@ const Testimonial = () => {
                     height={200}
                   />
                 </div>
-                <p className="text-white text-start text-[24px] ml-2">{testimonial?.feedback}</p>
+                <p className={`${dm_sans.className} text-white text-start text-[24px] ml-2`}>{testimonial?.feedback}</p>
                 <div className="absolute bottom-4 -right-2 p-1 ">
                   <Image
                     src={testimonial?.qutes99}
@@ -66,8 +67,8 @@ const Testimonial = () => {
 
               <div>
                 <div className="mt-8 ms-8">
-                  <h2 className="text-[#99D31B] text-[24px] font-family: Roboto; font-normal">{testimonial?.name}</h2>
-                  <p className="text-white  text-[16px] font-family: Roboto; font-normal">{testimonial?.designation}</p>
+                  <h2 className={`${poppins.className} text-[#99D31B] text-[24px] font-family: Roboto; font-normal`}>{testimonial?.name}</h2>
+                  <p className={`${dm_sans.className} text-white  text-[16px] font-family: Roboto; font-normal`}>{testimonial?.designation}</p>
                 </div>
               </div>
             </SwiperSlide>

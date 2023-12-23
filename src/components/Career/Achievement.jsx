@@ -3,6 +3,7 @@ import { Button } from '../ui/button';
 import { FaArrowRight } from 'react-icons/fa6';
 import { ChevronRight } from 'lucide-react';
 import style from '@/styles/services.achievement.module.css'
+import { dm_sans, poppins } from '@/pages/_app';
 
 const Achievement = () => {
     return (
@@ -15,8 +16,8 @@ const Achievement = () => {
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
-                                <h1 className='group text-[#99D31B] group-hover:text-white text-[52px] font-family: Roboto font-semibold'>214+</h1>
-                                <p className='text-white text-[16px] mt-[10px] font-family: Roboto font-normal'>Saticfied Custimer</p>
+                                <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>214+</h1>
+                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Saticfied Custimer</p>
                             </div>
 
                         </div>
@@ -26,20 +27,8 @@ const Achievement = () => {
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
-                                <h1 className='group text-[#99D31B] group-hover:text-white text-[52px] font-family: Roboto font-semibold'>45+</h1>
-                                <p className='text-white text-[16px] mt-[10px] font-family: Roboto font-normal'>Experience Team</p>
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                    <div className='relative group my-[100px]' data-aos="zoom-in">
-                        <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
-
-                            <div className='my-auto'>
-                                <h1 className='group text-[#99D31B] group-hover:text-white text-[52px] font-family: Roboto font-semibold'>1.5K+</h1>
-                                <p className='text-white text-[16px] mt-[10px] font-family: Roboto font-normal'>Project Completed</p>
+                                <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>45+</h1>
+                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Experience Team</p>
                             </div>
 
 
@@ -50,8 +39,20 @@ const Achievement = () => {
                         <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
                             <div className='my-auto'>
-                                <h1 className='group text-[#99D31B] group-hover:text-white text-[52px] font-family: Roboto font-semibold'>15+</h1>
-                                <p className='text-white text-[16px] mt-[10px] font-family: Roboto font-normal'>Winning Awards</p>
+                                <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>1.5K+</h1>
+                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Project Completed</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div className='relative group my-[100px]' data-aos="zoom-in">
+                        <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
+
+                            <div className='my-auto'>
+                                <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>15+</h1>
+                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Winning Awards</p>
                             </div>
 
 

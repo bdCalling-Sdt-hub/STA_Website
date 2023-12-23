@@ -1,0 +1,19 @@
+{
+    "serviceList": [
+        {
+            "id": "1",
+            "title": "UI/UX Design",
+            "description": "Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero."
+        },
+        {
+            "id": "2",
+            "title": "Mobile App Development",
+            "description": "Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero."
+        },
+        {
+            "id": "3",
+            "title": "Web Development",
+            "description": "Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero."
+        }
+    ]
+}

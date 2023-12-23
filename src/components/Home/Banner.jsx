@@ -8,6 +8,7 @@ import { ChevronDown, Search, Star } from "lucide-react";
 import { FaArrowRight } from "react-icons/fa6";
 import { Button } from "../ui/button";
 import { useEffect } from "react";
+import { dm_sans, poppins } from "@/pages/_app";
 
 const Banner = () => {
 
@@ -30,17 +31,17 @@ const Banner = () => {
       <div className="grid grid-cols-10 items-center container">
         {/* ---------------- */}
         <div className="mt-[164px] col-span-6" data-aos="fade-up">
-          <h1 className="text-[95px] w-[763px] font-family: 'Roboto', font-medium leading-[105px]">
+          <h1 className={`text-[95px] w-[763px] font-medium leading-[105px] ${poppins.className}`}>
             <span className="text-white">From </span>
             <span className="text-[#99D31B] font-semibold">Sparks </span>
             <span className="text-white">To</span>
             <br />
             <span className="text-white">Spectacular</span>
           </h1>
-          <p className="text-white text-[22px] mt-[30px]">
+          <p className={`${dm_sans.className} text-white text-[22px] mt-[30px]`}>
             A top tier software development team assisting owners and decision makers to implement digital initiatives to achieve lasting financial success
           </p>
-          <Button className='bg-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px]'>Get Started <span className="ms-[10px]"><FaArrowRight></FaArrowRight></span></Button>
+          <Button className={`${dm_sans.className} bg-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px]`}>Get Started <span className="ms-[10px]"><FaArrowRight></FaArrowRight></span></Button>
         </div>
 
         {/* --------------- */}
@@ -51,7 +52,7 @@ const Banner = () => {
         {/* --------------- */}
       </div>
 
-      <div className="bg-[#99D31B] h-[80px] mt-[150px] flex items-center justify-center transform skew-y-2">
+      <div className={`${poppins.className} bg-[#99D31B] h-[80px] mt-[150px] flex items-center justify-center transform skew-y-2`}>
 
         <marquee width="1900" className="text-[42px] text-white text-center font-bold">UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT</marquee>
 

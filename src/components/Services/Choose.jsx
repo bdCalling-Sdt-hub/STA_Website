@@ -1,3 +1,4 @@
+import { dm_sans, poppins } from "@/pages/_app";
 import { Button } from "../ui/button";
 
 const Choose = () => {
@@ -8,10 +9,10 @@ const Choose = () => {
       </div>
       <div>
         <div data-aos="fade-down-right">
-          <p className="text-[24px] font-bold text-[#99D31B] font-family: Roboto">Why choose Invite?</p>
-          <p className="text-[54px] font-semibold text-white font-family: Roboto; leading-tight mt-[18px]">We want to work
+          <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B] `}>Why choose Invite?</p>
+          <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px]`}>We want to work
             <br />the best!</p>
-          <p className="text-[18px] font-family: Roboto font-normal text-[#d8d6d6] mt-[18px]">They usually show impact through before-and-after comparisons or provide specific improvement statistics
+          <p className={`${dm_sans.className} text-[18px]  font-normal text-[#d8d6d6] mt-[18px]`}>They usually show impact through before-and-after comparisons or provide specific improvement statistics
           </p>
         </div>
 
@@ -19,15 +20,15 @@ const Choose = () => {
         <div className="grid grid-cols-1 mt-[33px]" data-aos="fade-down-left">
           <div className="flex items-center">
             <img src="/images/mid-banner-star.png" alt="" />
-            <p className="text-white text-[20px] text-[20px]">Best Service provider</p>
+            <p className={`${dm_sans.className} text-white text-[20px]`}>Best Service provider</p>
           </div>
           <div className="flex items-center mt-[30px]">
             <img src="/images/mid-banner-star.png" alt="" />
-            <p className="text-white text-[20px]">Fully editable & easy to use</p>
+            <p className={`${dm_sans.className} text-white text-[20px]`}>Fully editable & easy to use</p>
           </div>
           <div className="flex items-center mt-[30px]">
             <img src="/images/mid-banner-star.png" alt="" />
-            <p className="text-white text-[20px]">Designed by talented team</p>
+            <p className={`${dm_sans.className} text-white text-[20px]`}>Designed by talented team</p>
           </div>
 
         </div>

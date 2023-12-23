@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from 'swiper/modules';
+import { dm_sans, poppins } from '@/pages/_app';
 
 const OurClients = () => {
 
@@ -26,12 +27,12 @@ const OurClients = () => {
     ]
 
     return (
-        <div className="pt-[190px] pb-14 container">
+        <div className="pt-[150px] pb-14 container">
 
             <div className='text-center'>
                 <div data-aos="zoom-in">
-                    <p className="text-[#99D31B] text-[24px]">OUR CLIENTS</p>
-                    <h1 className="mt-[15px]font-normal text-[54px] leading-tight font-family: 'Roboto',">
+                    <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>OUR CLIENTS</p>
+                    <h1 className={`${poppins.className} mt-[15px] font-semibold text-[54px] leading-tights`}>
                         <span className="text-white">We Have Had The Pleasure Of</span>
                         <br />
                         <span className="text-white">Working Some Clients</span>

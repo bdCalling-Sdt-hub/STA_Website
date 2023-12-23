@@ -2,15 +2,14 @@ import { FaArrowRight } from "react-icons/fa6";
 import { Button } from "../ui/button";
 import { dm_sans, poppins } from "@/pages/_app";
 
-const Choose = () => {
+const Offer = ({ service }) => {
   return (
     <div className="grid grid-cols-2  items-center container mt-[150px]">
 
       <div data-aos="fade-down-right">
         <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B]`}>WHAT WE OFFER</p>
-        <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px]`}>Career with
-          <br />SparkTech</p>
-        <p className={`${dm_sans.className} text-[18px] font-normal text-[#d8d6d6] mt-[18px]`}>Looking for a career that&#39;s all about making, shaping, and celebrating the extraordinary? then you are home!</p>
+        <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px]`}>{service.title}</p>
+        <p className={`${dm_sans.className} text-[18px] font-normal text-[#d8d6d6] mt-[18px]`}>{service.description}</p>
 
 
         <div className="grid grid-cols-1" data-aos="fade-down-left">
@@ -33,4 +32,4 @@ const Choose = () => {
   );
 };
 
-export default Choose;
+export default Offer;
