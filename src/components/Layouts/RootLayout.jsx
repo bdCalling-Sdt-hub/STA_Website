@@ -21,13 +21,13 @@ const RootLayout = ({ children }) => {
   return (
     <div>
 
-      {showComponents == false ? <Welcome /> :
+      {/* {showComponents == false ? <Welcome /> : */}
         <>
           <Navbar />
           {children}
           <Footer />
         </>
-      }
+      {/* } */}
 
     </div>
   );
