@@ -18,11 +18,10 @@
       "link": "/contact"
     }
   ],
-
   "usefulLinks2": [
     {
       "title": "Service",
-      "link": "/service"
+      "link": "/services"
     },
     {
       "title": "Terms & Conditions",
@@ -37,7 +36,6 @@
       "link": "/refund-policy"
     }
   ],
-
   "services": [
     {
       "title": "UI/UX Design",

@@ -36,8 +36,8 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="bg-[#333] sticky top-0 z-50 py-4 h-[100px]">
-      <nav className="container lg:flex items-center w-full justify-between  mt-[15px]">
+    <div className="bg-[#333] sticky top-0 z-50 py-4">
+      <nav className="container lg:flex items-center w-full justify-between">
         <div className="flex items-center justify-between">
           <Link href="/">
             <img className="w-24 md:w-36" src="/images/logo.png" alt="logo" />
@@ -72,11 +72,13 @@ const Navbar = () => {
           Contact Us <FaArrowRight></FaArrowRight>
         </Button> */}
 
-        <div className="hidden lg:flex items-center justify-center gap-2 bg-[#333] border-[1px] border-[#99D31B] text-[#99D31B] px-4 py-2 rounded-lg
+        <Link href={'/contact'}>
+          <div className="hidden lg:flex items-center justify-center gap-2 bg-[#333] border-[1px] w-[183px] border-[#99D31B] text-[#99D31B] px-[30px] py-[16px] rounded-lg
         hover:bg-[#99D31B] hover:text-white">
-          <p>Contact Us</p>
-          <p><FaArrowRight></FaArrowRight></p>
-        </div>
+            <p>Contact Us</p>
+            <p><FaArrowRight></FaArrowRight></p>
+          </div>
+        </Link>
 
       </nav>
     </div>

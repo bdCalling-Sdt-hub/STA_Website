@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '../ui/button';
 import { FaArrowRight } from 'react-icons/fa6';
 import { dm_sans, poppins } from '@/pages/_app';
+import Link from 'next/link';
 
 const TeamMember = () => {
     return (
@@ -58,9 +59,11 @@ const TeamMember = () => {
                     </div>
                 </div>
 
-                <Button data-aos="fade-right" className={`${poppins.className} bg-[#99D31B] mt-[75px] text-[18px] font-normal h-[59px] px-[30px] py-[16px]`}>All Members
-                    <span className='ms-2'><FaArrowRight></FaArrowRight></span>
-                </Button>
+                <Link href={'/team'}>
+                    <Button data-aos="fade-right" className={`${poppins.className} bg-[#99D31B] mt-[75px] text-[18px] font-normal h-[59px] px-[30px] py-[16px] hover:bg-[#99D31B] hover:text-white`}>All Members
+                        <span className='ms-2'><FaArrowRight></FaArrowRight></span>
+                    </Button>
+                </Link>
 
             </div>
 

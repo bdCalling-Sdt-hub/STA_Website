@@ -90,7 +90,7 @@ const Footer = () => {
                 {services.map((link, index) => (
                   <Link
                     key={index}
-                    href="/courses"
+                    href="/services"
                     className={`${dm_sans.className} block mb-2 hover:underline transition text-[#D6D6D6] mt-[20px]s`}
                   >
                     {link?.title}

@@ -17,7 +17,7 @@ const Achievement = () => {
 
                             <div className='my-auto'>
                                 <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>214+</h1>
-                                <p className={`${dm_sans.className}`}>Saticfied Custimer</p>
+                                <p className={`${dm_sans.className} text-white`}>Saticfied Custimer</p>
                             </div>
 
                         </div>
@@ -28,7 +28,7 @@ const Achievement = () => {
 
                             <div className='my-auto'>
                                 <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>45+</h1>
-                                <p className={`${dm_sans.className}`}>Experience Team</p>
+                                <p className={`${dm_sans.className} text-white`}>Experience Team</p>
                             </div>
 
 
@@ -39,7 +39,7 @@ const Achievement = () => {
 
                             <div className='my-auto'>
                                 <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>1.5K+</h1>
-                                <p className={`${dm_sans.className}`}>Project Completed</p>
+                                <p className={`${dm_sans.className} text-white`}>Project Completed</p>
                             </div>
 
 
@@ -50,7 +50,7 @@ const Achievement = () => {
 
                             <div className='my-auto'>
                                 <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>15+</h1>
-                                <p className={`${dm_sans.className}`}>Winning Awards</p>
+                                <p className={`${dm_sans.className} text-white`}>Winning Awards</p>
                             </div>
 
 

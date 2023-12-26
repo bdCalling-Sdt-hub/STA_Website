@@ -3,8 +3,13 @@ import style from '@/styles/job.opening.module.css'
 import { Button } from '../ui/button';
 import { FaArrowRight } from 'react-icons/fa6';
 import { dm_sans, poppins } from '@/pages/_app';
+import Link from 'next/link';
+import JobList from '../../../public/db/job.json'
 
 const JobOpening = () => {
+
+    const { jobList } = JobList;
+
     return (
         <div>
             <div className={`${style.bkImage}`}>
@@ -17,30 +22,36 @@ const JobOpening = () => {
                     <div class="divide-y divide-white">
                         <div class="text-center py-2  pt-[70px]"></div>
 
-                        <div class="" data-aos="fade-right">
-                            <p className={`${poppins.className} text-white text-[34px] font-semibold mt-[15px] pt-[41px]`}>Sr, UI/UX Designer</p>
-                            <div className='grid grid-cols-4 text-white  pt-[40px] pb-[51px]'>
-                                <div>
-                                    <p className={`${poppins.className} text-[18px]`}>Address</p>
-                                    <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>Dhaka,Bangaldesh</p>
+                        {
+                            jobList.map((job, index) => (
+                                <div key={index} class="" data-aos="fade-right">
+                                    <p className={`${poppins.className} text-white text-[34px] font-semibold mt-[15px] pt-[41px]`}>{job.title}</p>
+                                    <div className='grid grid-cols-4 text-white  pt-[40px] pb-[51px]'>
+                                        <div>
+                                            <p className={`${poppins.className} text-[18px]`}>Address</p>
+                                            <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>{job.address}</p>
+                                        </div>
+                                        <div>
+                                            <p className={`${poppins.className} text-[18px]`}>SALARY</p>
+                                            <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>{job.salary}</p>
+                                        </div>
+                                        <div>
+                                            <p className={`${poppins.className} text-[18px]`}>APPLY DEADLINE</p>
+                                            <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>{job.applyDeadline}</p>
+                                        </div>
+                                        <div>
+                                            <Link href={`career/${job.id}`}>
+                                                <Button data-aos="flip-left" className={`w-[211px] h-[59px] bg-[#333] text-[#99D31B] border-2 border-[#99D31B] rounded-[50px] hover:bg-[#99D31B] hover:text-white mt-4 ${poppins.className} text-[18px] font-normal px-[30px] py-[20px]`}>Apply Now
+                                                    <span className='ms-2'><FaArrowRight></FaArrowRight></span>
+                                                </Button>
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p className={`${poppins.className} text-[18px]`}>SALARY</p>
-                                    <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>30k - 40k BDT</p>
-                                </div>
-                                <div>
-                                    <p className={`${poppins.className} text-[18px]`}>APPLY DEADLINE</p>
-                                    <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>31-Oct-2023</p>
-                                </div>
-                                <div>
-                                    <Button data-aos="flip-left" className='w-[211px] h-[59px] bg-[#333] text-[#99D31B] border-2 border-[#99D31B] rounded-[50px] hover:bg-[#99D31B] hover:text-white mt-4{`${poppins.className } text-[18px]`}font-normal px-[30px] py-[20px]'>Join Our Team
-                                        <span className='ms-2'><FaArrowRight></FaArrowRight></span>
-                                    </Button>
-                                </div>
-                            </div>
-                        </div>
+                            ))
+                        }
 
-                        <div class="" data-aos="fade-left">
+                        {/* <div class="" data-aos="fade-left">
                             <p className={`${poppins.className} text-white text-[34px] font-semibold mt-[15px] pt-[41px]`}>UI/UX Designers (Entry-Level)</p>
                             <div className='grid grid-cols-4 text-white  pt-[40px] pb-[51px]'>
                                 <div>
@@ -56,12 +67,14 @@ const JobOpening = () => {
                                     <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>31-Oct-2023</p>
                                 </div>
                                 <div>
-                                    <Button data-aos="flip-up" className='w-[211px] h-[59px] bg-[#333] text-[#99D31B] border-2 border-[#99D31B] rounded-[50px] hover:bg-[#99D31B] hover:text-white mt-4{`${poppins.className } text-[18px]`}font-normal px-[30px] py-[20px]'>Join Our Team
-                                        <span className='ms-2'><FaArrowRight></FaArrowRight></span>
-                                    </Button>
+                                    <Link href={`career/2?UI/UX Designers (Entry-Level)`}>
+                                        <Button data-aos="flip-up" className='w-[211px] h-[59px] bg-[#333] text-[#99D31B] border-2 border-[#99D31B] rounded-[50px] hover:bg-[#99D31B] hover:text-white mt-4{`${poppins.className } text-[18px]`}font-normal px-[30px] py-[20px]'>Apply Now
+                                            <span className='ms-2'><FaArrowRight></FaArrowRight></span>
+                                        </Button>
+                                    </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div class="text-center py-2"></div>
 
@@ -85,7 +98,7 @@ const JobOpening = () => {
                 <img className="absolute -top-[450px] left-[150px] animate-round-rotate360 inline-block" src="/images/shape/6.png" alt="" />
                 <img className="absolute top-[100px] left-[450px] animate-round-rotate360 inline-block" src="/images/shape/6.png" alt="" />
 
-                <img className="absolute -top-[400px] -right-[200px] -me-[100px]" src="/images/shape/8.png" alt="" />
+                <img className="absolute -top-[300px] -right-[200px] -me-[100px]" src="/images/shape/8.png" alt="" />
             </div>
 
         </div>

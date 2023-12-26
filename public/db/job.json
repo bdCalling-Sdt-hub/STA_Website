@@ -1,0 +1,18 @@
+{
+    "jobList": [
+        {
+            "id": "1",
+            "title": "Sr, UI/UX Designer",
+            "address": "Dhaka, Bangladesh",
+            "salary": "30k - 40k BDT",
+            "applyDeadline": "31-Oct-2023"
+        },
+        {
+            "id": "2",
+            "title": "UI/UX Designers (Entry-Level)",
+            "address": "Dhaka, Bangladesh",
+            "salary": "20k - 30k BDT",
+            "applyDeadline": "1-Dec-2023"
+        }
+    ]
+}

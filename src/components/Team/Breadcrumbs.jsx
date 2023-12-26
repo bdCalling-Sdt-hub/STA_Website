@@ -4,9 +4,7 @@ import BreadcrumbsCard from '../Common/BreadcrumbsCard';
 
 const Breadcrumbs = () => {
     return (
-        <div>
-            <BreadcrumbsCard title={"Career"} homePage={"Home"} homePageLink={"/"} presentPage={"Career"} presentPageLink={"/career"} />
-        </div>
+        <BreadcrumbsCard title={"Team"} homePage={"Home"} homePageLink={"/"} presentPage={"Team"} presentPageLink={"/team"} />
     );
 };
 

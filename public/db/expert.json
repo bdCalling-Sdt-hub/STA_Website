@@ -134,5 +134,37 @@
       "name": "Md. Sazib Hossain",
       "title": "Certified Digital Marketing Specialist"
     }
+  ],
+  "teamList": [
+    {
+      "image": "/images/team_mem1.png",
+      "name": "Babul Mridha",
+      "title": "CEO Founder"
+    },
+    {
+      "image": "/images/team_mem2.png",
+      "name": "Rakibul Islam Shiku",
+      "title": "CEO Founder"
+    },
+    {
+      "image": "/images/team_mem3.png",
+      "name": "Md Shamin Miah",
+      "title": "Backend Developer"
+    },
+    {
+      "image": "/images/team_mem1.png",
+      "name": "Rony Hossen",
+      "title": "App Developer"
+    },
+    {
+      "image": "/images/team_mem2.png",
+      "name": "Ashraful",
+      "title": "UI/UX Deginer"
+    },
+    {
+      "image": "/images/team_mem3.png",
+      "name": "Md. Sazib Hossain",
+      "title": "QAE"
+    }
   ]
 }

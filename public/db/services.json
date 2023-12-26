@@ -15,5 +15,26 @@
             "title": "Web Development",
             "description": "Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero."
         }
+    ],
+
+    "industryList": [
+        {
+            "title" :"Banking & Finance"
+        },
+        {
+            "title": "E-Commerce"
+        },
+        {
+            "title": "Creative Agencies"
+        },
+        {
+            "title": "Marketing & Advertising"
+        },
+        {
+            "title": "Start-up & Small Businesses"
+        },
+        {
+            "title": "Portfolio Websites"
+        }
     ]
 }

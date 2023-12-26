@@ -119,7 +119,7 @@ const PortfolioDetails = () => {
 
             <div className='text-white grid grid-cols-12 mt-[150px] container'>
                 <div className='col-span-3' data-aos="fade-right">
-                    <p className={`${poppins.className} text-[24px] font-semibold`}> </p>
+                    <p className={`${poppins.className} text-[24px] font-semibold`}>Features</p>
                 </div>
                 <div className='col-span-9' data-aos="fade-left">
                     <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5]`}>Our collective endeavors aimed to offer Tamara&#39;s users a more captivating, efficient, and delightful platform experience.</p>

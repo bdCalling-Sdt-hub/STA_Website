@@ -1,17 +1,35 @@
-.bkImage {
+/* .bkImage {
     background-image: url('/images/portfolio/portfolio-bg.png');
     background-repeat: no-repeat;
     height: 732px;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+    width: 636px;
     transition: clip-path 4s;
 
 
 }
 
 .bkImage:hover {
-    /* border-top-left-radius: 120px; */
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
     transition: 4s;
+}
+
+.bottomImage {
+    transition: 1s;
+} */
+
+.bkImage {
+    background-image: url('/images/portfolio/portfolio-bg.png');
+    background-repeat: no-repeat;
+    height: 732px;
+    width: 636px;
+    transition: clip-path 4s, height 0.5s ease, width 0.5s ease;
+}
+
+.bkImage:hover {
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+    height: 700px;
+    width: 600px;
+    border-radius: 20px;
 }
 
 .bottomImage {

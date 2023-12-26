@@ -5,7 +5,7 @@ import ServiceList from '../../../public/db/services.json'
 import { dm_sans, poppins } from '@/pages/_app';
 import Link from 'next/link';
 
-const Services = () => {
+const  Services = () => {
 
     const { serviceList } = ServiceList;
     console.log(serviceList)
