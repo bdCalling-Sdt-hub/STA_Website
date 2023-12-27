@@ -5,8 +5,8 @@ import { poppins } from "@/pages/_app";
 const BreadcrumbsCardDetails = ({ title, homePage, homePageLink, presentPage, presentPageLink, detailsPage }) => {
     return (
         <div className={style.bkImage}>
-            <div className="text-center">
-                <p className={`${poppins.className} text-[75px] text-white font-family: Roboto font-normal`}>{title}</p>
+            <div className="text-center mt-[60px]">
+                <p className={`${poppins.className} text-[75px] text-white font-medium`}>{title}</p>
                 <nav class="flex items-center justify-center" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                         <li class="inline-flex items-center">
@@ -22,7 +22,7 @@ const BreadcrumbsCardDetails = ({ title, homePage, homePageLink, presentPage, pr
                                 <svg class="rtl:rotate-180 w-3 h-3 text-white mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <Link href={presentPageLink} className={`${poppins.className} font-family: Roboto text-[18px] ms-1 text-sm font-medium text-white hover:text-[#99D31B] md:ms-2 dark:text-gray-400 dark:hover:text-white`}>{presentPage}</Link>
+                                <Link href={presentPageLink} className={`${poppins.className} text-[18px] ms-1 text-sm font-medium text-white hover:text-[#99D31B] md:ms-2 dark:text-gray-400 dark:hover:text-white`}>{presentPage}</Link>
                             </div>
                         </li>
                         <li aria-current="page">

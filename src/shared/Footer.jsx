@@ -41,13 +41,13 @@ const Footer = () => {
               </Icon>
               <p className={`${dm_sans.className} text-[#ADADAD]`}>+88 01321231802</p>
             </div>
-            <div className="flex items-center gap-2 mt-4">
+            <div className="flex items-center gap-2 mt-[15px]">
               <Icon>
                 <IoIosMail color="#99D31B" size={30} />
               </Icon>
-              <p className={`${dm_sans.className} text-[#ADADAD]`}>learn.bdcalling@gmail.com</p>
+              <p className={`${dm_sans.className} text-[#ADADAD]`}>sparktech.agency@gmail.com</p>
             </div>
-            <div className="flex items-center gap-2 mt-4  ms-2">
+            <div className="flex items-center gap-2 mt-[15px]  ms-2">
               <Icon>
                 <MapPinned size={30} color="#99D31B" absoluteStrokeWidth />
               </Icon>
@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <Icon>
                 {/* <Facebook color="#99D31B" /> */}
-                <FaFacebookF color="#99D31B" size={24} />
+                <FaFacebookF color="#99D31B" size={20} />
               </Icon>
               <Icon>
                 {/* <Linkedin color="#99D31B" /> */}
@@ -73,11 +73,11 @@ const Footer = () => {
               </Icon>
               <Icon>
                 {/* <Mail color="#99D31B" /> */}
-                <FaBehance color="#99D31B" size={20} />
+                <FaBehance color="#99D31B" size={22} />
               </Icon>
-              <Icon>
+              {/* <Icon>
                 <Send color="#99D31B" />
-              </Icon>
+              </Icon> */}
             </div>
 
 
@@ -91,7 +91,7 @@ const Footer = () => {
                   <Link
                     key={index}
                     href="/services"
-                    className={`${dm_sans.className} block mb-2 hover:underline transition text-[#D6D6D6] mt-[20px]s`}
+                    className={`${dm_sans.className} block mb-2 hover:underline transition text-[#D6D6D6] mt-[20px]`}
                   >
                     {link?.title}
                   </Link>
@@ -104,7 +104,7 @@ const Footer = () => {
                   <Link
                     key={index}
                     href={link?.link}
-                    className={`${dm_sans.className} block mb-2 hover:underline transition text-[#D6D6D6]`}
+                    className={`${dm_sans.className} block mb-2 hover:underline transition text-[#D6D6D6] mt-[20px]`}
                   >
                     {link?.title}
                   </Link>
@@ -133,9 +133,11 @@ const Footer = () => {
                   {/* <label className="label">
                     <span className="label-text">Enter your email address</span>
                   </label> */}
-                  <div className="join w-[648px]">
-                    <input type="text" placeholder="Email Address" className={`${dm_sans.className} input input-bordered join-item w-[448px] bg-[#5C5C5C] text-[#D6D6D6] placeholder:text-[#D6D6D6]`} />
-                    <button className={`${dm_sans.className} btn bg-[#99D31B] p-2 text-white font-family: Roboto rounded-lg join-item border-4 border-[#5C5C5C]`}>Subscribe Now</button>
+                  <div className="join w-[648px] h-[60px]">
+                    <input type="text" placeholder="Email Address" className={`${dm_sans.className} input input-bordered join-item h-[60px] w-[448px] bg-[#5C5C5C] text-[#D6D6D6] placeholder:text-[#D6D6D6]`} />
+
+                    <button className={`${dm_sans.className} btn bg-[#99D31B] px-[8px] py-[21px] h-[60px] text-white rounded-lg join-item border-4 border-[#5C5C5C]`}>Subscribe Now</button>
+
                   </div>
                 </fieldset>
               </form>
@@ -145,7 +147,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="py-6 text-center">
+      <div className="py-[36px] text-center">
         <div className="container">
           <a href="#" className={`${dm_sans.className} mr-1 px-1 text-[#D6D6D6]`}>
             Copyright 2023 Theme by <span className={`${dm_sans.className} text-[#99D31B]`}>Sparktech.Agency</span> | All Rights Reserved

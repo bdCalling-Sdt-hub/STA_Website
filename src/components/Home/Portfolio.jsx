@@ -44,12 +44,12 @@ const Portfolio = () => {
                         {portfolioList.map((portfolio, index) => (
                             <SwiperSlide key={index}>
                                 <div className='relative group mt-[70px]' data-aos="zoom-in">
-                                    <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] hover:bg-gradient-to-t from-[#99D31B] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
+                                    <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] hover:bg-gradient-to-t from-[#99d31bc3] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
                                         <img className='mt-[30px] h-[50px] w-[50px]' src={portfolio.icon} alt="" />
                                         <p className={`${poppins.className} text-[24px] text-white`}>{portfolio.iconTitle}</p>
                                         <div className='mt-[33px] flex gap-3'>
                                             {portfolio.title.map((t, index) => (
-                                                <p key={index} className={`${dm_sans.className} bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]`}>{t}</p>
+                                                <p key={index} className={`${dm_sans.className} flex items-center group-hover:bg-[#99D31B] h-[26px] bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]`}>{t}</p>
                                             ))}
                                         </div>
                                         <img className='mt-[50px]' src={portfolio.bottomImage} alt="" />

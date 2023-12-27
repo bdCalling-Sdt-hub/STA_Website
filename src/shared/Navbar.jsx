@@ -5,12 +5,28 @@ import { Button } from "@/components/ui/button";
 import { poppins } from "@/pages/_app";
 import { AlignJustify, X } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [isActive, setIsActive] = useState("Home");
+
+  const [isVisible, setIsVisible] = useState(true);
+  const [prevScrollY, setPrevScrollY] = useState(0);
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY || document.documentElement.scrollTop;
+    setIsVisible(scrollY <= 0 || scrollY < prevScrollY);
+    setPrevScrollY(scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollY]);
 
   const items = [
     {
@@ -36,7 +52,8 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="bg-[#333] sticky top-0 z-50 py-4">
+    // <div className="bg-[#333] sticky top-0 z-50 py-4">
+    <div className={`bg-[#333] sticky top-0 z-50 py-4 transition-all duration-300 ${isVisible ? '' : 'transform -translate-y-full'} shadow-lg`}>
       <nav className="container lg:flex items-center w-full justify-between">
         <div className="flex items-center justify-between">
           <Link href="/">

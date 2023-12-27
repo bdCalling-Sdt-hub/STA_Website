@@ -10,6 +10,7 @@ import { Button } from "../ui/button";
 import { useEffect } from "react";
 import { dm_sans, poppins } from "@/pages/_app";
 import Image from "next/image";
+import Link from "next/link";
 
 const Banner = () => {
 
@@ -70,14 +71,24 @@ const Banner = () => {
           <p className={`${dm_sans.className} text-white text-[22px] mt-[30px]`}>
             A top tier software development team assisting owners and decision makers to implement digital initiatives to achieve lasting financial success
           </p>
-          <Button className={`${dm_sans.className} bg-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all hover:bg-[#99d31bc1] z-30`}>
+          {/* <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all z-30 hover:bg-gradient-to-r from-[#99D31B] to-[#6D9613]`}>
             Get Started
             <span className="ms-[10px]">
               <FaArrowRight />
             </span>
-          </Button>
+          </Button> */}
 
-          <Image onClick={scrollWin} className="ml-[660px] z-50" src="/images/shape/scrol.png" alt="" width={36} height={56} />
+          <Link href={'/about'}>
+            <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all z-30 hover:from-[#99D31B] hover:via-[#99D31B] hover:to-[#6D9613]`}>
+              Get Started
+              <span className="ms-[10px]">
+                <FaArrowRight />
+              </span>
+            </Button>
+          </Link>
+
+
+          <Image onClick={scrollWin} className="animate-bounce ml-[660px] z-50 mt-2" src="/images/shape/scrol.png" alt="" width={36} height={56} />
         </div>
 
         {/* --------------- */}
@@ -88,16 +99,22 @@ const Banner = () => {
         {/* --------------- */}
       </div>
 
-      <div className={`${poppins.className} bg-[#99D31B] h-[80px] mt-[150px] flex items-center justify-center transform skew-y-2`}>
+      <div className={`${poppins.className} bg-[#99D31B] h-[100px] mt-[100px] flex items-center justify-center transform`}>
+
+        <marquee width="1900" className="text-[52px] text-white text-center font-bold">UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT</marquee>
+
+      </div>
+
+      {/* <div className={`${poppins.className} bg-[#99D31B] h-[80px] mt-[150px] flex items-center justify-center transform skew-y-2`}>
 
         <marquee width="1900" className="text-[42px] text-white text-center font-bold">UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT</marquee>
 
-      </div>
+      </div> */}
 
       <div>
         <img className="absolute top-[100px] left-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
 
-        <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/3.png" alt="" />
+        <img className="absolute bottom-[500px] right-[120px] animate-round-rotate z-10" src="/images/shape/3.png" alt="" />
         <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" />
         <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/5.png" alt="" />
         <img className="absolute top-[150px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
