@@ -40,7 +40,7 @@ const Navbar = () => {
       <nav className="container lg:flex items-center w-full justify-between">
         <div className="flex items-center justify-between">
           <Link href="/">
-            <img className="w-24 md:w-36" src="/images/logo.png" alt="logo" />
+            <img className="md:w-36 h-[50px]" src="/images/logo.png" alt="logo" style={{ width: "227px" }} />
           </Link>
           <div
             className="lg:hidden cursor-pointer text-white active:duration-300"

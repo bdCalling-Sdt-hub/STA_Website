@@ -9,22 +9,51 @@ import { FaArrowRight } from "react-icons/fa6";
 import { Button } from "../ui/button";
 import { useEffect } from "react";
 import { dm_sans, poppins } from "@/pages/_app";
+import Image from "next/image";
 
 const Banner = () => {
 
-  const catagories = [
-    "Wordpress",
-    "Digital Marketing",
-    "Graphics Design",
-    "UX/UI Design",
-    "APP Developer with Flutter",
-    "Front-End Development",
-    "Lead & Data Entry",
-    "Visual Design Fundamentals",
-    "Prototyping and Wireframing",
-  ];
+  // const scrollWin = () => {
+  //   window.scrollTo(0, window.scrollY + 500); // Scroll down by 500 pixels
+  // };
+
+  // const scrollWin = () => {
+  //   const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+  //   const scrollAmount = (windowHeight * 100); // Scroll down by 1% of the window height
+
+  //   window.scrollTo(0, window.scrollY + scrollAmount);
+  // };
+
+  // const scrollWin = () => {
+  //   const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+  //   const scrollAmount = windowHeight * 100; // Scroll down by 1% of the window height
+
+  //   console.log("object")
+
+  //   window.scrollTo({
+  //     top: window.scrollY + scrollAmount,
+  //     behavior: 'smooth', // Add smooth scrolling behavior
+  //   });
+  // };
+
+  const scrollWin = () => {
+    // Get the height of the window
+    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+    console.log("object")
+
+    // Calculate the amount to scroll (100% of the window height)
+    const scrollAmount = windowHeight * 100;
+
+    // Scroll the window to the calculated position with smooth behavior
+    window.scrollTo({
+      top: window.scrollY + scrollAmount,
+      behavior: 'smooth',
+    });
+  };
 
   // animate__animated animate__backInRight
+
   return (
     <div className="h-[860px] pb-14">
 
@@ -41,7 +70,14 @@ const Banner = () => {
           <p className={`${dm_sans.className} text-white text-[22px] mt-[30px]`}>
             A top tier software development team assisting owners and decision makers to implement digital initiatives to achieve lasting financial success
           </p>
-          <Button className={`${dm_sans.className} bg-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px]`}>Get Started <span className="ms-[10px]"><FaArrowRight></FaArrowRight></span></Button>
+          <Button className={`${dm_sans.className} bg-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all hover:bg-[#99d31bc1] z-30`}>
+            Get Started
+            <span className="ms-[10px]">
+              <FaArrowRight />
+            </span>
+          </Button>
+
+          <Image onClick={scrollWin} className="ml-[660px] z-50" src="/images/shape/scrol.png" alt="" width={36} height={56} />
         </div>
 
         {/* --------------- */}
@@ -65,12 +101,12 @@ const Banner = () => {
         <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" />
         <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/5.png" alt="" />
         <img className="absolute top-[150px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-        <img className="absolute bottom-[200px] left-[980px] animate-round-rotate" src="/images/shape/7.png" alt="" />
+        <img className="absolute bottom-[200px] left-[1180px] animate-round-rotate" src="/images/shape/7.png" alt="" />
         <img className="absolute bottom-[200px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
         <img className="absolute bottom-[400px] left-[160px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
         <img className="absolute top-[150px] left-[200px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
         <img className="absolute bottom-[150px] right-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
-        <img className="absolute -top-[20px] right-[20px] animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
+        <img className="absolute -top-[20px] right-[13px]" src="/images/shape/8.png" alt="" />
       </div>
 
       {/* <img className="absolute " src="/images/shape/2.png" alt="" /> */}

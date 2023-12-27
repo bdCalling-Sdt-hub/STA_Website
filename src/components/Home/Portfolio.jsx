@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { dm_sans, poppins } from '@/pages/_app';
+import Link from 'next/link';
 
 const Portfolio = () => {
 
@@ -52,9 +53,11 @@ const Portfolio = () => {
                                             ))}
                                         </div>
                                         <img className='mt-[50px]' src={portfolio.bottomImage} alt="" />
-                                        <Button className="hidden absolute right-0 bottom-1 rounded-full h-[40px] w-[40px] bg-white group-hover:flex me-2 mb-2" variant="outline" size="icon">
-                                            <FaArrowRight className="h-[30px] w-[30px]" color='#99D31B' />
-                                        </Button>
+                                        <Link href={`/portfolio/${portfolio.id}`}>
+                                            <Button className="hidden absolute right-0 bottom-1 rounded-full h-[40px] w-[40px] bg-white group-hover:flex me-2 mb-2" variant="outline" size="icon">
+                                                <FaArrowRight className="h-[30px] w-[30px]" color='#99D31B' />
+                                            </Button>
+                                        </Link>
                                     </div>
                                 </div>
                             </SwiperSlide>

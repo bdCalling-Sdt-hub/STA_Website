@@ -65,7 +65,7 @@ const MidBanner = () => {
           <img className="absolute bottom-[600px] -right-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" />
           <img className="absolute -bottom-[100px] -right-[700px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
           <img className="absolute -bottom-[100px] left-[00px] animate-round-rotate360" src="/images/shape/2.png" alt="" />
-          <img className="absolute bottom-[50px] right-[400px]" src="/images/shape/9.png" alt="" />
+          <img className="absolute -bottom-[120px] right-[400px]" src="/images/shape/9.png" alt="" />
         </div>
 
 
