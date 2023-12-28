@@ -11,8 +11,8 @@ const JobDetails = ({ jobList, id }) => {
     return (
         <div className='containe my-[150px]'>
             <div className='container text-white'>
-                <p className={`font-semibold, text-[24px] ${dm_sans.className}`} data-aos="fade-left">Job &#10140; {job.title}</p>
-                <p className={`font-bold, text-[62px] mt-[100px] ${poppins.className}`} data-aos="fade-right">{job.title}</p>
+                <p className={`font-semibold, text-[24px] ${dm_sans.className}`} data-aos="fade-left">Job &#10140; {job?.title}</p>
+                <p className={`font-bold, text-[62px] mt-[100px] ${poppins.className}`} data-aos="fade-right">{job?.title}</p>
 
 
                 <div className='grid grid-cols-3 gap-16 mt-[70px]'>

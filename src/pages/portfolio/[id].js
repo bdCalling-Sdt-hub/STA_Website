@@ -27,10 +27,10 @@ const PortfolioDetails = () => {
                         <img src="/images/portfolio/portfolio-bg-v.png" alt="banner image" />
                         <img className='absolute top-0 mt-[58px] ms-[198px] h-[368px]' data-aos="flip-left"
                             data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" src={portfolio.bottomImage} alt="banner image" />
+                            data-aos-duration="2000" src={portfolio?.bottomImage} alt="banner image" />
                     </div>
-                    <p className={`${poppins.className}  text-[50px] text-white font-semibold`} data-aos="fade-right">{portfolio.iconTitle}</p>
-                    <p className={`${dm_sans.className} text-[#D6D6D6] text-[22px] font-medium`} data-aos="fade-left">{portfolio.title.join(" - ")}</p>
+                    <p className={`${poppins.className}  text-[50px] text-white font-semibold`} data-aos="fade-right">{portfolio?.iconTitle}</p>
+                    <p className={`${dm_sans.className} text-[#D6D6D6] text-[22px] font-medium`} data-aos="fade-left">{portfolio?.title.join(" - ")}</p>
                 </div>
 
                 <div style={{ boxShadow: "0px 0px 30px 0px rgba(255, 255, 255, 0.07)", borderRadius: "15px" }} className='col-span-4 w-[424px]' data-aos="fade-down">
