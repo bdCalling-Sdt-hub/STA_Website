@@ -3,8 +3,12 @@ import { Button } from '../ui/button';
 import { FaArrowRight } from 'react-icons/fa6';
 import { dm_sans, poppins } from '@/pages/_app';
 import Link from 'next/link';
+import TeamsList from '../../../public/db//expert'
 
 const TeamMember = () => {
+
+    const { teamList } = TeamsList;
+
     return (
         <div className="h-auto mt-[150px] pb-14 relative">
 
@@ -19,7 +23,26 @@ const TeamMember = () => {
                     </h1>
                 </div>
 
-                <div className="container grid grid-cols-3 mt-[274px]">
+                <div className="container grid grid-cols-3 mt-[274px] gap-y-[200px]">
+                    {
+                        teamList.slice(0,3).map((team, index) => (
+                            <div key={index} className='relative group p-4' data-aos="zoom-in">
+                                <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] w-[424px] h-[300px] hover:bg-[#99D31B] transition duration-700 -z-10">
+                                    <img className='-mt-[163px] w-[227px] z-10' src={team.image} alt="" />
+                                    <div className='absolute bottom-[00px] bg-[#99D31B] w-full rounded-b-[50px] h-[120px] z-20'>
+
+                                    </div>
+                                    <div className='absolute bottom-10 skew-y-6 z-30'>
+                                        <h1 className={`${poppins.className} text-white font-semibold text-[24px]`}>{team.name}</h1>
+                                        <h1 className={`${dm_sans} text-white font-medium text-[18px]`}>{team.title}</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+
+                {/* <div className="container grid grid-cols-3 mt-[274px]">
                     <div className='relative group p-4' data-aos="zoom-in">
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] w-[424px] h-[300px] hover:bg-[#99D31B] transition duration-700 -z-10">
                             <img className='-mt-[173px] w-[227px] z-10' src="/images/team_mem1.png" alt="" />
@@ -57,7 +80,7 @@ const TeamMember = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <Link href={'/team'}>
                     <Button data-aos="fade-right" className={`${poppins.className} bg-[#99D31B] mt-[75px] text-[18px] font-normal h-[59px] px-[30px] py-[16px] hover:bg-[#99D31B] hover:text-white`}>All Members

@@ -13,7 +13,7 @@ const TeamList = () => {
                     teamList.map((team, index) => (
                         <div key={index} className='relative group p-4' data-aos="zoom-in">
                             <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] w-[424px] h-[300px] hover:bg-[#99D31B] transition duration-700 -z-10">
-                                <img className='-mt-[173px] w-[227px] z-10' src={team.image} alt="" />
+                                <img className='-mt-[163px] w-[227px] z-10' src={team.image} alt="" />
                                 <div className='absolute bottom-[00px] bg-[#99D31B] w-full rounded-b-[50px] h-[120px] z-20'>
 
                                 </div>
