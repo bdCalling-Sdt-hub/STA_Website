@@ -24,12 +24,6 @@ const HomePage = () => {
       <Services />
       <Portfolio />
       <TeamMember />
-      {/* <Courses />
-      <Exceptional />
-      <Event />
-      <StudentSuccess />
-      <Testimonial />
-      <TotalSuccess />*/}
       <Testimonial />
       <JoinUs />
     </div>
