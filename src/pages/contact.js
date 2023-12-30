@@ -4,6 +4,7 @@ import Breadcrumbs from "@/components/Contact/Breadcrumbs";
 import FormSection from "@/components/Contact/FormSection";
 import RootLayout from "@/components/Layouts/RootLayout";
 import dynamic from "next/dynamic";
+import Head from "next/head";
 
 const ContactPage = () => {
   const DynamicMap = dynamic(() => import("@/components/Contact/Map"), {
@@ -12,6 +13,9 @@ const ContactPage = () => {
   });
   return (
     <div>
+      <Head>
+        <title>Contact | Spark Tech</title>
+      </Head>
       <Breadcrumbs />
       <Achievement />
       <FormSection />

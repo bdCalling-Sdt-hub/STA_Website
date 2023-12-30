@@ -11,10 +11,14 @@ import TeamMember from "@/components/Home/TeamMember";
 import Testimonial from "@/components/Home/Testimonial";
 import TotalSuccess from "@/components/Home/TotalSuccess";
 import RootLayout from "@/components/Layouts/RootLayout";
+import Head from "next/head";
 
 const HomePage = () => {
   return (
     <div>
+      <Head>
+        <title>Home | Spark Tech</title>
+      </Head>
       <Banner />
       <MidBanner />
       <Services />

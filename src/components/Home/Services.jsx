@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Services = () => {
 
     const { serviceList } = ServiceList;
-    console.log(serviceList)
+
 
     return (
         <div className="h-auto mt-[150px] pb-14" >

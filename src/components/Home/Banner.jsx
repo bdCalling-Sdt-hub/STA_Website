@@ -29,7 +29,6 @@ const Banner = () => {
   //   const windowHeight = window.innerHeight || document.documentElement.clientHeight;
   //   const scrollAmount = windowHeight * 100; // Scroll down by 1% of the window height
 
-  //   console.log("object")
 
   //   window.scrollTo({
   //     top: window.scrollY + scrollAmount,
@@ -41,7 +40,6 @@ const Banner = () => {
     // Get the height of the window
     const windowHeight = window.innerHeight || document.documentElement.clientHeight;
 
-    console.log("object")
 
     // Calculate the amount to scroll (100% of the window height)
     const scrollAmount = windowHeight * 100;

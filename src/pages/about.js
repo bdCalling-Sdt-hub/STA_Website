@@ -9,10 +9,14 @@ import WhatBdCalling from "@/components/About/WhatBdCalling";
 import Subscribe from "@/components/Common/Subscribe";
 import Testimonial from "@/components/Home/Testimonial";
 import RootLayout from "@/components/Layouts/RootLayout";
+import Head from "next/head";
 
 const AboutPage = () => {
   return (
     <div>
+      <Head>
+        <title>About | Spark Tech</title>
+      </Head>
       <Breadcrumbs />
       <About />
       <Achievement />

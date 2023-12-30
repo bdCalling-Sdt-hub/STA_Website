@@ -11,7 +11,7 @@ const JobDetailsPage = () => {
     const id = route.query.id;
 
     const { jobList } = JobList;
-    console.log(id, jobList)
+
 
     return (
         <div>

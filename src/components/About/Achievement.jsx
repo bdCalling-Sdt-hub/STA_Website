@@ -19,55 +19,56 @@ const Achievement = () => {
 
                 <div className="container grid grid-cols-4 mt-[124px]">
                     <div className='relative group p-4' data-aos="zoom-in">
-                        <div className={`flex flex-col items-center transform -skew-y-6  h-[246px] w-[312px] ${style.card}`}>
+                        <div className={`flex flex-col items-center transform -skew-y-6 h-[190px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
-                                <h1 className={`${poppins.className} text-white text-[52px] font-semibold`}>214+</h1>
-                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Saticfied Custimer</p>
+                                <h1 className={`${poppins.className} text-white text-[52px] font-semibold mt-2`}>214+</h1>
+                                <p className={`${dm_sans.className} text-white text-[16px] font-normal`}>Saticfied Custimer</p>
+
                             </div>
 
-                            <Button className="absolute -top-[40px] rounded-full h-[80px] w-[80px] bg-[#3F3E3E] border-none hover:bg-[#99D31B] group-hover:bg-[#99D31B]" variant="outline" size="icon">
-                                <img className='' src="/images/a-setting.png" alt="" />
+                            <Button className="absolute -top-[40px] rounded-full h-[80px] w-[80px] bg-[#3F3E3E] border-none hover:bg-[#99D31B] group-hover:bg-[#99D31B] skew-y-6" variant="outline" size="icon">
+                                <img className='' src="/images/about/a-setting.png" alt="" />
                             </Button>
                         </div>
                     </div>
 
                     <div className='relative group p-4' data-aos="zoom-in">
-                        <div className={`flex flex-col items-center transform -skew-y-6  h-[246px] w-[312px] ${style.card}`}>
+                        <div className={`flex flex-col items-center transform -skew-y-6  h-[190px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
-                                <h1 className={`${poppins.className} text-white text-[52px] font-semibold`}>45+</h1>
-                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Experience Team</p>
+                                <h1 className={`${poppins.className} text-white text-[52px] font-semibold mt-2`}>45+</h1>
+                                <p className={`${dm_sans.className} text-white text-[16px] font-normal`}>Experience Team</p>
                             </div>
 
-                            <Button className="absolute -top-[40px] rounded-full h-[80px] w-[80px] bg-[#3F3E3E] border-none hover:bg-[#99D31B] group-hover:bg-[#99D31B]" variant="outline" size="icon">
-                                <img className='' src="/images/a-setting.png" alt="" />
+                            <Button className="absolute -top-[40px] rounded-full h-[80px] w-[80px] bg-[#3F3E3E] border-none hover:bg-[#99D31B] group-hover:bg-[#99D31B] skew-y-6" variant="outline" size="icon">
+                                <img className='' src="/images/about/b-setting.png" alt="" />
                             </Button>
                         </div>
                     </div>
                     <div className='relative group p-4' data-aos="zoom-in">
-                        <div className={`flex flex-col items-center transform -skew-y-6  h-[246px] w-[312px] ${style.card}`}>
+                        <div className={`flex flex-col items-center transform -skew-y-6  h-[190px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
-                                <h1 className={`${poppins.className} text-white text-[52px] font-semibold`}>1.5K+</h1>
-                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Project Completed</p>
+                                <h1 className={`${poppins.className} text-white text-[52px] font-semibold mt-2`}>1.5K+</h1>
+                                <p className={`${dm_sans.className} text-white text-[16px] font-normal`}>Project Completed</p>
                             </div>
 
-                            <Button className="absolute -top-[40px] rounded-full h-[80px] w-[80px] bg-[#3F3E3E] border-none hover:bg-[#99D31B] group-hover:bg-[#99D31B]" variant="outline" size="icon">
-                                <img className='' src="/images/a-setting.png" alt="" />
+                            <Button className="absolute -top-[40px] rounded-full h-[80px] w-[80px] bg-[#3F3E3E] border-none hover:bg-[#99D31B] group-hover:bg-[#99D31B] skew-y-6" variant="outline" size="icon">
+                                <img className='' src="/images/about/c-setting.png" alt="" />
                             </Button>
                         </div>
                     </div>
                     <div className='relative group p-4' data-aos="zoom-in">
-                        <div className={`flex flex-col items-center transform -skew-y-6  h-[246px] w-[312px] ${style.card}`}>
+                        <div className={`flex flex-col items-center transform -skew-y-6  h-[190px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
-                                <h1 className={`${poppins.className} text-white text-[52px] font-semibold`}>15+</h1>
-                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Winning Awards</p>
+                                <h1 className={`${poppins.className} text-white text-[52px] font-semibold mt-2`}>15+</h1>
+                                <p className={`${dm_sans.className} text-white text-[16px] font-normal`}>Winning Awards</p>
                             </div>
 
-                            <Button className="absolute -top-[40px] rounded-full h-[80px] w-[80px] bg-[#3F3E3E] border-none hover:bg-[#99D31B] group-hover:bg-[#99D31B]" variant="outline" size="icon">
-                                <img className='' src="/images/a-setting.png" alt="" />
+                            <Button className="absolute -top-[40px] rounded-full h-[80px] w-[80px] bg-[#3F3E3E] border-none hover:bg-[#99D31B] group-hover:bg-[#99D31B] skew-y-6" variant="outline" size="icon">
+                                <img className='' src="/images/about/d-setting.png" alt="" />
                             </Button>
                         </div>
                     </div>

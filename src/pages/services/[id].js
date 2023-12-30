@@ -18,7 +18,7 @@ const ServiceDetails = () => {
 
     const { serviceList } = ServiceList;
     const service = serviceList.find(service => service.id.toString() === id);
-    console.log(service)
+
 
     return (
         <div>

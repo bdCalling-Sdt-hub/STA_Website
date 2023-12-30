@@ -6,11 +6,15 @@ import Portfolio from '@/components/Portfolio/Portfolio';
 import Achievement from '@/components/Services/Achievement';
 import Choose from '@/components/Services/Choose';
 import FreeConsulting from '@/components/Services/FreeConsulting';
+import Head from 'next/head';
 import React from 'react';
 
 const PortfolioPage = () => {
     return (
         <div>
+            <Head>
+                <title>Portfolio | Spark Tech</title>
+            </Head>
             <Breadcrumbs />
             <Portfolio />
             {/* <Choose />

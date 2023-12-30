@@ -2,10 +2,14 @@ import FreeConsulting from "@/components/About/FreeConsulting";
 import RootLayout from "@/components/Layouts/RootLayout";
 import Breadcrumbs from "@/components/Team/Breadcrumbs";
 import TeamList from "@/components/Team/TeamList";
+import Head from "next/head";
 
 const TeamPage = () => {
     return (
         <div>
+            <Head>
+                <title>Team | Spark Tech</title>
+            </Head>
             <Breadcrumbs />
             <TeamList />
             <FreeConsulting />

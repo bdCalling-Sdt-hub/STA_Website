@@ -15,7 +15,7 @@ const PortfolioDetails = () => {
     const id = route.query.id;
     const { portfolioList } = PortfolioList;
     const portfolio = portfolioList.find(portfolio => portfolio.id.toString() === id);
-    console.log(portfolio)
+  
 
     return (
         <div>

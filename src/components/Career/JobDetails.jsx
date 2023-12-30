@@ -5,9 +5,9 @@ import { FaArrowRight } from 'react-icons/fa6';
 import { FaArrowLeft } from 'react-icons/fa6';
 
 const JobDetails = ({ jobList, id }) => {
-    console.log(jobList, id)
+
     const job = jobList.find(job => job.id === id);
-    console.log(job)
+
     return (
         <div className='containe my-[150px]'>
             <div className='container text-white'>
