@@ -1,6 +1,5 @@
 import React from 'react';
-// import BreadcrumbsCard from '../Common/BreadcrumbsCard';
-import BreadcrumbsCard from '../Common/BreadcrumbsCard';
+import BreadcrumbsCard from './BreadcrumbsCard';
 
 const Breadcrumbs = () => {
     return (

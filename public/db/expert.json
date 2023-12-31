@@ -137,9 +137,9 @@
   ],
   "teamList": [
     {
-      "image": "/images/team_mem1.png",
+      "image": "/images/team-member/babul.png",
       "name": "Babul Mridha",
-      "title": "Consultant"
+      "title": "Software Consultant"
     },
     {
       "image": "/images/team-member/shiku.png",
@@ -147,39 +147,59 @@
       "title": "AGM & Flutter Developer"
     },
     {
+      "image": "/images/team-member/azmol.png",
+      "name": "Azmal Hossain",
+      "title": "QAE"
+    },
+    {
       "image": "/images/team-member/farvez.png",
       "name": "Farvez Hossain",
       "title": "Sr. Backend Developer"
     },
     {
-      "image": "/images/team-member/tushar.png",
+      "image": "/images/team-member/tushar1.png",
       "name": "MD.Shehabuddin tushar",
-      "title": "Sr. Backend Developer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/tohid.png",
       "name": "Towhidul Islam",
-      "title": "Sr. Backend Developer"
+      "title": "Software Engineer"
     },
     {
-      "image": "/images/team-member/ratul.png",
-      "name": "Fozle Rabby Ratul",
-      "title": "UX/UI Engineer"
+      "image": "/images/team-member/sahinur.png",
+      "name": "Sahinur Islam",
+      "title": "Jr. Software Engineer"
+    },
+    {
+      "image": "/images/team-member/fahim.png",
+      "name": "Saiful Islam (Fahim)",
+      "title": "Jr. Software Engineer"
+    },
+    {
+      "image": "/images/team-member/sakib.png",
+      "name": "Al Shakib E Elahi",
+      "title": "Jr. Software Engineer"
+    },
+    {
+      "image": "/images/team-member/opu.png",
+      "name": "Md Nur Mohammod",
+      "title": "Jr. Software Engineer"
+    },
+    {
+      "image": "/images/team-member/jusef.png",
+      "name": "Md Jusef",
+      "title": "Jr. Software Engineer"
+    },
+    {
+      "image": "/images/team-member/abdur.png",
+      "name": "Abdur Rahman",
+      "title": "Jr. Software Engineer"
     },
     {
       "image": "/images/team-member/palash.png",
       "name": "Palash Chandra Barman",
       "title": "Flutter App Developer"
-    },
-    {
-      "image": "/images/team-member/fahim.png",
-      "name": "Saiful Islam (Fahim)",
-      "title": "Backend Developer"
-    },
-    {
-      "image": "/images/team-member/sakib.png",
-      "name": "Al Shakib E Elahi",
-      "title": "Backend Developer"
     },
     {
       "image": "/images/team-member/rafsan.png",
@@ -192,21 +212,6 @@
       "title": "Flutter App Developer"
     },
     {
-      "image": "/images/team-member/opu.png",
-      "name": "Md Nur Mohammod",
-      "title": "Backend Developer"
-    },
-    {
-      "image": "/images/team-member/jusef.png",
-      "name": "Md Jusef",
-      "title": "Backend Developer"
-    },
-    {
-      "image": "/images/team-member/abdur.png",
-      "name": "Abdur Rahman",
-      "title": "Backend Developer"
-    },
-    {
       "image": "/images/team-member/nadim.png",
       "name": "Nadim Hasan",
       "title": "Flutter App Developer"
@@ -217,14 +222,24 @@
       "title": "Flutter App Developer"
     },
     {
+      "image": "/images/team-member/ratul.png",
+      "name": "Md Fozle Rabby",
+      "title": "UX/UI Engineer"
+    },
+    {
+      "image": "/images/team-member/amrin.png",
+      "name": "Amrin",
+      "title": "UX/UI Engineer"
+    },
+    {
       "image": "/images/team-member/aumi.png",
       "name": "Aumi",
       "title": "UX/UI Engineer"
     },
     {
-      "image": "/images/team-member/azmol.png",
-      "name": "Azmal Hossain",
-      "title": "QAE"
+      "image": "/images/team-member/arfan.png",
+      "name": "Afran Kazi",
+      "title": "UX/UI Engineer"
     },
     {
       "image": "/images/team-member/diba.png",

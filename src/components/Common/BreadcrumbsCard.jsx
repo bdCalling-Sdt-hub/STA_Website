@@ -2,11 +2,13 @@ import Link from "next/link";
 import style from "./Breadcrumbs.module.css"
 import { dm_sans, poppins } from "@/pages/_app";
 
-const BreadcrumbsCard = ({ title, homePage, homePageLink, presentPage, presentPageLink }) => {
+const BreadcrumbsCard = ({ title, subTitle, subTitle1, homePage, homePageLink, presentPage, presentPageLink }) => {
     return (
         <div className={`${style.bkImage}`}>
             <div className="text-center mt-[60px]">
                 <p className={`${poppins.className} text-[75px] text-white font-medium`}>{title}</p>
+                <p className={`${poppins.className} text-[18px] text-white font-normal`}>{subTitle}</p>
+                <p className={`${poppins.className} text-[18px] text-white font-normal`}>{subTitle1}</p>
                 <nav class="flex items-center justify-center" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                         <li class="inline-flex items-center">

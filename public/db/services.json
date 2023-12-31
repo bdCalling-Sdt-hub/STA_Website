@@ -2,24 +2,23 @@
     "serviceList": [
         {
             "id": "1",
-            "title": "UI/UX Design",
-            "description": "Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero."
+            "title": "Mobile App Development",
+            "description": "Start Your Success Journey with Mobile App Development Company Join hands with high-skilled mobile app developers and curate seamless digital transformation to stay ahead of the curve."
         },
         {
             "id": "2",
-            "title": "Mobile App Development",
-            "description": "Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero."
+            "title": "Web Development",
+            "description": "Web Application Development Company With a dedicated team of experts, we provide customized web application development services that cater to your specific needs."
         },
         {
             "id": "3",
-            "title": "Web Development",
-            "description": "Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero."
+            "title": "UI/UX Design",
+            "description": "We take a personalized approach to creating web applications that perfectly align with your business objectives. From concept to deployment, we ensure your digital solution is as unique as your vision."
         }
     ],
-
     "industryList": [
         {
-            "title" :"Banking & Finance"
+            "title": "Banking & Finance"
         },
         {
             "title": "E-Commerce"

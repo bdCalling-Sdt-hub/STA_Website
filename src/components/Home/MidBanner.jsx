@@ -32,11 +32,11 @@ const MidBanner = () => {
           <div className="grid grid-cols-2">
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
-              <p className={`${dm_sans.className} text-white text-[20px]`}>Web development tehnology</p>
+              <p className={`${dm_sans.className} text-white text-[20px]`}>Assured Services</p>
             </div>
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
-              <p className={`${dm_sans.className} text-white text-[20px]`}>Top skilled engineers</p>
+              <p className={`${dm_sans.className} text-white text-[20px]`}>Top skilled Engineers</p>
             </div>
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
@@ -44,7 +44,7 @@ const MidBanner = () => {
             </div>
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
-              <p className={`${dm_sans.className} text-white text-[20px]`}>Best Features Keep Us Ahed</p>
+              <p className={`${dm_sans.className} text-white text-[20px]`}>Worldwide Clients</p>
             </div>
           </div>
         </div>

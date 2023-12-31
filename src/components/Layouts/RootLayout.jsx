@@ -11,7 +11,7 @@ const RootLayout = ({ children }) => {
     // Delay the rendering of components by 5 seconds
     const timeoutId = setTimeout(() => {
       setShowComponents(true);
-    }, 5000);
+    }, 15000);
 
     // Cleanup function to clear the timeout in case the component unmounts
     return () => clearTimeout(timeoutId);
@@ -21,13 +21,13 @@ const RootLayout = ({ children }) => {
   return (
     <div>
 
-      {/* {showComponents == false ? <Welcome /> : */}
+      {showComponents == false ? <Welcome /> :
         <>
           <Navbar />
           {children}
           <Footer />
         </>
-      {/* } */}
+      }
 
     </div>
   );
