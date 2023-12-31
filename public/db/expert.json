@@ -74,6 +74,11 @@
   "teamMateList": [
     {
       "image": "/images/pc-image.png",
+      "title": "ABC Theory",
+      "description": "We craft personalized learning journeys, offer mentorship, and empower you to set and surpass career goals, fostering rapid professional development"
+    },
+    {
+      "image": "/images/pc-image.png",
       "title": "Accelerated Growth",
       "description": "We craft personalized learning journeys, offer mentorship, and empower you to set and surpass career goals, fostering rapid professional development"
     },
@@ -84,7 +89,7 @@
     },
     {
       "image": "/images/pc-image.png",
-      "title": "Supportive Community",
+      "title": "Supportive Colleague",
       "description": "We nurture collaboration, communication, knowledge sharing, and relationships to empower every team member in a supportive environment."
     },
     {
@@ -144,7 +149,7 @@
     {
       "image": "/images/team-member/shiku.png",
       "name": "Rakibul Islam Shiku",
-      "title": "AGM & Flutter Developer"
+      "title": "AGM"
     },
     {
       "image": "/images/team-member/azmol.png",
@@ -154,7 +159,7 @@
     {
       "image": "/images/team-member/farvez.png",
       "name": "Farvez Hossain",
-      "title": "Sr. Backend Developer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/tushar1.png",
@@ -169,57 +174,57 @@
     {
       "image": "/images/team-member/sahinur.png",
       "name": "Sahinur Islam",
-      "title": "Jr. Software Engineer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/fahim.png",
       "name": "Saiful Islam (Fahim)",
-      "title": "Jr. Software Engineer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/sakib.png",
       "name": "Al Shakib E Elahi",
-      "title": "Jr. Software Engineer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/opu.png",
       "name": "Md Nur Mohammod",
-      "title": "Jr. Software Engineer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/jusef.png",
       "name": "Md Jusef",
-      "title": "Jr. Software Engineer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/abdur.png",
       "name": "Abdur Rahman",
-      "title": "Jr. Software Engineer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/palash.png",
       "name": "Palash Chandra Barman",
-      "title": "Flutter App Developer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/rafsan.png",
       "name": "Rafsan Hossain Opi",
-      "title": "Flutter App Developer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/humayan.png",
       "name": "Humayun Kabir",
-      "title": "Flutter App Developer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/nadim.png",
       "name": "Nadim Hasan",
-      "title": "Flutter App Developer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/shanto.png",
       "name": "Hasibul Hasan Shanto",
-      "title": "Flutter App Developer"
+      "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/ratul.png",
@@ -238,7 +243,7 @@
     },
     {
       "image": "/images/team-member/arfan.png",
-      "name": "Afran Kazi",
+      "name": "Afran Kazi Rana",
       "title": "UX/UI Engineer"
     },
     {

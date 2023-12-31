@@ -12,7 +12,7 @@ const Choose = () => {
           <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B] `}>Why choose Invite?</p>
           <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px]`}>We want to work
             <br />the best!</p>
-          <p className={`${dm_sans.className} text-[18px]  font-normal text-[#d8d6d6] mt-[18px]`}>They usually show impact through before-and-after comparisons or provide specific improvement statistics
+          <p className={`${dm_sans.className} text-[18px]  font-normal text-[#d8d6d6] mt-[18px]`}>Share your project scope, goals, and technical requirements with us. The objective of this preliminary stage is to validate your app idea and make sure it has viability and success potential. This entails market research, determining your target market, and gauging the demand for your app. We construct a development schedule, a budget, and a plan for the project.
           </p>
         </div>
 

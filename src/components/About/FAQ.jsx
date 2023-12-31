@@ -18,9 +18,9 @@ const FAQ = () => {
                 <div className='text-start' data-aos="fade-down-right">
                     <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>OUR FAQ</p>
                     <h1 className={`${poppins.className} mt-[15px] font-semibold text-[54px] leading-tight`}>
-                        <span className="text-white">Best Awwards And</span>
+                        <span className="text-white">EXPLORE OUR OFFERS TO HELP YOUR PROJECT</span>
                         <br />
-                        <span className="text-white">Recognition</span>
+                        <span className="text-white"> GET OFF TO A GOOD START.</span>
                     </h1>
 
                 </div>
@@ -39,7 +39,7 @@ const FAQ = () => {
                             01 Mobile App Development
                         </div>
                         <div className={`${dm_sans.className} collapse-content text-white text-[16px]`}>
-                            <p>Intellectsoft provides custom mobile development application services. Increase your sales and clients’ loyalty with a stable, interactive, and high-performance mobile app.</p>
+                            <p>Spark Tech provides custom mobile development application services. Increase your sales and clients’ loyalty with a stable, interactive, and high-performance mobile app.</p>
                             <div className='flex gap-16 mt-4 items-center'>
                                 <div className='flex items-center gap-2'>
                                     <img src="/images/shape/2.png" alt="" />

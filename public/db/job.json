@@ -2,17 +2,17 @@
     "jobList": [
         {
             "id": "1",
-            "title": "Sr, UI/UX Designer",
+            "title": "QA Engineer",
             "address": "Dhaka, Bangladesh",
             "salary": "30k - 40k BDT",
-            "applyDeadline": "31-Oct-2023"
+            "applyDeadline": "31-Jan-2024"
         },
         {
             "id": "2",
-            "title": "UI/UX Designers (Entry-Level)",
+            "title": "UX Engineer",
             "address": "Dhaka, Bangladesh",
             "salary": "20k - 30k BDT",
-            "applyDeadline": "1-Dec-2023"
+            "applyDeadline": "1-Feb-2024"
         }
     ]
 }

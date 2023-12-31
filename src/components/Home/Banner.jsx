@@ -67,7 +67,7 @@ const Banner = () => {
             <span className="text-white">Spectacular</span>
           </h1>
           <p className={`${dm_sans.className} text-white text-[22px] mt-[30px]`}>
-            A top tier software development team assisting owners and decision makers to implement digital initiatives to achieve lasting financial success
+            Sparktech specializes in turning ideas into amazing software solutions such as mobile apps, web design, and UI/UX design. Our expertise fuels creativity, bringing your concepts to life with cutting-edge technology. With our specialized software services, you may get from inspiration to extraordinary results.
           </p>
           {/* <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all z-30 hover:bg-gradient-to-r from-[#99D31B] to-[#6D9613]`}>
             Get Started
@@ -91,7 +91,7 @@ const Banner = () => {
 
         {/* --------------- */}
         <div className="flex justify-center items-center w-[563px] h-[549px] z-10  col-span-4" data-aos="fade-down">
-          <img style={{ height: '100%', width: "100%" }} src="/images/banner.png" alt="banner image" />
+          <img style={{ height: '100%', width: "100%" }} src="/images/banner.svg" alt="banner image" />
         </div>
 
         {/* --------------- */}

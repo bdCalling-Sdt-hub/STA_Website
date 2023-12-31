@@ -11,7 +11,7 @@ const About = () => {
         <div data-aos="fade-down-right">
           <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B]`}>ABOUT COMPANY</p>
           <p className={`${poppins.className} text-[52px] font-semibold text-white leading-tight mt-[18px]`}>Empowering Businesses <br /> Through Technology</p>
-          <p className={`${dm_sans.className} text-[18px] font-normal text-[#d8d6d6] mt-[18px]`}>The field of information technology is vast and continuously evolving, driving innov ation, efficiency, and connectivity across various industries and sectors.This inclu des physical devices used in computing peripherals like keyboards
+          <p className={`${dm_sans.className} text-[18px] font-normal text-[#d8d6d6] mt-[18px]`}>At Spark Tech, we are committed to using technology to empower businesses. Our cutting-edge software solutions are designed to improve business operations while increasing efficiency and success in the ever-changing digital landscape.
           </p>
         </div>
 

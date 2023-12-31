@@ -10,9 +10,9 @@ const Choose = () => {
         <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B]`}>WHAT WE OFFER</p>
         <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px]`}>Career with
           <br />SparkTech</p>
-        <p className={`${dm_sans.className} text-[18px] font-normal text-[#d8d6d6] mt-[18px]`}>Looking for a career that&#39;s all about making, shaping, and celebrating the extraordinary? then you are home!</p>
+        <p className={`${dm_sans.className} text-[18px] font-normal text-[#d8d6d6] mt-[18px] mr-8`}>Join us, we offer you an extraordinary chance to learn, to develop and to be part of an exciting experience and team.</p>
 
-
+        {/* &#39; */}
         <div className="grid grid-cols-1" data-aos="fade-down-left">
           <Button className={`${dm_sans.className} w-[211px] h-[59px] bg-[#333] text-[#99D31B] border-2 border-[#99D31B] hover:bg-[#99D31B] hover:text-white mt-[85px] text-[18px] font-normal px-[30px] py-[20px]`}>Join Our Team
             <span className='ms-2'><FaArrowRight></FaArrowRight></span>

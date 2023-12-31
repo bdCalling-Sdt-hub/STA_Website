@@ -9,7 +9,7 @@ const Offer = ({ service }) => {
       <div data-aos="fade-down-right">
         <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B]`}>WHAT WE OFFER</p>
         <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px]`}>{service?.title}</p>
-        <p className={`${dm_sans.className} text-[18px] font-normal text-[#d8d6d6] mt-[18px]`}>{service?.description}</p>
+        <p className={`${dm_sans.className} text-[18px] font-normal text-[#d8d6d6] mt-[18px] mr-8`}>{service?.description}</p>
 
 
         <div className="grid grid-cols-1" data-aos="fade-down-left">
@@ -20,7 +20,7 @@ const Offer = ({ service }) => {
       </div>
 
       <div data-aos="fade-down-left">
-        <img src="/images/career/career.png" alt="banner image" />
+        <img src={service?.image} alt="banner image" />
       </div>
 
       <div>

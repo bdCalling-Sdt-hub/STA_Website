@@ -21,7 +21,7 @@ const AboutPage = () => {
       <About />
       <Achievement />
       <Testimonial />
-      <FAQ />
+      {/* <FAQ /> */}
       <OurClients />
       <FreeConsulting />
     </div>

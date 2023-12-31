@@ -38,7 +38,7 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       {getLayout(<Component {...pageProps} />)}
       {/* <LocomotiveScrollWrapper>
         {getLayout(<Component {...pageProps} />)}

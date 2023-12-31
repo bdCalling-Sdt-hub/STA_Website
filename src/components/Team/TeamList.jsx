@@ -23,7 +23,7 @@ const TeamList = () => {
                                 </div>
                                 <div className='absolute bottom-10 skew-y-6 z-30'>
                                     <h1 className={`${poppins.className} text-white font-semibold text-[24px]`}>{team.name}</h1>
-                                    <h1 className={`${dm_sans} text-white font-medium text-[18px]`}>{team.title}</h1>
+                                    <h1 className={`${dm_sans} text-white font-medium text-[18px] text-center`}>{team.title}</h1>
                                 </div>
                             </div>
                         </div>

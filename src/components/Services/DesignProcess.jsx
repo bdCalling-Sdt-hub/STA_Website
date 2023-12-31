@@ -28,7 +28,7 @@ const DesignProcess = () => {
                                 </div>
 
                                 <div className='my-auto skew-y-6'>
-                                    <p className={`${poppins.className} text-white text-[24px] mt-[10px] font-semibold text-start px-[30px]`}>Research</p>
+                                    <p className={`${poppins.className} text-white text-[24px] mt-[10px] font-semibold text-start px-[30px]`}>Business Strategy</p>
                                     <hr className="w-full" style={{ marginTop: "15px", borderColor: '#384B0E' }} />
                                     <div className={`grid grid-cols-2 text-left ml-[30px] text-white ${dm_sans.className}`}>
                                         <div>

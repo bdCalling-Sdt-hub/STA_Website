@@ -34,7 +34,15 @@ const Footer = () => {
                 height={100}
               />
             </a>
-            <p className={`${poppins.className} mt-4 text-[18px] text-[#D6D6D6]`}>{description}</p>
+            {/* <p className={`${poppins.className} mt-4 text-[18px] text-[#D6D6D6]`}>{description}</p> */}
+            <div className="flex items-center gap-2 mt-[30px]  ms-2">
+              <Icon>
+                <MapPinned size={30} color="#99D31B" absoluteStrokeWidth />
+              </Icon>
+              <p className={`${dm_sans.className} text-[#ADADAD]`}>
+                Daisy Garden, House 14,Block A, Banasree, main road, Dhaka-1219
+              </p>
+            </div>
             <div className="flex items-center gap-2 mt-[25px]">
               <Icon>
                 <Phone color="#99D31B" size={24} />
@@ -47,16 +55,9 @@ const Footer = () => {
               </Icon>
               <p className={`${dm_sans.className} text-[#ADADAD]`}>sparktech.agency@gmail.com</p>
             </div>
-            <div className="flex items-center gap-2 mt-[15px]  ms-2">
-              <Icon>
-                <MapPinned size={30} color="#99D31B" absoluteStrokeWidth />
-              </Icon>
-              <p className={`${dm_sans.className} text-[#ADADAD]`}>
-                Daisy Garden, House 14,Block A, Banasree, main road, Dhaka-1219
-              </p>
-            </div>
 
-            <h4 className={`${poppins.className} font-bold ms-2 mt-[28px] mb-2 text-[22px] text-white`}>FOLLOW US</h4>
+
+            <h4 className={`${poppins.className} font-bold ms-2 mt-[100px] mb-2 text-[22px] text-white`}>FOLLOW US</h4>
 
             <div className="flex items-center gap-2">
               <Icon>

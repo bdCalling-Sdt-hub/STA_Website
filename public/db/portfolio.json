@@ -9,7 +9,14 @@
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
-      ]
+      ],
+      "projectInfo": {
+        "clientName": "Syed",
+        "category": "Matrimony",
+        "startDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "Matrimony"
+      }
     },
     {
       "id": 2,
@@ -20,7 +27,14 @@
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
-      ]
+      ],
+      "projectInfo": {
+        "clientName": "Ken Rockly",
+        "category": "Chat",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "Chat"
+      }
     },
     {
       "id": 3,
@@ -31,7 +45,14 @@
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
-      ]
+      ],
+      "projectInfo": {
+        "clientName": "Joshua Ajr",
+        "category": "Fittrack",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "fittrack"
+      }
     },
     {
       "id": 4,
@@ -42,7 +63,14 @@
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
-      ]
+      ],
+      "projectInfo": {
+        "clientName": "Calininiss",
+        "category": "Booking",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "booking"
+      }
     },
     {
       "id": 5,
@@ -53,7 +81,14 @@
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
-      ]
+      ],
+      "projectInfo": {
+        "clientName": "Locumasterinc",
+        "category": "Chat",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "chat"
+      }
     },
     {
       "id": 6,
@@ -64,7 +99,14 @@
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
-      ]
+      ],
+      "projectInfo": {
+        "clientName": "Reuben kaponde",
+        "category": "Matrimony",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "Matrimony"
+      }
     },
     {
       "id": 7,
@@ -75,7 +117,14 @@
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
-      ]
+      ],
+      "projectInfo": {
+        "clientName": "Adrienw",
+        "category": "Chating",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "Chating"
+      }
     }
   ],
   "expertList": [

@@ -38,16 +38,16 @@
   ],
   "services": [
     {
-      "title": "UI/UX Design",
-      "link": ""
-    },
-    {
       "title": "Mobile App Development",
       "link": "contact"
     },
     {
       "title": "Web Development",
       "link": "success-stories"
+    },
+    {
+      "title": "UI/UX Design",
+      "link": ""
     }
   ],
   "contacts": [

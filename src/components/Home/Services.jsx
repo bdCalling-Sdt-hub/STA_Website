@@ -34,7 +34,7 @@ const Services = () => {
                                         <p className={`${dm_sans.className} text-white text-[16px] mt-[28px] p-2`}>{service.description}</p>
                                     </div>
                                     <Link href={`services/${service.id}`}>
-                                        <Button className="absolute -bottom-[40px] left-[175px] rounded-full h-[80px] w-[80px] bg-[#99D31B] border-[#333] border-4 hover:bg-[#99D31B] group-hover:border-white transition duration-5000" variant="outline" size="icon">
+                                        <Button className="absolute -bottom-[40px] left-[175px] rounded-full h-[80px] w-[80px] bg-[#99D31B] border-[#333] border-4 hover:bg-[#99D31B] group-hover:border-white transition duration-5000 skew-y-6" variant="outline" size="icon">
                                             <FaArrowRight className="h-[30px] w-[30px]" color='white' />
                                         </Button>
                                     </Link>

@@ -15,7 +15,8 @@ const PortfolioDetails = () => {
     const id = route.query.id;
     const { portfolioList } = PortfolioList;
     const portfolio = portfolioList.find(portfolio => portfolio.id.toString() === id);
-  
+    console.log(portfolio.projectInfo.clientName)
+
 
     return (
         <div>
@@ -39,27 +40,27 @@ const PortfolioDetails = () => {
                     </div>
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>CLIENT NAME</p>
-                        <p>Omar Aly</p>
+                        <p>{portfolio.projectInfo.clientName}</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
-                        <p>CLIENT NAME</p>
-                        <p>Omar Aly</p>
+                        <p>CATEGORY</p>
+                        <p>{portfolio.projectInfo.category}</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
-                        <p>CLIENT NAME</p>
-                        <p>Omar Aly</p>
+                        <p>Start Date:</p>
+                        <p>{portfolio.projectInfo.startDate}</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
-                        <p>CLIENT NAME</p>
-                        <p>Omar Aly</p>
+                        <p>End Date:</p>
+                        <p>{portfolio.projectInfo.endDate}</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
-                        <p>CLIENT NAME</p>
-                        <p>Omar Aly</p>
+                        <p>Tag:</p>
+                        <p>{portfolio.projectInfo.tag}</p>
                     </div>
                 </div>
             </div>
