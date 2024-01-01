@@ -17,7 +17,7 @@ const TeamMember = () => {
 
             <div className='text-center'>
                 <div data-aos="zoom-out-right">
-                    <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>Expart Member</p>
+                    <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>Expert Member</p>
                     <h1 className={`${poppins.className} font-semibold leading-tight text-[54px]`}>
                         <span className="text-white">Meet Our Team</span>
                     </h1>

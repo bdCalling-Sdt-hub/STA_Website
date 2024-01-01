@@ -19,6 +19,26 @@
             "image": "/images/services/ux.png"
         }
     ],
+    "homeServiceList": [
+        {
+            "id": "1",
+            "title": "Mobile App Development",
+            "description": "Start Your Success Journey with Mobile App Development Company Join hands with high-skilled mobile app developers and curate seamless digital transformation to stay ahead of the curve.",
+            "image": "/images/app.png"
+        },
+        {
+            "id": "2",
+            "title": "Web Development",
+            "description": "Web Application Development Company With a dedicated team of experts, we provide customized web application development services that cater to your specific needs.",
+            "image": "/images/web.png"
+        },
+        {
+            "id": "3",
+            "title": "UI/UX Design",
+            "description": "We take a personalized approach to creating web applications that perfectly align with your business objectives. From concept to deployment, we ensure your digital solution is as unique as your vision.",
+            "image": "/images/pc-image.png"
+        }
+    ],
     "industryList": [
         {
             "title": "Banking & Finance"

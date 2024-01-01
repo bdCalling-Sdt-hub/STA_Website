@@ -73,39 +73,39 @@
   ],
   "teamMateList": [
     {
-      "image": "/images/pc-image.png",
-      "title": "ABC Theory",
-      "description": "We craft personalized learning journeys, offer mentorship, and empower you to set and surpass career goals, fostering rapid professional development"
+      "image": "/images/career/accelerated.png",
+      "title": "ABC Principle",
+      "description": "ABC (Attitude, Behavior, Communication) is the keystones of our success, driving a culture of professionalism and teamwork. We believe that a positive attitude, respectful behavior, and effective communication are essential for creating innovative solutions and fostering a dynamic work environment."
     },
     {
-      "image": "/images/pc-image.png",
+      "image": "/images/career/accelerated.png",
       "title": "Accelerated Growth",
-      "description": "We craft personalized learning journeys, offer mentorship, and empower you to set and surpass career goals, fostering rapid professional development"
+      "description": "Accelerated growth can be defined as a period of rapid expansion or high rate of change or growth over a relatively short period of time. It can either apply to businesses, economies, or other entities where progress or advancement may occur."
     },
     {
-      "image": "/images/pc-image.png",
+      "image": "/images/career/versatile.png",
       "title": "Versatile Experience",
-      "description": "We expose you to diverse projects, encouraging cross-domain exploration, cultivating adaptability, and enriching your skill set for dynamic growth."
+      "description": "An internship, externship and job shadowing are all excellent ways to gain additional experience in software engineering and can help you develop your skills and enhance your credentials. Look for internship opportunities at technology companies so you can learn alongside experienced software engineers and developers."
     },
     {
-      "image": "/images/pc-image.png",
+      "image": "/images/career/supportive.png",
       "title": "Supportive Colleague",
-      "description": "We nurture collaboration, communication, knowledge sharing, and relationships to empower every team member in a supportive environment."
+      "description": "Communicate openly. Open and effective communication with team members and senior leaders has a profound impact on breaking down information silos between developers and operations teams."
     },
     {
-      "image": "/images/pc-image.png",
+      "image": "/images/career/recognition.png",
       "title": "Recognition",
-      "description": "We value your contributions and achievements, spotlighting your accomplishments to fuel motivation and affirm the impact you bring to our team."
+      "description": "Software developers create the computer applications that allow users to do specific tasks and the underlying systems that run the devices or control networks. Software quality assurance analysts and testers design and execute software tests to identify problems and learn how the software works."
     },
     {
-      "image": "/images/pc-image.png",
+      "image": "/images/career/shared.png",
       "title": "Shared Success",
-      "description": "We believe in collective success, fostering a culture where shared goals, teamwork, and mutual support lead to accomplishments that resonate throughout the team."
+      "description": "Sharing experiences, seeking advice, and collaborating with fellow developers can lead to innovative solutions and enhance overall productivity. Expanding Professional Network: Community building in software development presents ample opportunities to expand one's professional network."
     },
     {
-      "image": "/images/pc-image.png",
+      "image": "/images/career/future.png",
       "title": "Future-Focused",
-      "description": "We drive innovation, keeping you engaged with cutting-edge projects, ensuring your work directly shapes our forward-looking approach and paves the way for your progress."
+      "description": "The demand of every sector and industry today demands software solutions that can help streamline their work and make it more effective and accurate. As technology continues to advance, the role of software engineers will become even more crucial in addressing complex challenges and developing innovative solutions."
     }
   ],
   "expertList": [
@@ -250,6 +250,36 @@
       "image": "/images/team-member/diba.png",
       "name": "Tanzila Diva",
       "title": "UX/UI Engineer"
+    },
+    {
+      "image": "/images/team-member/mohiuddin.png",
+      "name": "Gazi Alauddin",
+      "title": "Sales Executive"
+    },
+    {
+      "image": "/images/team-member/mohiuddin.png",
+      "name": "Mohi Uddin",
+      "title": "Sales Executive"
+    },
+    {
+      "image": "/images/team-member/mahmud.png",
+      "name": "Mahmud Mozumdar",
+      "title": "Sales Executive"
+    },
+    {
+      "image": "/images/team-member/ismail.png",
+      "name": "Ismail Hossain",
+      "title": "Sales Executive"
+    },
+    {
+      "image": "/images/team-member/sumaiya.png",
+      "name": "Sumaiya Dolon",
+      "title": "Sales Executive"
+    },
+    {
+      "image": "/images/team-member/arif.png",
+      "name": "Arif",
+      "title": "Sales Executive"
     }
   ]
 }

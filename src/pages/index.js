@@ -8,6 +8,7 @@ import Portfolio from "@/components/Home/Portfolio";
 import Services from "@/components/Home/Services";
 import StudentSuccess from "@/components/Home/StudentSuccess";
 import TeamMember from "@/components/Home/TeamMember";
+import TechStack from "@/components/Home/TechStack";
 import Testimonial from "@/components/Home/Testimonial";
 import TotalSuccess from "@/components/Home/TotalSuccess";
 import RootLayout from "@/components/Layouts/RootLayout";
@@ -22,6 +23,7 @@ const HomePage = () => {
       <Banner />
       <MidBanner />
       <Services />
+      <TechStack />
       <Portfolio />
       <TeamMember />
       <Testimonial />

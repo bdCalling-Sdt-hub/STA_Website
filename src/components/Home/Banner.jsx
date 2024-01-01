@@ -66,7 +66,7 @@ const Banner = () => {
             <br />
             <span className="text-white">Spectacular</span>
           </h1>
-          <p className={`${dm_sans.className} text-white text-[22px] mt-[30px]`}>
+          <p className={`${dm_sans.className} text-white text-[22px] mt-[30px] mr-8`}>
             Sparktech specializes in turning ideas into amazing software solutions such as mobile apps, web design, and UI/UX design. Our expertise fuels creativity, bringing your concepts to life with cutting-edge technology. With our specialized software services, you may get from inspiration to extraordinary results.
           </p>
           {/* <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all z-30 hover:bg-gradient-to-r from-[#99D31B] to-[#6D9613]`}>
@@ -86,18 +86,18 @@ const Banner = () => {
           </Link>
 
 
-          <Image onClick={scrollWin} className="animate-bounce ml-[660px] z-50 mt-2" src="/images/shape/scrol.png" alt="" width={36} height={56} />
+          {/* <Image onClick={scrollWin} className="animate-bounce ml-[660px] z-50 mt-2" src="/images/shape/scrol.png" alt="" width={36} height={56} /> */}
         </div>
 
         {/* --------------- */}
         <div className="flex justify-center items-center w-[563px] h-[549px] z-10  col-span-4" data-aos="fade-down">
-          <img style={{ height: '100%', width: "100%" }} src="/images/banner.svg" alt="banner image" />
+          <img style={{ height: '100%', width: "100%" }} src="/images/banner.png" alt="banner image" />
         </div>
 
         {/* --------------- */}
       </div>
 
-      <div className={`${poppins.className} bg-[#99D31B] h-[100px] mt-[100px] flex items-center justify-center transform`}>
+      <div className={`${poppins.className} bg-[#99D31B] h-[100px] mt-[30px] flex items-center justify-center transform`}>
 
         <marquee width="1900" className="text-[52px] text-white text-center font-bold">MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER</marquee>
 
@@ -116,7 +116,7 @@ const Banner = () => {
         <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" />
         <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/5.png" alt="" />
         <img className="absolute top-[150px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-        <img className="absolute bottom-[200px] left-[1180px] animate-round-rotate" src="/images/shape/7.png" alt="" />
+        {/* <img className="absolute bottom-[200px] left-[1180px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}
         <img className="absolute bottom-[200px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
         <img className="absolute bottom-[400px] left-[160px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
         <img className="absolute top-[150px] left-[200px] animate-round-rotate360" src="/images/shape/3.png" alt="" />

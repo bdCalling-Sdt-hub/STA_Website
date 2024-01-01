@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Services = () => {
 
-    const { serviceList } = ServiceList;
+    const { homeServiceList } = ServiceList;
 
 
     return (
@@ -25,10 +25,10 @@ const Services = () => {
 
                 <div className="container grid grid-cols-3 mt-[124px] z-50">
                     {
-                        serviceList.map((service, index) => (
+                        homeServiceList.map((service, index) => (
                             <div key={index} className='relative group p-4' data-aos="flip-left" data-aos-duration="3000">
                                 <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-5000">
-                                    <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
+                                    <img className='absolute -top-16' src={service.image} alt="" />
                                     <div className='my-auto skew-y-6'>
                                         <h1 className={`${poppins.className} text-white font-bold text-[24px]`}>{service.title}</h1>
                                         <p className={`${dm_sans.className} text-white text-[16px] mt-[28px] p-2`}>{service.description}</p>

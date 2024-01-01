@@ -23,7 +23,7 @@ const Achievement = () => {
 
                             <div className='my-auto skew-y-6'>
                                 <h1 className={`${poppins.className} text-white text-[52px] font-semibold mt-2`}>214+</h1>
-                                <p className={`${dm_sans.className} text-white text-[16px] font-normal`}>Saticfied Custimer</p>
+                                <p className={`${dm_sans.className} text-white text-[16px] font-normal`}>Satisfied Customer</p>
 
                             </div>
 

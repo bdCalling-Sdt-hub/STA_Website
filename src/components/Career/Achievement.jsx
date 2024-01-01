@@ -17,7 +17,7 @@ const Achievement = () => {
 
                             <div className='my-auto'>
                                 <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[52px] font-semibold`}>214+</h1>
-                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Saticfied Custimer</p>
+                                <p className={`${dm_sans.className} text-white text-[16px] mt-[10px] font-normal`}>Satisfied Customer</p>
                             </div>
 
                         </div>

@@ -19,12 +19,12 @@ const About = () => {
         <div data-aos="fade-down-left">
           <div className="grid grid-cols-2 mt-[40px]">
             <div>
-              <img className="-ms-5" src="/images/software_dev.png" alt="" />
+              <img className="-ms-5" src="/images/vision.png" alt="" />
               <p className={`${poppins.className} text-[#99D31B] text-[18px] font-medium`}>Our vision</p>
               <p className={`${dm_sans.className} text-[#EBEBEB] text-[18px] font-normal mt-[15px]`}>We envision a world in which organizations prosper and individuals realize their goals with the help of our seamless digital solutions.</p>
             </div>
             <div>
-              <img className="-ms-5" src="/images/software_dev.png" alt="" />
+              <img className="-ms-5" src="/images/mission.png" alt="" />
               <p className={`${poppins.className} text-[#99D31B] text-[18px] font-medium`}>Our mission</p>
               <p className={`${dm_sans.className} text-[#EBEBEB] text-[18px] font-normal mt-[15px]`}>We thrive on our mission to provide exceptional digital product solutions that fuel growth, optimize operations, and improve customer experiences to businesses of all sizes.</p>
             </div>
