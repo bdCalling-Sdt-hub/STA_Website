@@ -25,7 +25,7 @@ const Industry = () => {
             <div className='container flex flex-col items-center' data-aos="fade-down-right">
                 <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B]`}>INDUSTRY</p>
                 <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px] text-center`}>
-                    Do You Wants to Create World-<br />
+                    Do You Want to Create World-<br />
                     <span className='inline-block mx-auto'>Class Digital Products?</span>
                 </p>
             </div>
@@ -67,7 +67,7 @@ const Industry = () => {
 
             <div>
                 <img className="absolute top-[2650px] right-[420px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                
+
             </div>
 
             {/* <div className="relative">

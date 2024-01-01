@@ -11,6 +11,8 @@ import { useEffect } from "react";
 import { dm_sans, poppins } from "@/pages/_app";
 import Image from "next/image";
 import Link from "next/link";
+import Lottie from "react-lottie-player";
+import weblottie from "../../../public/lottie/weblottie";
 
 const Banner = () => {
 
@@ -91,7 +93,13 @@ const Banner = () => {
 
         {/* --------------- */}
         <div className="flex justify-center items-center w-[563px] h-[549px] z-10  col-span-4" data-aos="fade-down">
-          <img style={{ height: '100%', width: "100%" }} src="/images/banner.png" alt="banner image" />
+          {/* <img style={{ height: '100%', width: "100%" }} src="/images/banner.png" alt="banner image" /> */}
+          <Lottie
+            loop
+            animationData={weblottie}
+            play
+            style={{ width: 500, height: 500 }}
+          />
         </div>
 
         {/* --------------- */}

@@ -30,7 +30,7 @@ const Deliverables = () => {
                                 <div>
                                     <div className="flex items-center">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>User Flowr</p>
+                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>User Flow </p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
@@ -72,7 +72,7 @@ const Deliverables = () => {
                                 <div>
                                     <div className="flex items-center">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>User Flowr</p>
+                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>User Flow </p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
