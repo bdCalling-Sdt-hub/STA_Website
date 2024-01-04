@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from "react";
 import videos from "../../../public/db/video.json";
 import TopHeading from "../Common/TopHeading";

@@ -1,3 +1,5 @@
+"use client"
+
 import "@/styles/globals.css";
 import 'animate.css';
 import AOS from 'aos';

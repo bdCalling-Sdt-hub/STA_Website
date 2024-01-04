@@ -1,3 +1,5 @@
+"use client"
+
 import ExpertCard from "@/components/Common/Expert.Card";
 import Subscribe from "@/components/Common/Subscribe";
 import TopHeading from "@/components/Common/TopHeading";

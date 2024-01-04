@@ -1,5 +1,6 @@
 
 /* eslint-disable @next/next/no-html-link-for-pages */
+"use client"
 
 import { Button } from "@/components/ui/button";
 import { poppins } from "@/pages/_app";

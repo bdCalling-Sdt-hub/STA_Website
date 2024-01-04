@@ -1,3 +1,5 @@
+"use client"
+
 import { dm_sans, poppins } from '@/pages/_app';
 import React, { useState } from 'react';
 
