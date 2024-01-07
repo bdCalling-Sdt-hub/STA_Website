@@ -12,7 +12,7 @@ const FAQ = () => {
     };
 
     const isItemSelected = (name) => selectedItem === name;
-
+ 
     return (
         <div className="pt-[190px] pb-14 container">
 
