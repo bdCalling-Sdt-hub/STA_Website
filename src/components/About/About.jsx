@@ -30,12 +30,12 @@ const About = () => {
             </div>
           </div>
 
-          <div class="divide-y divide-[#858585] mt-[30px] mb-[30px]">
+          {/* <div class="divide-y divide-[#858585] mt-[30px] mb-[30px]">
             <div></div>
             <div></div>
-          </div>
+          </div> */}
 
-          <div className="flex gap-3">
+          {/* <div className="flex gap-3">
             <div>
               <img src="/images/solar_call-medicine-broken.png" alt="" />
             </div>
@@ -43,7 +43,7 @@ const About = () => {
               <p className={`${poppins.className} font-family: Roboto text-[20px] font-medium text-white`}>+88 01321231802</p>
               <p className={`${dm_sans.className} font-family: Roboto text-[14px] font-medium text-[#D6D6D6]`}>Call For More Information</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
       </div>

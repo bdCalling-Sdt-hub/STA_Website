@@ -14,8 +14,8 @@ const PortfolioDetails = () => {
     const route = useRouter();
     const id = route.query.id;
     const { portfolioList } = PortfolioList;
-    const portfolio = portfolioList.find(portfolio => portfolio.id.toString() === id);
-    console.log(portfolio.projectInfo.clientName)
+    const portfolio = portfolioList?.find(portfolio => portfolio?.id?.toString() === id);
+
 
 
     return (
@@ -34,20 +34,21 @@ const PortfolioDetails = () => {
                     <p className={`${dm_sans.className} text-[#D6D6D6] text-[22px] font-medium`} data-aos="fade-left">{portfolio?.title.join(" - ")}</p>
                 </div>
 
-                <div style={{ boxShadow: "0px 0px 30px 0px rgba(255, 255, 255, 0.07)", borderRadius: "15px" }} className='col-span-4 w-[424px]' data-aos="fade-down">
+                <div style={{ boxShadow: "0px 0px 30px 0px rgba(255, 255, 255, 0.07)", borderRadius: "15px", height: "280px" }}
+                    className='col-span-4  w-[424px]' data-aos="fade-down">
                     <div className='h-[90px] border border-[#99D31B] text-center rounded-t-xl flex items-center justify-center'>
                         <p className={`${poppins.className} text-white text-[34px] font-semibold justify-center`}>Project Information</p>
                     </div>
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
-                        <p>CLIENT NAME</p>
-                        <p>{portfolio.projectInfo.clientName}</p>
+                        <p>CLIENT DOMAIN</p>
+                        <p>{portfolio?.projectInfo?.domainName}</p>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>CATEGORY</p>
-                        <p>{portfolio.projectInfo.category}</p>
+                        <p>{portfolio?.projectInfo?.category}</p>
                     </div>
-                    <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
+                    {/* <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>Start Date:</p>
                         <p>{portfolio.projectInfo.startDate}</p>
@@ -61,7 +62,7 @@ const PortfolioDetails = () => {
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>Tag:</p>
                         <p>{portfolio.projectInfo.tag}</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

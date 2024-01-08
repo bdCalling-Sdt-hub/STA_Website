@@ -9,27 +9,27 @@ const RootLayout = ({ children }) => {
 
   const [showComponents, setShowComponents] = useState(false);
 
-  useEffect(() => {
-    // Delay the rendering of components by 5 seconds
-    const timeoutId = setTimeout(() => {
-      setShowComponents(true);
-    }, 5000);
+  // useEffect(() => {
+  //   // Delay the rendering of components by 5 seconds
+  //   const timeoutId = setTimeout(() => {
+  //     setShowComponents(true);
+  //   }, 5000);
 
-    // Cleanup function to clear the timeout in case the component unmounts
-    return () => clearTimeout(timeoutId);
+  //   // Cleanup function to clear the timeout in case the component unmounts
+  //   return () => clearTimeout(timeoutId);
 
-  }, []);
+  // }, []);
 
   return (
     <div>
 
-      {showComponents == false ? <Welcome /> :
-        <>
-          <Navbar />
-          {children}
-          <Footer />
-        </>
-      }
+      {/* {showComponents == false ? <Welcome /> : */}
+      <>
+        <Navbar />
+        {children}
+        <Footer />
+      </>
+      {/* } */}
 
     </div>
   );
