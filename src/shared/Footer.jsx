@@ -25,7 +25,7 @@ const Footer = () => {
 
       <div className="container py-16 bg-[#333] rounded-[40px]">
         <div className="grid grid-cols-6 gap-8 text-base-content">
-          <aside className="col-span-2 px-8">
+          <aside className="lg:col-span-2 col-span-12 px-8">
             <a href="#">
               <Image
                 src="/images/logo.png"
@@ -84,9 +84,9 @@ const Footer = () => {
 
           </aside>
 
-          <div className="col-span-4">
-            <div className="flex">
-              <nav className="">
+          <div className="lg:col-span-4 col-span-12">
+            <div className="flex lg:flex-row flex-col">
+              <nav className="ms-12">
                 <header className={`${poppins.className} font-bold mb-6 text-white`}>SERVICES</header>
                 {services.map((link, index) => (
                   <Link
@@ -99,7 +99,7 @@ const Footer = () => {
                 ))}
               </nav>
 
-              <nav className="ms-40">
+              <nav className="lg:ms-40 ms-12 lg:mt-0 mt-12">
                 <header className={`${poppins.className} font-bold mb-6 text-white`}>INFORMATION</header>
                 {usefulLinks.map((link, index) => (
                   <Link
@@ -112,7 +112,7 @@ const Footer = () => {
                 ))}
               </nav>
 
-              <nav className="ms-20">
+              <nav className="lg:ms-20 ms-12">
                 <header className="font-bold mb-12"></header>
 
                 {usefulLinks2.map((link, index) => (
@@ -134,7 +134,7 @@ const Footer = () => {
                   {/* <label className="label">
                     <span className="label-text">Enter your email address</span>
                   </label> */}
-                  <div className="join w-[648px] h-[60px]">
+                  <div className="join lg:w-[648px] w-[350px] h-[60px]">
                     <input type="text" placeholder="Email Address" className={`${dm_sans.className} input input-bordered join-item h-[60px] w-[448px] bg-[#5C5C5C] text-[#D6D6D6] placeholder:text-[#D6D6D6]`} />
 
                     <button className={`${dm_sans.className} btn bg-[#99D31B] px-[8px] py-[21px] h-[60px] text-white rounded-lg join-item border-4 border-[#5C5C5C]`}>Subscribe Now</button>
@@ -150,16 +150,16 @@ const Footer = () => {
 
       <div className="py-[36px] text-center">
         <div className="container">
-          <a href="#" className={`${dm_sans.className} mr-1 px-1 text-[#D6D6D6]`}>
-            Copyright 2023 Theme by <span className={`${dm_sans.className} text-[#99D31B]`}>Sparktech.Agency</span> | All Rights Reserved
+          <a href="#" className={`${dm_sans.className} mr-1 lg:px-1 text-[#D6D6D6]`}>
+            Copyright 2023 Theme by <span className={`${dm_sans.className} text-[#99D31B] lg:text-[18px] text-[12px]`}>Sparktech.Agency</span> | All Rights Reserved
           </a>
 
         </div>
       </div>
 
       <div className='relative'>
-        <img className="absolute -top-[150px] left-[180px] animate-round-rotate360 -z-0" src="/images/shape/6.png" alt="" />
-        <img className="absolute -top-[250px] right-[180px] animate-round-rotate -z-0" src="/images/shape/4.png" alt="" />
+        <img className="absolute -top-[150px] left-[180px] animate-round-rotate360 -z-0 lg:visible invisible" src="/images/shape/6.png" alt="" />
+        <img className="absolute -top-[250px] right-[180px] animate-round-rotate -z-0 lg:visible invisible" src="/images/shape/4.png" alt="" />
       </div>
     </footer>
   );
