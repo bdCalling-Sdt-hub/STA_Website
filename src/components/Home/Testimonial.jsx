@@ -24,59 +24,63 @@ const Testimonial = () => {
       data-aos-easing="linear"
       data-aos-duration="1500">
       <div>
-        <HeadingText sTitle={"TESTIMONIAL"} title={"Some Words From Our Happy"} subTitle={"Clients"} />
+        <HeadingText sTitle={"TESTIMONIAL"} title={"Some Words From Our"} subTitle={"Happy Clients"} />
       </div>
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-12">
 
-        <Swiper
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          modules={[Navigation]}
-          spaceBetween={60}
-          // slidesPerView={1}
-          navigation={
-            true}
-          style={swiperContainerStyle}
-        >
-          {testimonialList.map((testimonial, index) => (
-            <SwiperSlide key={index} className="mt-16">
-              <div className="p-5 relative w-[424px] text-center">
+        <div className="lg:col-span-6 col-span-12">
+          <Swiper
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            modules={[Navigation]}
+            spaceBetween={60}
+            // slidesPerView={1}
+            navigation={
+              true}
+            style={swiperContainerStyle}
+          >
+            {testimonialList.map((testimonial, index) => (
+              <SwiperSlide key={index} className="mt-16">
+                <div className="p-5 relative w-[424px] h-[400px] text-center">
 
-                <div className="absolute top-4 -left-4">
-                  <Image
-                    src={testimonial?.qutes66}
-                    className="w-[36px] h-[29px]"
-                    alt=""
-                    width={200}
-                    height={200}
-                  />
+                  <div className="absolute top-4 -left-4">
+                    <Image
+                      src={testimonial?.qutes66}
+                      className="w-[36px] h-[29px]"
+                      alt=""
+                      width={150}
+                      height={150}
+                    />
+                  </div>
+                  <p className={`${dm_sans.className} text-white text-start lg:w-[424px] h-[200px] lg:text-[24px] text-[20px] ml-2`}>{testimonial?.feedback}</p>
+                  <div className="absolute lg:bottom-32 bottom-40 lg:-right-2 right-20 p-1 ">
+                    <Image
+                      src={testimonial?.qutes99}
+                      className="w-[36px] h-[29px]"
+                      alt=""
+                      width={200}
+                      height={200}
+                    />
+                  </div>
+
+                  <div>
+                    <div className="mt-8 ms-8 text-left">
+                      <h2 className={`${poppins.className} text-[#99D31B] text-[24px] font-normal`}>{testimonial?.name}</h2>
+                      <p className={`${dm_sans.className} text-white text-[16px] font-normal`}>{testimonial?.designation}</p>
+                    </div>
+                  </div>
                 </div>
-                <p className={`${dm_sans.className} text-white text-start text-[24px] ml-2`}>{testimonial?.feedback}</p>
-                <div className="absolute bottom-4 -right-2 p-1 ">
-                  <Image
-                    src={testimonial?.qutes99}
-                    className="w-[36px] h-[29px]"
-                    alt=""
-                    width={200}
-                    height={200}
-                  />
-                </div>
-              </div>
 
-              <div>
-                <div className="mt-8 ms-8">
-                  <h2 className={`${poppins.className} text-[#99D31B] text-[24px] font-family: Roboto; font-normal`}>{testimonial?.name}</h2>
-                  <p className={`${dm_sans.className} text-white  text-[16px] font-family: Roboto; font-normal`}>{testimonial?.designation}</p>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))
-          }
-        </Swiper >
 
-        <div data-aos="zoom-in">
+              </SwiperSlide>
+            ))
+            }
+          </Swiper >
+        </div>
+
+        <div className="lg:col-span-6 col-span-12 lg:mt-[0px] mt-[50px]" data-aos="zoom-in">
           <img className="mt-[40px]" src="/images/testimonial-image.png" alt="" />
         </div>
 

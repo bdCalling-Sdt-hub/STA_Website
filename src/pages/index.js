@@ -26,8 +26,8 @@ const HomePage = () => {
       <TechStack />
       <Portfolio />
       <TeamMember />
-      {/*  <Testimonial />
-      <JoinUs /> */}
+      <Testimonial />
+      {/*   <JoinUs /> */}
     </div>
   );
 };
