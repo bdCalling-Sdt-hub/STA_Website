@@ -15,22 +15,22 @@ const MidBanner = () => {
     <div className=" h-auto lg:mt-[157px] mt-[60px]" >
       <div className="grid grid-cols-12 gap-20 items-center container">
 
-        <div className="w-[624px] h-[513px] lg:col-span-6 col-span-12" data-aos="fade-down-right">
+        <div className="lg:w-[624px] lg:h-[513px] w-[380px] h-[312px] lg:col-span-6 col-span-12" data-aos="fade-down-right">
           <img src="/images/mid-banner.png" alt="banner image" />
         </div>
 
 
         <div className="space-y-8 lg:col-span-6 col-span-12" data-aos="fade-down-left">
           <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>WHY CHOOSE US</p>
-          <h1 className={`${poppins.className} font-semibold leading-tight text-[54px]`}>
+          <h1 className={`${poppins.className} font-semibold lg:leading-tight lg:text-[54px] text-[30px]`}>
             <span className="text-white">We&#39;re Best In Software </span>
             <br />
             <span className="text-white">Development</span>
           </h1>
-          <p className={`${dm_sans.className} text-white text-[22px]`}>
+          <p className={`${dm_sans.className} text-white lg:text-[22px] text-[16px] lg:mr-0 mr-8`}>
             Software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing team skilled in the technologies.
           </p>
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2 gap-5">
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
               <p className={`${dm_sans.className} text-white text-[20px]`}>Assured Services</p>

@@ -21,10 +21,10 @@ const HomePage = () => {
         <title>Home | Spark Tech</title>
       </Head>
       <Banner />
-      {/* <MidBanner /> */}
-      {/*  <Services />
+      <MidBanner />
+      <Services />
       <TechStack />
-      <Portfolio />
+      {/*  <Portfolio />
       <TeamMember />
       <Testimonial />
       <JoinUs /> */}

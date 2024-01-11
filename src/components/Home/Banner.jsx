@@ -82,12 +82,14 @@ const Banner = () => {
           </Button> */}
 
           <Link href={'/about'}>
-            <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] lg:ms-0 ms-12 transition-all z-30 hover:from-[#99D31B] hover:via-[#99D31B] hover:to-[#6D9613]`}>
-              Get Started
-              <span className="ms-[10px]">
-                <FaArrowRight />
-              </span>
-            </Button>
+            <div className="lg:text-left text-center">
+              <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all z-30 hover:from-[#99D31B] hover:via-[#99D31B] hover:to-[#6D9613]`}>
+                Get Started
+                <span className="ms-[10px]">
+                  <FaArrowRight />
+                </span>
+              </Button>
+            </div>
           </Link>
 
 
@@ -107,9 +109,9 @@ const Banner = () => {
         {/* --------------- */}
       </div>
 
-      <div className={`${poppins.className} bg-[#99D31B] h-[100px] lg:mt-[50px] mt-[60px] flex items-center justify-center transform`}>
+      <div className={`${poppins.className} bg-[#99D31B] h-[100px] lg:mt-[100px] mt-[60px] flex items-center justify-center transform`}>
 
-        <marquee width="1900" scrollamount="25" className="text-[52px] text-white text-center font-bold">MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER</marquee>
+        <marquee width="2200" scrollamount="25" className="text-[52px] text-white text-center font-bold">MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER</marquee>
 
       </div>
 
