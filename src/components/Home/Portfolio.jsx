@@ -22,7 +22,7 @@ const Portfolio = () => {
             <div className='text-center'>
                 <div data-aos="zoom-in">
                     <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>PORTFOLIO</p>
-                    <h1 className={`${poppins.className} mt-[15px] text-4xl font-semibold text-[54px] leading-tight`}>
+                    <h1 className={`${poppins.className} mt-[15px] font-semibold lg:text-[54px] text-[30px] lg:leading-tight`}>
                         <span className="text-white">Let&#39;s Check Some Awesome Work</span>
                         <br />
                         <span className="text-white">From SparkTech</span>
@@ -38,18 +38,36 @@ const Portfolio = () => {
                 >
                     <Swiper
                         spaceBetween={18}
-                        slidesPerView={5}
+                        slidesPerView={1}
+                        breakpoints={{
+                            428: {
+                                slidesPerView: 1.5,
+                                spaceBetween: 18,
+                            },
+                            640: {
+                                slidesPerView: 1.5,
+                                spaceBetween: 18,
+                            },
+                            768: {
+                                slidesPerView: 1.5,
+                                spaceBetween: 18,
+                            },
+                            1024: {
+                                slidesPerView: 5,
+                                spaceBetween: 18,
+                            },
+                        }}
                         style={swiperContainerStyle}
                     >
                         {portfolioList.map((portfolio, index) => (
                             <SwiperSlide key={index}>
                                 <div className='relative group mt-[70px]' data-aos="zoom-in">
-                                    <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px] hover:bg-gradient-to-t from-[#99d31bc3] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
+                                    <div className="flex flex-col items-center border-[1px] bg-[#222222] border-[#222222] transform rounded-[10px] h-[528px]  hover:bg-gradient-to-t from-[#99d31bc3] via-[#222222] to-[#222222] hover:border-[#99D31B]  transition duration-700">
                                         <img className='mt-[30px] h-[50px] w-[50px]' src={portfolio.icon} alt="" />
                                         <p className={`${poppins.className} text-[24px] text-white`}>{portfolio.iconTitle}</p>
                                         <div className='mt-[33px] flex gap-3'>
                                             {portfolio.title.map((t, index) => (
-                                                <p key={index} className={`${dm_sans.className} flex items-center group-hover:bg-[#99D31B] h-[26px] bg-[#5C5C5C] p-4 rounded-full text-white text-[10px]`}>{t}</p>
+                                                <p key={index} className={`${dm_sans.className} flex items-center group-hover:bg-[#99D31B] h-[26px] bg-[#5C5C5C] lg:p-4 p-2 rounded-full text-white text-[10px]`}>{t}</p>
                                             ))}
                                         </div>
                                         <img className='mt-[50px]' src={portfolio.bottomImage} alt="" />

@@ -18,16 +18,16 @@ const TeamMember = () => {
             <div className='text-center'>
                 <div data-aos="zoom-out-right">
                     <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>Expert Member</p>
-                    <h1 className={`${poppins.className} font-semibold leading-tight text-[54px]`}>
+                    <h1 className={`${poppins.className} font-semibold lg:leading-tight lg:text-[54px] text-[34px] mt-[15px]`}>
                         <span className="text-white">Meet Our Team</span>
                     </h1>
                 </div>
 
-                <div className="container grid grid-cols-3 mt-[274px] gap-y-[200px]">
+                <div className="container grid lg:grid-cols-3 grid-cols-1 mt-[274px] gap-y-[200px]">
                     {
                         teamList.slice(0, 3).map((team, index) => (
-                            <div key={index} className='relative group p-4' data-aos="zoom-in">
-                                <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] w-[424px] h-[300px] hover:bg-[#99D31B] transition duration-700 -z-10">
+                            <div key={index} className='relative group lg:p-4' data-aos="zoom-in">
+                                <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] lg:w-[424px] w-[380px] h-[300px] hover:bg-[#99D31B] transition duration-700 -z-10">
                                     <img className='-mt-[163px] w-[227px] z-10' src={team.image} alt="" />
                                     <div className='absolute bottom-[00px] bg-[#99D31B] w-full rounded-b-[50px] h-[120px] z-20' style={{
                                         boxShadow: "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px "

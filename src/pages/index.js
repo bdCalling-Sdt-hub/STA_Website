@@ -24,9 +24,9 @@ const HomePage = () => {
       <MidBanner />
       <Services />
       <TechStack />
-      {/*  <Portfolio />
+      <Portfolio />
       <TeamMember />
-      <Testimonial />
+      {/*  <Testimonial />
       <JoinUs /> */}
     </div>
   );

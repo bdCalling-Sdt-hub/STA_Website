@@ -109,7 +109,7 @@ const Banner = () => {
         {/* --------------- */}
       </div>
 
-      <div className={`${poppins.className} bg-[#99D31B] h-[100px] lg:mt-[100px] mt-[60px] flex items-center justify-center transform`}>
+      <div className={`${poppins.className} bg-[#99D31B] h-[100px] lg:mt-[60px] mt-[60px] flex items-center justify-center transform`}>
 
         <marquee width="2200" scrollamount="25" className="text-[52px] text-white text-center font-bold">MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER</marquee>
 
