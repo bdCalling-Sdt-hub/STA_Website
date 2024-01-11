@@ -12,7 +12,7 @@ const TeamMember = () => {
     return (
         <div className="h-auto mt-[150px] pb-14 relative">
 
-            <img className="absolute bottom-[50px] left-[00px]" src="/images/shape/9.png" alt="" />
+            <img className="absolute hidden bottom-[50px] left-[00px]" src="/images/shape/9.png" alt="" />
 
 
             <div className='text-center'>
@@ -93,10 +93,10 @@ const TeamMember = () => {
             </div>
 
             <div className="relative">
-                <img className="absolute bottom-[550px] left-[650px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute -top-[20px] left-[200px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute top-[0px] right-[150px] animate-round-rotate" src="/images/shape/4.png" alt="" />
-                <img className="absolute bottom-[550px] right-[250px] animate-round-rotate360" src="/images/shape/2.png" alt="" />
+                <img className="absolute lg:visible hidden bottom-[550px] left-[650px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute lg:visible invisible -top-[20px] left-[200px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute lg:visible invisible top-[0px] right-[150px] animate-round-rotate" src="/images/shape/4.png" alt="" />
+                <img className="absolute lg:visible invisible bottom-[550px] right-[250px] animate-round-rotate360" src="/images/shape/2.png" alt="" />
             </div>
 
         </div>

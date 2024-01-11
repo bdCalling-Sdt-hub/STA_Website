@@ -85,13 +85,13 @@ const Testimonial = () => {
         </div>
 
 
-        <div className='relative'>
+        <div className='relative lg:visible hidden'>
           <img className="absolute bottom-[00px] left-[950px] w-[1096px]" src="/images/shape/10.png" alt="" />
         </div>
 
       </div >
 
-      <div className="relative">
+      <div className="relative hidden">
         <img className="absolute top-[0px] -left-[100px] animate-round-rotate" src="/images/shape/11.png" alt="" />
         <img className="absolute top-[130px] -right-[180px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
         <img className="absolute bottom-[600px] -right-[150px] animate-round-rotate360" src="/images/shape/2.png" alt="" />

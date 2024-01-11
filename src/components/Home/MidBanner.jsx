@@ -12,15 +12,16 @@ import { dm_sans, poppins } from "@/pages/_app";
 const MidBanner = () => {
 
   return (
-    <div className=" h-auto lg:mt-[157px] mt-[60px]" >
-      <div className="grid grid-cols-12 gap-20 items-center container">
+    <div className=" h-auto lg:mt-[157px] mt-[60px] container" >
 
-        <div className="lg:w-[624px] lg:h-[513px] w-[380px] h-[312px] lg:col-span-6 col-span-12" data-aos="fade-down-right">
+
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div className="lg:h-[513px] lg:w-[624px] w-[380px] h-[312px]" data-aos="fade-down-right">
           <img src="/images/mid-banner.png" alt="banner image" />
         </div>
 
 
-        <div className="space-y-8 lg:col-span-6 col-span-12" data-aos="fade-down-left">
+        <div className="lg:space-y-8 " data-aos="fade-down-left">
           <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>WHY CHOOSE US</p>
           <h1 className={`${poppins.className} font-semibold lg:leading-tight lg:text-[54px] text-[30px]`}>
             <span className="text-white">We&#39;re Best In Software </span>
@@ -30,7 +31,7 @@ const MidBanner = () => {
           <p className={`${dm_sans.className} text-white lg:text-[22px] text-[16px] lg:mr-0 mr-8`}>
             Software operations through a custom engineering team. Meet the demand of your company’s operations with a high-performing team skilled in the technologies.
           </p>
-          <div className="grid lg:grid-cols-2 gap-5">
+          <div className="grid lg:grid-cols-2 lg:mt-0 mt-8 gap-5">
             <div className="flex items-center">
               <img src="/images/mid-banner-star.png" alt="" />
               <p className={`${dm_sans.className} text-white text-[20px]`}>Assured Services</p>
@@ -49,9 +50,14 @@ const MidBanner = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="grid grid-cols-12 gap-20 items-center container">
+
+
 
         {/* ----------------- */}
-        <div className="relative">
+        <div className="relative lg:visible hidden">
           {/* <img className="absolute top-[100px] left-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
           <img className="absolute " src="/images/shape/2.png" alt="" />
           <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/3.png" alt="" />
