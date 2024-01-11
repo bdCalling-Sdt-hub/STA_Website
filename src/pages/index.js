@@ -27,7 +27,7 @@ const HomePage = () => {
       <Portfolio />
       <TeamMember />
       <Testimonial />
-      {/*   <JoinUs /> */}
+      <JoinUs />
     </div>
   );
 };

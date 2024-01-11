@@ -4,7 +4,7 @@ const TopHeading = ({ blueText, description = "" }) => {
   return (
     <div className="text-center">
       <h2 className={`${dm_sans.className} text-[24px] text-[#99D31B] font-normal`}>{blueText}</h2>
-      <p className={`${poppins.className} text-[54px] text-white font-semibold`}>{description}</p>
+      <p className={`${poppins.className} lg:text-[54px] text-[34px] text-white font-semibold`}>{description}</p>
     </div>
   );
 };
