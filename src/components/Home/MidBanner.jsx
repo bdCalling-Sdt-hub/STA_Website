@@ -12,14 +12,15 @@ import { dm_sans, poppins } from "@/pages/_app";
 const MidBanner = () => {
 
   return (
-    <div className=" h-auto mt-[157px]" >
-      <div className="grid grid-cols-2 gap-20 items-center container">
-        <div className="w-[624px] h-[513px]" data-aos="fade-down-right">
+    <div className=" h-auto lg:mt-[157px] mt-[60px]" >
+      <div className="grid grid-cols-12 gap-20 items-center container">
+
+        <div className="w-[624px] h-[513px] lg:col-span-6 col-span-12" data-aos="fade-down-right">
           <img src="/images/mid-banner.png" alt="banner image" />
         </div>
 
 
-        <div className="space-y-8" data-aos="fade-down-left">
+        <div className="space-y-8 lg:col-span-6 col-span-12" data-aos="fade-down-left">
           <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>WHY CHOOSE US</p>
           <h1 className={`${poppins.className} font-semibold leading-tight text-[54px]`}>
             <span className="text-white">We&#39;re Best In Software </span>

@@ -58,21 +58,22 @@ const Banner = () => {
   // animate__animated animate__backInRight
 
   return (
-    <div className="h-[860px] pb-14">
+    <div className="lg:h-[860px] pb-14">
 
       <div className="grid grid-cols-10 items-center container">
         {/* ---------------- */}
-        <div className="mt-[164px] col-span-6" data-aos="fade-up">
-          <h1 className={`text-[95px] w-[763px] font-medium leading-[105px] ${poppins.className}`}>
+        <div className="lg:mt-[164px] mt-[106px] lg:col-span-6 col-span-12" data-aos="fade-up">
+          <h1 className={`lg:text-[95px] lg:w-[763px] lg:font-medium lg:leading-[105px] w-full text-[40px] lg:text-left text-center ${poppins.className}`}>
             <span className="text-white">From </span>
             <span className="text-[#99D31B] font-semibold">Sparks </span>
             <span className="text-white">To</span>
             <br />
             <span className="text-white">Spectacular</span>
           </h1>
-          <p className={`${dm_sans.className} text-white text-[22px] mt-[30px] mr-8`}>
+          <p className={`${dm_sans.className} text-white lg:text-[20px] lg:mt-[60px] mr-8 text-[16px] mt-[15px] lg:text-left text-center`}>
             Sparktech specializes in turning ideas into amazing software solutions such as mobile apps, web design, and UI/UX design. Our expertise fuels creativity, bringing your concepts to life with cutting-edge technology. With our specialized software services, you may get from inspiration to extraordinary results.
           </p>
+
           {/* <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all z-30 hover:bg-gradient-to-r from-[#99D31B] to-[#6D9613]`}>
             Get Started
             <span className="ms-[10px]">
@@ -81,7 +82,7 @@ const Banner = () => {
           </Button> */}
 
           <Link href={'/about'}>
-            <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all z-30 hover:from-[#99D31B] hover:via-[#99D31B] hover:to-[#6D9613]`}>
+            <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] lg:ms-0 ms-12 transition-all z-30 hover:from-[#99D31B] hover:via-[#99D31B] hover:to-[#6D9613]`}>
               Get Started
               <span className="ms-[10px]">
                 <FaArrowRight />
@@ -94,8 +95,7 @@ const Banner = () => {
         </div>
 
         {/* --------------- */}
-        <div className="flex justify-center items-center w-[563px] h-[549px] z-10  col-span-4" data-aos="fade-down">
-          {/* <img style={{ height: '100%', width: "100%" }} src="/images/banner.png" alt="banner image" /> */}
+        <div className="flex justify-center items-center lg:w-[563px] lg:h-[549px] z-10  lg:col-span-4 col-span-12 mt-[47px]" data-aos="fade-down">
           <Lottie
             loop
             animationData={weblottie}
@@ -107,32 +107,34 @@ const Banner = () => {
         {/* --------------- */}
       </div>
 
-      <div className={`${poppins.className} bg-[#99D31B] h-[100px] mt-[30px] flex items-center justify-center transform`}>
+      <div className={`${poppins.className} bg-[#99D31B] h-[100px] lg:mt-[50px] mt-[60px] flex items-center justify-center transform`}>
 
         <marquee width="1900" scrollamount="25" className="text-[52px] text-white text-center font-bold">MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER</marquee>
 
       </div>
 
-      {/* <div className={`${poppins.className} bg-[#99D31B] h-[80px] mt-[150px] flex items-center justify-center transform skew-y-2`}>
-
-        <marquee width="1900" className="text-[42px] text-white text-center font-bold">UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT</marquee>
-
-      </div> */}
-
       <div>
-        <img className="absolute top-[100px] left-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
+        <img className="absolute lg:top-[100px] top-[85px] lg:left-[20px] lg:w-[92px] lg:h-[92px] h-[40px] w-[40px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
 
-        <img className="absolute bottom-[500px] right-[120px] animate-round-rotate z-10" src="/images/shape/3.png" alt="" />
-        <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" />
-        <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/5.png" alt="" />
-        <img className="absolute top-[150px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-        {/* <img className="absolute bottom-[200px] left-[1180px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}
-        <img className="absolute bottom-[200px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-        <img className="absolute bottom-[400px] left-[160px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-        <img className="absolute top-[150px] left-[200px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
-        <img className="absolute bottom-[150px] right-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
-        <img className="absolute -top-[20px] right-[13px]" src="/images/shape/8.png" alt="" />
+
+        <img className="absolute top-[80px] lg:left-[880px] left-[250px] lg:h-[142px] h-[68px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" />
+
+        <img className="absolute lg:bottom-[500px] lg:right-[120px] bottom-[-40px] right-[30px] lg:h-[42px] h-[24px] animate-round-rotate z-10" src="/images/shape/3.png" alt="" />
+        <img className="absolute lg:bottom-[500px] lg:right-[120px] bottom-[-50px] right-[30px] lg:h-[142px] h-[68px] animate-round-rotate" src="/images/shape/5.png" alt="" />
+
+        <img className="absolute lg:top-[150px] lg:right-[180px] animate-round-rotate360 invisible lg:visible" src="/images/shape/6.png" alt="" />
+
+        <img className="absolute lg:bottom-[200px] lg:right-[180px] right-[340px] bottom-[0px] block lg:animate-round-rotate360" src="/images/shape/6.png" alt="" />
+
+        <img className="absolute lg:bottom-[400px] lg:left-[160px] bottom-[150px] left-[350px] lg:animate-round-rotate360" src="/images/shape/6.png" alt="" />
+
+        <img className="absolute lg:top-[150px] lg:left-[200px] lg:animate-round-rotate360 invisible lg:visible" src="/images/shape/3.png" alt="" />
+
+        <img className="absolute lg:bottom-[200px] lg:right-[20px] right-[0px] bottom-[-370px] lg:w-[92px] lg:h-[92px] h-[40px] w-[40px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
+        <img className="absolute lg:-top-[20px] lg:right-[13px] invisible lg:visible" src="/images/shape/8.png" alt="" />
       </div>
+
+      {/* <img className="absolute bottom-[200px] left-[1180px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}
 
       {/* <img className="absolute " src="/images/shape/2.png" alt="" /> */}
       {/* <img className="absolute -top-[20px] right-[20px] animate-round-rotate inline-block" src="/images/shape/8.png" alt="" /> */}
