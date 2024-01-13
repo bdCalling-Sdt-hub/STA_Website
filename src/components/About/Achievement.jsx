@@ -12,12 +12,12 @@ const Achievement = () => {
             <div className='text-center'>
                 <div data-aos="zoom-in">
                     <p className={`${poppins.className} text-white text-[24px]`}><span className={`${poppins.className} text-[#99D31B] text-[24px]`}>We have a great</span> achievement</p>
-                    <h1 className={`${poppins.className} font-semibold leading-tight text-[54px] mt-[15px]`}>
+                    <h1 className={`${poppins.className} font-semibold leading-tight lg:text-[54px] text-[34px] mt-[15px]`}>
                         <span className="text-white">Our best achievement!</span>
                     </h1>
                 </div>
 
-                <div className="container grid grid-cols-4 mt-[124px]">
+                <div className="container grid lg:grid-cols-4 grid-cols-1 mt-[124px]">
                     <div className='relative group p-4' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform -skew-y-6 h-[190px] w-[312px] ${style.card}`}>
 
@@ -33,7 +33,7 @@ const Achievement = () => {
                         </div>
                     </div>
 
-                    <div className='relative group p-4' data-aos="zoom-in">
+                    <div className='relative group p-4  lg:mt-0 mt-[30px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform -skew-y-6  h-[190px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
@@ -46,7 +46,7 @@ const Achievement = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className='relative group p-4' data-aos="zoom-in">
+                    <div className='relative group p-4  lg:mt-0 mt-[30px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform -skew-y-6  h-[190px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>
@@ -59,7 +59,7 @@ const Achievement = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className='relative group p-4' data-aos="zoom-in">
+                    <div className='relative group p-4  lg:mt-0 mt-[30px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform -skew-y-6  h-[190px] w-[312px] ${style.card}`}>
 
                             <div className='my-auto skew-y-6'>

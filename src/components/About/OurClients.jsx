@@ -32,7 +32,7 @@ const OurClients = () => {
             <div className='text-center'>
                 <div data-aos="zoom-in">
                     <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>OUR CLIENTS</p>
-                    <h1 className={`${poppins.className} mt-[15px] font-semibold text-[54px] leading-tights`}>
+                    <h1 className={`${poppins.className} mt-[15px] font-semibold lg:text-[54px] text-[30px] leading-tights`}>
                         <span className="text-white">We Have Had The Pleasure Of</span>
                         <br />
                         <span className="text-white">Working Some Clients</span>
@@ -43,7 +43,13 @@ const OurClients = () => {
 
                 <Swiper
                     spaceBetween={18}
-                    slidesPerView={5}
+                    breakpoints={{
+                        428: { slidesPerView: 3 },
+                        640: { slidesPerView: 3 },
+                        768: { slidesPerView: 3 },
+                        1024: { slidesPerView: 5 },
+                        1920: { slidesPerView: 5 },
+                    }}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
