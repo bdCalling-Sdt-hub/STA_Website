@@ -124,16 +124,16 @@ const Banner = () => {
         <img className="absolute lg:bottom-[500px] lg:right-[120px] bottom-[-40px] right-[30px] lg:h-[42px] h-[24px] animate-round-rotate z-10" src="/images/shape/3.png" alt="" />
         <img className="absolute lg:bottom-[500px] lg:right-[120px] bottom-[-50px] right-[30px] lg:h-[142px] h-[68px] animate-round-rotate" src="/images/shape/5.png" alt="" />
 
-        <img className="absolute lg:top-[150px] lg:right-[180px] animate-round-rotate360 invisible lg:visible" src="/images/shape/6.png" alt="" />
+        <img className="absolute lg:top-[150px] lg:right-[180px] animate-round-rotate360 hidden lg:visible" src="/images/shape/6.png" alt="" />
 
         <img className="absolute lg:bottom-[200px] lg:right-[180px] right-[340px] bottom-[0px] block lg:animate-round-rotate360" src="/images/shape/6.png" alt="" />
 
         <img className="absolute lg:bottom-[400px] lg:left-[160px] bottom-[150px] left-[350px] lg:animate-round-rotate360" src="/images/shape/6.png" alt="" />
 
-        <img className="absolute lg:top-[150px] lg:left-[200px] lg:animate-round-rotate360 invisible lg:visible" src="/images/shape/3.png" alt="" />
+        <img className="absolute lg:top-[150px] lg:left-[200px] lg:animate-round-rotate360 hidden lg:visible" src="/images/shape/3.png" alt="" />
 
         <img className="absolute lg:bottom-[200px] lg:right-[20px] right-[0px] bottom-[-370px] lg:w-[92px] lg:h-[92px] h-[40px] w-[40px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
-        <img className="absolute lg:-top-[20px] lg:right-[13px] invisible lg:visible" src="/images/shape/8.png" alt="" />
+        <img className="absolute lg:-top-[20px] lg:right-[13px] hidden lg:visible" src="/images/shape/8.png" alt="" />
       </div>
 
       {/* <img className="absolute bottom-[200px] left-[1180px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}

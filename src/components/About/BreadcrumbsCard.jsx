@@ -25,14 +25,6 @@ const BreadcrumbsCard = ({ title, homePage, homePageLink, presentPage, presentPa
                                 <Link href={presentPageLink} className={`${poppins.className} text-[18px] ms-1 text-sm font-medium text-white hover:text-[#99D31B] md:ms-2 dark:text-gray-400 dark:hover:text-white`}>{presentPage}</Link>
                             </div>
                         </li>
-                        {/* <li aria-current="page">
-                            <div class="flex items-center">
-                                <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
-                                </svg>
-                                <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Flowbite</span>
-                            </div>
-                        </li> */}
                     </ol>
                 </nav>
             </div>
@@ -40,22 +32,26 @@ const BreadcrumbsCard = ({ title, homePage, homePageLink, presentPage, presentPa
                 <img className="absolute lg:top-[100px] top-[120px] lg:left-[20px] lg:h-[92px] h-[40px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
 
                 <img className="absolute lg:bottom-[500px] lg:right-[120px] bottom-[400px] right-[60px] lg:h-[48px] h-[17px] animate-round-rotate" src="/images/shape/3.png" alt="" />
-                {/* <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" /> */}
+
 
                 <img className="absolute lg:bottom-[500px] lg:right-[120px] bottom-[400px] right-[60px] lg:h-[142px] h-[51px] animate-round-rotate" src="/images/shape/5.png" alt="" />
 
                 <img className="absolute lg:top-[150px] lg:right-[180px] top-[450px] right-[100px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                {/* <img className="absolute bottom-[200px] left-[980px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}
+
                 <img className="absolute lg:bottom-[400px] lg:left-[280px] bottom-[400px] left-[80px] lg:h-[142px] h-[64px] animate-round-rotate" src="/images/shape/4.png" alt="" />
                 <img className="absolute lg:bottom-[420px] lg:left-[160px] bottom-[420px] left-[60px] lg:animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute bottom-[620px] right-[560px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute bottom-[620px] right-[560px] lg:visible invisible animate-round-rotate360" src="/images/shape/6.png" alt="" />
 
                 <img className="absolute lg:top-[150px] top-[150px] lg:left-[200px] left-[100px] lg:animate-round-rotate360" src="/images/shape/3.png" alt="" />
 
-                {/* <img className="absolute bottom-[150px] right-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" /> */}
-                <img className="absolute -top-[400px] -right-[300px] animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
-                <img className="absolute -top-[450px] -left-[400px] animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
+
+                <img className="absolute -top-[400px] -right-[300px] lg:visible hidden animate-round-rotate" src="/images/shape/8.png" alt="" />
+                <img className="absolute -top-[450px] -left-[400px] lg:visible invisible animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
             </div>
+
+            {/* <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" /> */}
+            {/* <img className="absolute bottom-[150px] right-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" /> */}
+            {/* <img className="absolute bottom-[200px] left-[980px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}
         </div>
     )
 }

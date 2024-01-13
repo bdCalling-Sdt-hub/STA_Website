@@ -77,8 +77,8 @@ const Services = () => {
 
 
             <div className="relative">
-                <img className="absolute bottom-[450px] right-[400px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute top-[100px] right-[200px] animate-round-rotate360 inline-block" src="/images/shape/2.png" alt="" />
+                <img className="absolute bottom-[450px] right-[400px] animate-round-rotate360 lg:visible hidden" src="/images/shape/6.png" alt="" />
+                <img className="absolute top-[100px] right-[200px] animate-round-rotate360 inline-block lg:visible hidden" src="/images/shape/2.png" alt="" />
             </div>
         </div>
     );
