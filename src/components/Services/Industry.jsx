@@ -23,8 +23,8 @@ const Industry = () => {
         <div className={`mt-[200px]`}>
 
             <div className='container flex flex-col items-center' data-aos="fade-down-right">
-                <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B]`}>INDUSTRY</p>
-                <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px] text-center`}>
+                <p className={`${dm_sans.className} lg:text-[24px] text-[16px] font-bold text-[#99D31B]`}>INDUSTRY</p>
+                <p className={`${poppins.className} lg:text-[54px] text-[34px] font-semibold text-white leading-tight mt-[18px] text-center`}>
                     Do You Want to Create World-<br />
                     <span className='inline-block mx-auto'>Class Digital Products?</span>
                 </p>
@@ -32,7 +32,14 @@ const Industry = () => {
 
             <Swiper
                 spaceBetween={18}
-                slidesPerView={5}
+                // slidesPerView={5}
+                breakpoints={{
+                    428: { slidesPerView: 1.3 },
+                    640: { slidesPerView: 1 },
+                    768: { slidesPerView: 1 },
+                    1024: { slidesPerView: 5 },
+                    1920: { slidesPerView: 5 },
+                }}
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
@@ -45,22 +52,16 @@ const Industry = () => {
                         <div className='relative group'>
                             <div className="flex flex-col items-center">
                                 <div className='relative group my-[100px]' data-aos="zoom-in">
-                                    <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
 
+                                    <div className={`flex flex-col items-center transform h-[197px] w-[312px] ${style.card} hover:bg-[#99D31B]`}>
                                         <div className='my-auto text-center'>
                                             <h1 className={`${poppins.className} group text-[#99D31B] group-hover:text-white text-[26px] font-semibold`}>{industry.title}</h1>
                                         </div>
-
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-
-
-
-
-
                     </SwiperSlide>
                 ))}
             </Swiper>

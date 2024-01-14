@@ -5,8 +5,8 @@ import { poppins } from "@/pages/_app";
 const BreadcrumbsCardDetails = ({ title, homePage, homePageLink, presentPage, presentPageLink, detailsPage }) => {
     return (
         <div className={style.bkImage}>
-            <div className="text-center mt-[60px]">
-                <p className={`${poppins.className} text-[75px] text-white font-medium`}>{title}</p>
+            <div className="text-center lg:mt-[60px] mt-[110px]">
+                <p className={`${poppins.className} lg:text-[75px] text-[32px] text-white font-medium`}>{title}</p>
                 <nav class="flex items-center justify-center" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                         <li class="inline-flex items-center">
@@ -37,21 +37,26 @@ const BreadcrumbsCardDetails = ({ title, homePage, homePageLink, presentPage, pr
                     </ol>
                 </nav>
             </div>
-            <div>
-                <img className="absolute top-[100px] left-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
 
-                <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/3.png" alt="" />
-                {/* <img className="absolute top-[80px] left-[880px] animate-round-rotate inline-block" src="/images/shape/4.png" alt="" /> */}
-                <img className="absolute bottom-[500px] right-[120px] animate-round-rotate" src="/images/shape/5.png" alt="" />
-                <img className="absolute top-[150px] right-[180px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                {/* <img className="absolute bottom-[200px] left-[980px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}
-                <img className="absolute bottom-[400px] left-[280px] animate-round-rotate" src="/images/shape/4.png" alt="" />
-                <img className="absolute bottom-[420px] left-[160px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute bottom-[620px] right-[560px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute top-[150px] left-[200px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
-                {/* <img className="absolute bottom-[150px] right-[20px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" /> */}
-                <img className="absolute -top-[400px] -right-[300px] animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
-                <img className="absolute -top-[450px] -left-[400px] animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
+            <div>
+                <img className="absolute lg:top-[100px] top-[120px] lg:left-[20px] lg:h-[92px] h-[40px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
+
+                <img className="absolute lg:bottom-[500px] lg:right-[120px] bottom-[400px] right-[60px] lg:h-[48px] h-[17px] animate-round-rotate" src="/images/shape/3.png" alt="" />
+
+
+                <img className="absolute lg:bottom-[500px] lg:right-[120px] bottom-[400px] right-[60px] lg:h-[142px] h-[51px] animate-round-rotate" src="/images/shape/5.png" alt="" />
+
+                <img className="absolute lg:top-[150px] lg:right-[180px] top-[450px] right-[100px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
+
+                <img className="absolute lg:bottom-[400px] lg:left-[280px] bottom-[400px] left-[80px] lg:h-[142px] h-[64px] animate-round-rotate" src="/images/shape/4.png" alt="" />
+                <img className="absolute lg:bottom-[420px] lg:left-[160px] bottom-[420px] left-[60px] lg:animate-round-rotate360" src="/images/shape/6.png" alt="" />
+                <img className="absolute bottom-[620px] right-[560px] lg:visible invisible animate-round-rotate360" src="/images/shape/6.png" alt="" />
+
+                <img className="absolute lg:top-[150px] top-[150px] lg:left-[200px] left-[100px] lg:animate-round-rotate360" src="/images/shape/3.png" alt="" />
+
+
+                <img className="absolute -top-[400px] -right-[300px] lg:visible hidden animate-round-rotate" src="/images/shape/8.png" alt="" />
+                <img className="absolute -top-[450px] -left-[400px] lg:visible invisible animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
             </div>
         </div>
     )

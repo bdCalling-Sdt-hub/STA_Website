@@ -5,7 +5,7 @@ import { dm_sans, poppins } from "@/pages/_app";
 const FreeConsulting = () => {
 
   return (
-    <div className="bg-[#99D31B] lg:h-[211px] h-[280px] lg:px-10  lg:mt-14">
+    <div className="bg-[#99D31B] lg:h-[211px] h-[280px] lg:px-10  lg:mt-14  mt-[60px]">
 
       <div className="grid lg:grid-cols-2 grid-cols-1 container">
         <div>

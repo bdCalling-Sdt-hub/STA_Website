@@ -10,19 +10,19 @@ const Deliverables = () => {
 
             <div className='relative text-center z-20'>
                 <div data-aos="zoom-in">
-                    <h1 className={`${poppins.className} font-semibold leading-tight text-[54px]`}>
+                    <h1 className={`${poppins.className} font-semibold leading-tight lg:text-[54px] text-[34px]`}>
                         <span className="text-white">Deliverables</span>
                     </h1>
                 </div>
 
                 {/* <hr className=" w-[118px]" style={{ marginTop: "15px", borderColor: '#384B0E', paddingLeft: "30px" }} /> */}
 
-                <div className="container grid grid-cols-2 gap-8 mt-[124px] z-50">
+                <div className="container grid lg:grid-cols-2 grid-cols-1 gap-8 mt-[124px] z-50">
                     <div data-aos="flip-left" data-aos-duration="3000">
                         <div className="border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px]">
 
                             <div className='skew-y-6 mt-[59px] ml-[30px]'>
-                                <p className='text-left font-semibold text-[24px] text-white'>UX Design:</p>
+                                <p className='text-left font-semibold lg:text-[24px] text-[18px] text-white'>UX Design:</p>
                                 <hr className='w-[128px]' style={{ borderWidth: "2px", marginTop: "5px", borderColor: "#99D31B" }} />
                             </div>
 
@@ -30,29 +30,29 @@ const Deliverables = () => {
                                 <div>
                                     <div className="flex items-center">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>User Flow </p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>User Flow </p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>Information Architecture</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>Information Architecture</p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>SWOT Analysis</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>SWOT Analysis</p>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="flex items-center">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>Competitor Analysis</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>Competitor Analysis</p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>Lo-fi Wireframes</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>Lo-fi Wireframes</p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>Hi-fi Wireframes</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>Hi-fi Wireframes</p>
                                     </div>
                                 </div>
                             </div>
@@ -72,29 +72,29 @@ const Deliverables = () => {
                                 <div>
                                     <div className="flex items-center">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>User Flow </p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>User Flow </p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>Information Architecture</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>Information Architecture</p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>SWOT Analysis</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>SWOT Analysis</p>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="flex items-center">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>Competitor Analysis</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>Competitor Analysis</p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>Lo-fi Wireframes</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>Lo-fi Wireframes</p>
                                     </div>
                                     <div className="flex items-center mt-[40px]">
                                         <img src="/images/mid-banner-star.png" alt="" />
-                                        <p className={`${dm_sans.className} text-white text-[20px] font-normal`}>Hi-fi Wireframes</p>
+                                        <p className={`${dm_sans.className} text-white text-left lg:text-[20px] text-[14px] font-normal`}>Hi-fi Wireframes</p>
                                     </div>
                                 </div>
                             </div>
@@ -109,8 +109,8 @@ const Deliverables = () => {
 
 
             <div className="relative">
-                <img className="absolute bottom-[450px] right-[400px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute top-[100px] right-[200px] animate-round-rotate360 inline-block" src="/images/shape/2.png" alt="" />
+                <img className="absolute bottom-[450px] right-[400px] animate-round-rotate360 lg:visible hidden" src="/images/shape/6.png" alt="" />
+                <img className="absolute top-[100px] right-[200px] animate-round-rotate360 lg:visible hidden" src="/images/shape/2.png" alt="" />
             </div>
         </div>
     );
