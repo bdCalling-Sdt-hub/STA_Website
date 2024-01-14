@@ -9,7 +9,7 @@ const FreeConsulting = () => {
 
       <div className="grid lg:grid-cols-2 grid-cols-1 container">
         <div>
-          <p className={`${poppins.className} text-white mb-3 lg:text-[45px] text-[28px] lg:font-semibold font-normal lg:text-left text-center lg:leading-none lg:mt-[52px] mt-[30px]`}
+          <p className={`${poppins.className} text-white mb-3 lg:text-[45px] text-[28px] lg:font-semibold font-normal lg:text-left text-center lg:leading-none lg:mt-[32px] mt-[30px]`}
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"

@@ -47,3 +47,10 @@
     height: 90px;
     width: 90px;
 }
+
+
+@media (max-width: 767px) {
+    .bkImage {
+        height: 980px;
+    }
+}

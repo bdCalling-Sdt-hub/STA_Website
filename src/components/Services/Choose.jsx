@@ -3,14 +3,14 @@ import { Button } from "../ui/button";
 
 const Choose = () => {
   return (
-    <div className="grid grid-cols-2  items-center container mt-[150px]">
+    <div className="grid lg:grid-cols-2 grid-cols-1  items-center container mt-[150px]">
       <div data-aos="fade-down-left">
         <img src="/images/services/services.png" alt="banner image" />
       </div>
       <div>
-        <div data-aos="fade-down-right">
+        <div className="lgmt-[0px] mt-[40px]" data-aos="fade-down-right">
           <p className={`${dm_sans.className} text-[24px] font-bold text-[#99D31B] `}>Why choose Invite?</p>
-          <p className={`${poppins.className} text-[54px] font-semibold text-white leading-tight mt-[18px]`}>We want to work
+          <p className={`${poppins.className} lg:text-[54px] text-[28px] lg:font-semibold font-normal text-white lg:leading-tight mt-[18px]`}>We want to work
             <br />the best!</p>
           <p className={`${dm_sans.className} text-[18px]  font-normal text-[#d8d6d6] mt-[18px]`}>Share your project scope, goals, and technical requirements with us. The objective of this preliminary stage is to validate your app idea and make sure it has viability and success potential. This entails market research, determining your target market, and gauging the demand for your app. We construct a development schedule, a budget, and a plan for the project.
           </p>
@@ -34,9 +34,9 @@ const Choose = () => {
         </div>
       </div>
       <div>
-        <img className="absolute top-[1250px] left-[120px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
-        <img className="absolute top-[1150px] right-[120px] animate-round-rotate" src="/images/shape/4.png" alt="" />
-        <img className="absolute top-[550px] -left-[100px]" src="/images/shape/9.png" alt="" />
+        <img className="absolute top-[1250px] left-[120px] animate-round-rotate360 lg:visible hidden" src="/images/shape/3.png" alt="" />
+        <img className="absolute top-[1150px] right-[120px] animate-round-rotate lg:visible hidden" src="/images/shape/4.png" alt="" />
+        <img className="absolute top-[550px] -left-[100px]" src="/images/shape/9.png lg:visible hidden" alt="" />
       </div>
     </div>
   );
