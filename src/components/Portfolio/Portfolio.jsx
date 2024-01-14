@@ -9,12 +9,14 @@ const Portfolio = () => {
 
     const { portfolioList } = PortfolioList;
 
+    console.log(portfolioList)
+
     return (
         <div className=''>
-            <div className='container grid grid-cols-2 mt-[150px] gap-4 z-50'>
+            <div className='container grid lg:grid-cols-2 grid-cols-1 mt-[150px] gap-4 z-50'>
                 {
                     portfolioList.map((portfolio, index) => (
-                        <Link href={`/portfolio/${portfolio.id}`} key={index}>
+                        <Link href={`/portfolio/${portfolio.iconTitle}`} key={index}>
                             <div className='z-50' data-aos="flip-left"
                                 data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000">

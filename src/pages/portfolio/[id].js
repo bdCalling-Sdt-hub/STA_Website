@@ -8,13 +8,18 @@ import Achievement from '@/components/Portfolio/Achievement';
 import PortfolioRelated from '@/components/Portfolio/PortfolioRelated';
 import FreeConsulting from '@/components/Portfolio/FreeConsulting';
 import { dm_sans, poppins } from '../_app';
+import Link from 'next/link';
+import CaseStaudy from '@/components/Portfolio/CaseStaudy';
 
 const PortfolioDetails = () => {
 
     const route = useRouter();
-    const id = route.query.id;
+    const iconTitle = route.query.id;
+    console.log(iconTitle)
     const { portfolioList } = PortfolioList;
-    const portfolio = portfolioList?.find(portfolio => portfolio?.id?.toString() === id);
+    const portfolio = portfolioList?.find(portfolio => portfolio?.iconTitle?.toString() === iconTitle);
+    console.log(portfolio)
+
 
 
 
@@ -24,12 +29,15 @@ const PortfolioDetails = () => {
 
             <div className="grid grid-cols-12 container mt-[150px] gap-x-8">
                 <div className='col-span-8'>
-                    <div className='relative'>
-                        <img src="/images/portfolio/portfolio-bg-v.png" alt="banner image" />
-                        <img className='absolute top-0 mt-[58px] ms-[198px] h-[368px]' data-aos="flip-left"
-                            data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" src={portfolio?.bottomImage} alt="banner image" />
-                    </div>
+
+                    <Link href={`/portfolio/${portfolio?.iconTitle}`}>
+                        <div className='relative'>
+                            <img src="/images/portfolio/portfolio-bg-v.png" alt="banner image" />
+                            <img className='absolute top-0 mt-[58px] ms-[198px] h-[368px]' data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2000" src={portfolio?.bottomImage} alt="banner image" />
+                        </div>
+                    </Link>
                     <p className={`${poppins.className}  text-[50px] text-white font-semibold`} data-aos="fade-right">{portfolio?.iconTitle}</p>
                     <p className={`${dm_sans.className} text-[#D6D6D6] text-[22px] font-medium`} data-aos="fade-left">{portfolio?.title.join(" - ")}</p>
                 </div>
@@ -73,9 +81,9 @@ const PortfolioDetails = () => {
                     <p className={`${poppins.className} text-[24px] font-semibold`}>About the Project</p>
                 </div>
                 <div className='col-span-9 mb-[150px]' data-aos="fade-left">
-                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5]`}>The Tamara project revolves around optimizing the largest BNPL (Buy Now, Pay Later) platform in Saudi Arabia, Tamara.</p>
-                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5] mt-[30px]`}>Our collaboration involved adding innovative features and refining the platform&#39;s design for enhanced aesthetics and user experience.</p>
-                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5] mt-[30px]`}>The result was an expanded set of capabilities that elevated user engagement on the Tamara platform.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5]`}>Experience Trendy Project, a showcase of fashion Trendys made simple. Begin with a stylish animated Runwey, then customize your journey by selecting your gender.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5] mt-[30px]`}>Explore occasions like Summer or Dinner Date, discovering curated 10-second fashion videos of modeled store outfits.</p>
+                    <p className={`${dm_sans.className} text-[34px] font-normal text-[#F5F5F5] mt-[30px]`}>Want to join the Runwey? Upload your 10-second fashion statement and be part of the style conversation. Its about effortless fashion exploration tailored just for you.</p>
                 </div>
             </div>
 
