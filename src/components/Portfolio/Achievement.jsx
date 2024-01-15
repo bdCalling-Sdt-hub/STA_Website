@@ -11,18 +11,18 @@ const Achievement = () => {
 
             <div className={`text-center`}>
 
-                <div className="container grid grid-cols-3 mt-[124px] gap-y-[64px]">
+                <div className="container grid lg:grid-cols-3 mt-[124px] gap-y-[64px]">
 
                     <div className='relative group'>
                         <div className='my-auto mt-[112px]' data-aos="zoom-in">
-                            <p className={`${dm_sans.className} text-[#99D31B] text-[24px] font-family: Roboto font-semibold text-start px-[30px]`}>PROCESS</p>
+                            <p className={`${dm_sans.className} text-[#99D31B] text-[24px] font-semibold lg:text-left text-center px-[30px]`}>PROCESS</p>
 
-                            <p className={`${poppins.className} text-[#F7F9F3] text-[44px] mt-[10px] font-family: Roboto font-semibold text-start px-[30px]`}>Design Process</p>
+                            <p className={`${poppins.className} text-[#F7F9F3] lg:text-[44px] text-[34px] lg:text-left text-center mt-[10px] font-semibold px-[30px]`}>Design Process</p>
                         </div>
                     </div>
 
                     <div className='relative group -skew-y-6'>
-                        <div data-aos="zoom-in" className={`flex flex-col transform h-[197px] w-[312px] ${style.card}`}>
+                        <div data-aos="zoom-in" className={`flex flex-col transform lg:h-[330px] h-[295px] lg:w-[424px] w-[370px] ${style.card}`}>
 
                             <div className='absolute right-0 w-[80px] h-[80px] bg-[#99D31B]' style={{ borderBottomLeftRadius: "70px", borderTopRightRadius: "25px" }}>
                                 <h1 className={`${poppins.className} text-white text-[45px] font-semibold skew-y-6`}>01</h1>
@@ -38,7 +38,7 @@ const Achievement = () => {
                     </div>
 
                     <div className='relative group -skew-y-6'>
-                        <div data-aos="zoom-in" className={`flex flex-col transform h-[197px] w-[312px] ${style.card}`}>
+                        <div data-aos="zoom-in" className={`flex flex-col transform lg:h-[330px] h-[295px] lg:w-[424px] w-[370px] ${style.card}`}>
 
                             <div className='absolute right-0 w-[80px] h-[80px] bg-[#99D31B]' style={{ borderBottomLeftRadius: "70px", borderTopRightRadius: "25px" }}>
                                 <h1 className={`${poppins.className} text-white text-[45px] font-semibold skew-y-6`}>02</h1>
@@ -54,7 +54,7 @@ const Achievement = () => {
                     </div>
 
                     <div className='relative group -skew-y-6'>
-                        <div data-aos="zoom-in" className={`flex flex-col transform h-[197px] w-[312px] ${style.card}`}>
+                        <div data-aos="zoom-in" className={`flex flex-col transform lg:h-[330px] h-[295px] lg:w-[424px] w-[370px] ${style.card}`}>
 
                             <div className='absolute right-0 w-[80px] h-[80px] bg-[#99D31B]' style={{ borderBottomLeftRadius: "70px", borderTopRightRadius: "25px" }}>
                                 <h1 className={`${poppins.className} text-white text-[45px] font-semibold skew-y-6`}>03</h1>
@@ -70,7 +70,7 @@ const Achievement = () => {
                     </div>
 
                     <div className='relative group -skew-y-6'>
-                        <div data-aos="zoom-in" className={`flex flex-col transform h-[197px] w-[312px] ${style.card}`}>
+                        <div data-aos="zoom-in" className={`flex flex-col transform lg:h-[330px] h-[295px] lg:w-[424px] w-[370px] ${style.card}`}>
 
                             <div className='absolute right-0 w-[80px] h-[80px] bg-[#99D31B]' style={{ borderBottomLeftRadius: "70px", borderTopRightRadius: "25px" }}>
                                 <h1 className={`${poppins.className} text-white text-[45px] font-semibold skew-y-6`}>04</h1>
@@ -86,7 +86,7 @@ const Achievement = () => {
                     </div>
 
                     <div className='relative group -skew-y-6'>
-                        <div data-aos="zoom-in" className={`flex flex-col transform h-[197px] w-[312px] ${style.card}`}>
+                        <div data-aos="zoom-in" className={`flex flex-col transform lg:h-[330px] h-[295px] lg:w-[424px] w-[370px] ${style.card}`}>
 
                             <div className='absolute right-0 w-[80px] h-[80px] bg-[#99D31B]' style={{ borderBottomLeftRadius: "70px", borderTopRightRadius: "25px" }}>
                                 <h1 className={`${poppins.className} text-white text-[45px] font-semibold skew-y-6`}>05</h1>

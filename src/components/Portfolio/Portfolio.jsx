@@ -25,7 +25,7 @@ const Portfolio = () => {
                                         <img className='w-[85px] h-[85px]' src={portfolio.icon} alt="" />
                                         <p className={`${poppins.className} w-[356px] text-[44px] text-white font-semibold`}>{portfolio.iconTitle}</p>
                                     </div>
-                                    <img className={`w-[475px] text-[50px] pt-[60px] hover:scale-125 ${style.bottomImage}`} src={portfolio.bottomImage} alt="" />
+                                    <img className={`lg:w-[475px] w-[284px] lg:h-[372px] h-[222px] text-[50px] pt-[60px] hover:scale-125 ${style.bottomImage}`} src={portfolio.bottomImage} alt="" />
                                 </div>
                                 <div>
                                     <p className={`${poppins.className} text-[#99D31B] text-[34px] font-semibold font-family: Roboto mt-[20px]`}>{portfolio.iconTitle}</p>
@@ -41,22 +41,22 @@ const Portfolio = () => {
             </div>
 
             <div className=''>
-                <img className="absolute top-[1250px] left-[120px] animate-round-rotate360" src="/images/shape/3.png" alt="" />
-                <img className="absolute top-[1150px] right-[120px] animate-round-rotate" src="/images/shape/4.png" alt="" />
+                <img className="absolute top-[1250px] left-[120px] hidden lg:visible animate-round-rotate360" src="/images/shape/3.png" alt="" />
+                <img className="absolute top-[1150px] right-[120px] hidden lg:visible animate-round-rotate" src="/images/shape/4.png" alt="" />
 
-                <img className="absolute top-[2350px] -left-[100px] mt-[100px] ms-[200px] animate-round-rotate" src="/images/shape/11.png" alt="" />
-                <img className="absolute top-[3350px] -left-[100px] mt-[100px] ms-[200px] animate-round-rotate" src="/images/shape/11.png" alt="" />
-                <img className="absolute top-[4350px] -left-[100px] mt-[100px] ms-[200px] animate-round-rotate" src="/images/shape/11.png" alt="" />
+                <img className="absolute top-[2350px] -left-[100px] mt-[100px] ms-[200px] hidden lg:visible animate-round-rotate" src="/images/shape/11.png" alt="" />
+                <img className="absolute top-[3350px] -left-[100px] mt-[100px] ms-[200px] hidden lg:visible animate-round-rotate" src="/images/shape/11.png" alt="" />
+                <img className="absolute top-[4350px] -left-[100px] mt-[100px] ms-[200px] hidden lg:visible animate-round-rotate" src="/images/shape/11.png" alt="" />
 
-                <img className="absolute top-[1750px] -right-[100px] mt-[100px] me-[200px] animate-round-rotate" src="/images/shape/11.png" alt="" />
-                <img className="absolute top-[2750px] -right-[100px] mt-[100px] me-[200px] animate-round-rotate" src="/images/shape/11.png" alt="" />
-                <img className="absolute top-[4050px] -right-[100px] mt-[100px] me-[200px] animate-round-rotate" src="/images/shape/11.png" alt="" />
+                <img className="absolute top-[1750px] -right-[100px] mt-[100px] me-[200px] hidden lg:visible animate-round-rotate" src="/images/shape/11.png" alt="" />
+                <img className="absolute top-[2750px] -right-[100px] mt-[100px] me-[200px] hidden lg:visible animate-round-rotate" src="/images/shape/11.png" alt="" />
+                <img className="absolute top-[4050px] -right-[100px] mt-[100px] me-[200px] hidden lg:visible animate-round-rotate" src="/images/shape/11.png" alt="" />
 
-                <img className="absolute top-[550px] -left-[100px] w-[300px] mt-[300px] ms-[100px]" src="/images/shape/9.png" alt="" />
-                <img className="absolute top-[2350px] -left-[100px] w-[300px] mt-[300px] ms-[100px]" src="/images/shape/9.png" alt="" />
+                <img className="absolute top-[550px] -left-[100px] lg:w-[300px] w-[200px] mt-[300px] ms-[100px] z-50" src="/images/shape/9.png" alt="" />
+                <img className="absolute top-[2350px] -left-[100px] lg:w-[300px] w-[200px] mt-[300px] ms-[100px]" src="/images/shape/9.png" alt="" />
 
 
-                <img className="absolute top-[3100px] -right-[100px] w-[400px] mt-[300px] me-[100px]" src="/images/shape/10.png" alt="" />
+                <img className="absolute top-[3100px] -right-[100px] lg:w-[400px] w-[200px] mt-[300px] me-[100px]" src="/images/shape/10.png" alt="" />
                 <img className="absolute top-[1350px] -right-[100px] w-[400px] mt-[300px] me-[100px]" src="/images/shape/10.png" alt="" />
             </div>
 

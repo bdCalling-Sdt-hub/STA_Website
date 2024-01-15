@@ -35,3 +35,19 @@
 .bottomImage {
     transition: 1s;
 }
+
+@media (max-width: 428px) {
+    .bkImage {
+        height: 507px;
+        width: 380px;
+    }
+}
+
+@media (max-width: 428px) {
+    .bkImage:hover {
+        clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+        height: 480px;
+        width: 360px;
+        border-radius: 20px;
+    }
+}

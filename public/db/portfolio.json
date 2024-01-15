@@ -3,6 +3,7 @@
     {
       "id": 1,
       "icon": "/images/shaadii-biyaah.png",
+      "caseStudy": "https://i.ibb.co/BwSLrFG/Shaadii-Biyaah-Matrimony-App.png",
       "iconTitle": "Shaadii Biyaah",
       "bottomImage": "/images/shaadii-biyaah-app.png",
       "title": [
@@ -22,6 +23,7 @@
     {
       "id": 2,
       "icon": "/images/chat-genie.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
       "iconTitle": "Chat Genie",
       "bottomImage": "/images/chat-genie-app.png",
       "title": [
@@ -41,6 +43,7 @@
     {
       "id": 3,
       "icon": "/images/fittrack-app.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
       "iconTitle": "Fit Track",
       "bottomImage": "/images/fittrack.png",
       "title": [
@@ -60,6 +63,7 @@
     {
       "id": 4,
       "icon": "/images/resid.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
       "iconTitle": "Resid +",
       "bottomImage": "/images/resid-app.png",
       "title": [
@@ -79,6 +83,7 @@
     {
       "id": 5,
       "icon": "/images/chat-genie.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
       "iconTitle": "Chat Genie",
       "bottomImage": "/images/chat-genie-app.png",
       "title": [
@@ -98,6 +103,7 @@
     {
       "id": 6,
       "icon": "/images/shaadii-biyaah.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
       "iconTitle": "Shaadii Biyaah",
       "bottomImage": "/images/shaadii-biyaah-app.png",
       "title": [
@@ -117,6 +123,7 @@
     {
       "id": 7,
       "icon": "/images/chat-genie.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
       "iconTitle": "Chat Genie",
       "bottomImage": "/images/chat-genie-app.png",
       "title": [
