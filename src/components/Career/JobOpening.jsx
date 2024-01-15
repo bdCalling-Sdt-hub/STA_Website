@@ -16,7 +16,7 @@ const JobOpening = () => {
                 <div className="container mt-[100px]">
 
                     <div className='text-center pt-[100px]' data-aos="zoom-in">
-                        <h2 className={`${poppins.className} text-3xl text-white text-[54px] font-normal mt-[15px]`}>Current Opening</h2>
+                        <h2 className={`${poppins.className} text-white lg:text-[54px] text-[34px] font-normal mt-[15px]`}>Current Opening</h2>
                     </div>
 
                     <div class="divide-y divide-white">
@@ -26,7 +26,7 @@ const JobOpening = () => {
                             jobList.map((job, index) => (
                                 <div key={index} class="" data-aos="fade-right">
                                     <p className={`${poppins.className} text-white text-[34px] font-semibold mt-[15px] pt-[41px]`}>{job.title}</p>
-                                    <div className='grid grid-cols-4 text-white  pt-[40px] pb-[51px]'>
+                                    <div className='grid lg:grid-cols-4 grid-cols-1 text-white  pt-[40px] pb-[51px]'>
                                         <div>
                                             <p className={`${poppins.className} text-[18px]`}>Address</p>
                                             <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>{job.address}</p>
@@ -84,21 +84,21 @@ const JobOpening = () => {
             </div>
 
             <div className="relative">
-                <img className="absolute -top-[1950px] right-[100px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute -top-[1400px] right-[300px] animate-round-rotate360 inline-block" src="/images/shape/2.png" alt="" />
-                <img className="absolute -top-[1700px] right-[150px] animate-round-rotate inline-block" src="/images/shape/11.png" alt="" />
+                <img className="absolute -top-[1950px] right-[100px] animate-round-rotate360 lg:visible hidden" src="/images/shape/6.png" alt="" />
+                <img className="absolute -top-[1400px] right-[300px] animate-round-rotate360  lg:visible hidden" src="/images/shape/2.png" alt="" />
+                <img className="absolute -top-[1700px] right-[150px] animate-round-rotate lg:visible hidden" src="/images/shape/11.png" alt="" />
 
-                <img className="absolute -top-[1950px] -left-[200px] -ms-[100px]" src="/images/shape/8.png" alt="" />
+                {/* <img className="absolute -top-[1950px] -left-[200px] -ms-[100px]" src="/images/shape/8.png" alt="" /> */}
             </div>
 
             <div className="relative">
-                <img className="absolute  -top-[150px] right-[250px] animate-round-rotate360" src="/images/shape/6.png" alt="" />
-                <img className="absolute -top-[100px] right-[150px] animate-round-rotate360 inline-block" src="/images/shape/2.png" alt="" />
-                <img className="absolute -top-[200px] left-[150px] animate-round-rotate inline-block" src="/images/shape/11.png" alt="" />
-                <img className="absolute -top-[450px] left-[150px] animate-round-rotate360 inline-block" src="/images/shape/6.png" alt="" />
-                <img className="absolute top-[100px] left-[450px] animate-round-rotate360 inline-block" src="/images/shape/6.png" alt="" />
+                <img className="absolute  -top-[150px] right-[250px] animate-round-rotate360 lg:visible hidden" src="/images/shape/6.png" alt="" />
+                <img className="absolute -top-[100px] right-[150px] animate-round-rotate360 lg:visible hidden" src="/images/shape/2.png" alt="" />
+                <img className="absolute -top-[200px] left-[150px] animate-round-rotate lg:visible hidden" src="/images/shape/11.png" alt="" />
+                <img className="absolute -top-[450px] left-[150px] animate-round-rotate360 lg:visible hidden" src="/images/shape/6.png" alt="" />
+                <img className="absolute top-[100px] left-[450px] animate-round-rotate360 lg:visible hidden" src="/images/shape/6.png" alt="" />
 
-                <img className="absolute -top-[300px] -right-[200px] -me-[100px]" src="/images/shape/8.png" alt="" />
+                {/* <img className="absolute -top-[300px] -right-[200px] -me-[100px]" src="/images/shape/8.png" alt="" /> */}
             </div>
 
         </div>

@@ -9,11 +9,11 @@ const Services = () => {
         <div className=" h-auto mt-[200px] pb-14">
 
             <div className='text-center'>
-                <h1 className={`${poppins.className} font-semibold leading-tight text-[54px]`} data-aos="zoom-in">
+                <h1 className={`${poppins.className} font-semibold leading-tight lg:text-[54px] text-[34px]`} data-aos="zoom-in">
                     <span className="text-white">Our Core Values</span>
                 </h1>
 
-                <div className="container grid grid-cols-3 gap-y-24 mt-[124px]">
+                <div className="container grid lg:grid-cols-3 grid-cols-1 gap-y-24 mt-[124px]">
                     <div className='relative group p-4' data-aos="flip-left" data-aos-duration="3000">
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-700">
                             <img className='absolute -top-16' src="/images/career/accountability.png" alt="" />

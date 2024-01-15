@@ -3,3 +3,9 @@
     background-repeat: no-repeat;
     height: 1028px;
 }
+
+@media (max-width: 768px) {
+    .bkImage {
+        height: 1328px;
+    }
+}
