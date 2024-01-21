@@ -11,7 +11,7 @@ const Achievement = () => {
 
             <div className={`text-center`}>
 
-                <div className="container grid grid-cols-3 mt-[124px]">
+                <div className="container grid lg:grid-cols-3 lg:mt-[124px]">
                     <div className='relative group my-[100px]' data-aos="zoom-in">
                         <div className={`flex flex-col items-center transform h-[290px] w-[424px] ${style.card} hover:bg-[#99D31B]`}>
 

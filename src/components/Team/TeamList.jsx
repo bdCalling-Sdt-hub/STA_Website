@@ -1,6 +1,6 @@
 import { dm_sans, poppins } from '@/pages/_app';
 import React from 'react';
-import TeamsList from '../../../public/db//expert'
+import TeamsList from '../../../public/db/expert.json'
 
 const TeamList = () => {
 

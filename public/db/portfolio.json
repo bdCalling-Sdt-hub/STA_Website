@@ -2,114 +2,63 @@
   "portfolioList": [
     {
       "id": 1,
-      "icon": "/images/shaadii-biyaah.png",
-      "caseStudy": "https://i.ibb.co/BwSLrFG/Shaadii-Biyaah-Matrimony-App.png",
-      "iconTitle": "Shaadii Biyaah",
-      "bottomImage": "/images/shaadii-biyaah-app.png",
-      "title": [
-        "UI/UX",
-        "Responsive Web App",
-        "Mobile App"
-      ],
-      "projectInfo": {
-        "domainName": "matrimony.com",
-        "clientName": "Syed",
-        "category": "Matrimony",
-        "startDate": "02-Nov-2023",
-        "endDate": "03-Dec-2023",
-        "tag": "matrimony"
-      }
-    },
-    {
-      "id": 2,
-      "icon": "/images/chat-genie.png",
-      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
-      "iconTitle": "Chat Genie",
-      "bottomImage": "/images/chat-genie-app.png",
-      "title": [
-        "UI/UX",
-        "Responsive Web App",
-        "Mobile App"
-      ],
-      "projectInfo": {
-        "domainName": "matrimony.com",
-        "clientName": "Ken Rockly",
-        "category": "Chat",
-        "stratDate": "02-Nov-2023",
-        "endDate": "03-Dec-2023",
-        "tag": "Chat"
-      }
-    },
-    {
-      "id": 3,
-      "icon": "/images/fittrack-app.png",
-      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
-      "iconTitle": "Fit Track",
-      "bottomImage": "/images/fittrack.png",
-      "title": [
-        "UI/UX",
-        "Responsive Web App",
-        "Mobile App"
-      ],
-      "projectInfo": {
-        "domainName": "matrimony.com",
-        "clientName": "Joshua Ajr",
-        "category": "Fittrack",
-        "stratDate": "02-Nov-2023",
-        "endDate": "03-Dec-2023",
-        "tag": "fittrack"
-      }
-    },
-    {
-      "id": 4,
       "icon": "/images/resid.png",
-      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
-      "iconTitle": "Resid +",
+      "caseStudy": "https://www.behance.net/gallery/188682405/Resid-Hotel-booking-app-Case-Study-UXUI-Design",
+      "iconTitle": "Resid+ - Hotel Booking App",
       "bottomImage": "/images/resid-app.png",
+      "aboutProject": "At SparkTech agency, we specialize in crafting cutting-edge matrimony apps that redefine the landscape of online matchmaking. With a relentless focus on user experience, security, and innovation, we bring people together, forging connections that last a lifetime. We are offering Custom Matrimony App Development. Advanced Matchmaking Algorithms. Privacy and Security Expertise.User-Friendly Interface. Profile Verification Systems. Diverse User Base Initiatives. Continuous Innovation. Client-Centric Approach. Introduce new features, improvements, and bug fixes. Success Stories Showcase. So embark on the Journey to lasting love with the SparkTech Agency. Join hands with SparkTech Agency to revolutionize the world of matrimony apps. Together, we'll create an unparalleled platform where connections flourish, and love finds its way. Discover the power of our matrimony app solutions – where technology meets romance.  ",
+      "problems": "Here we found some kind of problems any matrimony app user faces. Limited Matches or Diversity, Incomplete or Inaccurate Profiles, Users may worry about the security of their personal information and the potential misuse of data. Technical Glitches, Lack of Success Stories, Addressing these challenges through proactive measures, user education, and continuous improvement of the app's features can contribute to a more positive and successful user experience in a matrimony app. ",
+      "challanges": "Our app design included optimizing the following challenges like Enhanced Matchmaking Algorithms. We will Go above and beyond in ensuring user data privacy and security. We Create a visually appealing, intuitive, and user-friendly interface that sets your app apart from competitors and redefine the way users communicate on your platform, providing innovative tools and features for more meaningful interactions. ",
+      "solutions": "We can give users effective communication tools as well as advice and discussion starters to help them engage in meaningful interactions. We can utilize smart matchmaking algorithms and profile completion incentives. To improve privacy and security, we can implement safe data encryption technologies. Can improve profile verification processes to reduce the number of bogus profiles and increase user confidence.",
+      "features": "Our primary features include a user-friendly layout, privacy and security, detailed profiles, multimedia compatibility,communication tools, and an event calendar, all of which help you meet the appropriate person in a fun and dynamic atmosphere. So begin your path to matrimony with SparkTech Agency, where we made connections using the software.",
       "title": [
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
       ],
+      "projectImage": [
+        "/images/portfolio/resid/1.png",
+        "/images/portfolio/resid/2.png",
+        "/images/portfolio/resid/3.png",
+        "/images/portfolio/resid/4.png",
+        "/images/portfolio/resid/5.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png"
+      ],
       "projectInfo": {
-        "domainName": "matrimony.com",
-        "clientName": "Calininiss",
+        "domainName": "residplus.com",
+        "clientName": "Brou Franck",
         "category": "Booking",
-        "stratDate": "02-Nov-2023",
+        "startDate": "02-Nov-2023",
         "endDate": "03-Dec-2023",
         "tag": "booking"
       }
     },
     {
-      "id": 5,
-      "icon": "/images/chat-genie.png",
-      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
-      "iconTitle": "Chat Genie",
-      "bottomImage": "/images/chat-genie-app.png",
+      "id": 2,
+      "icon": "/images/shaadii-biyaah.png",
+      "caseStudy": "https://www.behance.net/gallery/189510911/Shaadii-Biyaah-Matrimony-App-Case-Study",
+      "iconTitle": "Shaadii Biyaah",
+      "bottomImage": "/images/shaadii-biyaah-app.png",
+      "aboutProject": "At SparkTech agency, we specialize in crafting cutting-edge matrimony apps that redefine the landscape of online matchmaking. With a relentless focus on user experience, security, and innovation, we bring people together, forging connections that last a lifetime. We are offering Custom Matrimony App Development. Advanced Matchmaking Algorithms. Privacy and Security Expertise.User-Friendly Interface. Profile Verification Systems. Diverse User Base Initiatives. Continuous Innovation. Client-Centric Approach. Introduce new features, improvements, and bug fixes. Success Stories Showcase. So embark on the Journey to lasting love with the SparkTech Agency. Join hands with SparkTech Agency to revolutionize the world of matrimony apps. Together, we'll create an unparalleled platform where connections flourish, and love finds its way. Discover the power of our matrimony app solutions – where technology meets romance.  ",
+      "problems": "Here we found some kind of problems any matrimony app user faces. Limited Matches or Diversity, Incomplete or Inaccurate Profiles, Users may worry about the security of their personal information and the potential misuse of data. Technical Glitches, Lack of Success Stories, Addressing these challenges through proactive measures, user education, and continuous improvement of the app's features can contribute to a more positive and successful user experience in a matrimony app. ",
+      "challanges": "Our app design included optimizing the following challenges like Enhanced Matchmaking Algorithms. We will Go above and beyond in ensuring user data privacy and security. We Create a visually appealing, intuitive, and user-friendly interface that sets your app apart from competitors and redefine the way users communicate on your platform, providing innovative tools and features for more meaningful interactions. ",
+      "solutions": "We can give users effective communication tools as well as advice and discussion starters to help them engage in meaningful interactions. We can utilize smart matchmaking algorithms and profile completion incentives. To improve privacy and security, we can implement safe data encryption technologies. Can improve profile verification processes to reduce the number of bogus profiles and increase user confidence.",
+      "features": "Our primary features include a user-friendly layout, privacy and security, detailed profiles, multimedia compatibility,communication tools, and an event calendar, all of which help you meet the appropriate person in a fun and dynamic atmosphere. So begin your path to matrimony with SparkTech Agency, where we made connections using the software.",
       "title": [
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
       ],
-      "projectInfo": {
-        "domainName": "matrimony.com",
-        "clientName": "Locumasterinc",
-        "category": "Chat",
-        "stratDate": "02-Nov-2023",
-        "endDate": "03-Dec-2023",
-        "tag": "chat"
-      }
-    },
-    {
-      "id": 6,
-      "icon": "/images/shaadii-biyaah.png",
-      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
-      "iconTitle": "Shaadii Biyaah",
-      "bottomImage": "/images/shaadii-biyaah-app.png",
-      "title": [
-        "UI/UX",
-        "Responsive Web App",
-        "Mobile App"
+      "projectImage": [
+        "/images/portfolio/shaadii-biyaah/1.png",
+        "/images/portfolio/shaadii-biyaah/2.png",
+        "/images/portfolio/shaadii-biyaah/3.png",
+        "/images/portfolio/shaadii-biyaah/4.png",
+        "/images/portfolio/shaadii-biyaah/5.png",
+        "/images/portfolio/shaadii-biyaah/6.png",
+        "/images/portfolio/shaadii-biyaah/7.png"
       ],
       "projectInfo": {
         "domainName": "matrimony.com",
@@ -121,7 +70,96 @@
       }
     },
     {
-      "id": 7,
+      "id": 3,
+      "icon": "/images/runway.png",
+      "caseStudy": "https://www.behance.net/gallery/187785441/Trendy_Fashion-Mobile-App-Case-Study-UXUI-Design",
+      "iconTitle": "Runway",
+      "bottomImage": "/images/chat-genie-app.png",
+      "title": [
+        "UI/UX",
+        "Responsive Web App",
+        "Mobile App"
+      ],
+      "projectImage": [
+        "/images/portfolio/runway/1.png",
+        "/images/portfolio/runway/2.png",
+        "/images/portfolio/runway/3.png",
+        "/images/portfolio/runway/4.png",
+        "/images/portfolio/runway/5.png",
+        "/images/portfolio/runway/6.png",
+        "/images/portfolio/runway/7.png"
+      ],
+      "projectInfo": {
+        "domainName": "matrimony.com",
+        "clientName": "Ken Rockly",
+        "category": "Chat",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "Chat"
+      }
+    },
+    {
+      "id": 4,
+      "icon": "/images/fittrack-app.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
+      "iconTitle": "Fit Track",
+      "bottomImage": "/images/fittrack.png",
+      "title": [
+        "UI/UX",
+        "Responsive Web App",
+        "Mobile App"
+      ],
+      "projectImage": [
+        "/images/portfolio/resid/1.png",
+        "/images/portfolio/resid/2.png",
+        "/images/portfolio/resid/3.png",
+        "/images/portfolio/resid/4.png",
+        "/images/portfolio/resid/5.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png"
+      ],
+      "projectInfo": {
+        "domainName": "matrimony.com",
+        "clientName": "Joshua Ajr",
+        "category": "Fittrack",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "fittrack"
+      }
+    },
+    {
+      "id": 5,
+      "icon": "/images/resid.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
+      "iconTitle": "Resid +",
+      "bottomImage": "/images/resid-app.png",
+      "title": [
+        "UI/UX",
+        "Responsive Web App",
+        "Mobile App"
+      ],
+      "projectImage": [
+        "/images/portfolio/resid/1.png",
+        "/images/portfolio/resid/2.png",
+        "/images/portfolio/resid/3.png",
+        "/images/portfolio/resid/4.png",
+        "/images/portfolio/resid/5.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png"
+      ],
+      "projectInfo": {
+        "domainName": "matrimony.com",
+        "clientName": "Calininiss",
+        "category": "Booking",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "booking"
+      }
+    },
+    {
+      "id": 6,
       "icon": "/images/chat-genie.png",
       "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
       "iconTitle": "Chat Genie",
@@ -130,6 +168,76 @@
         "UI/UX",
         "Responsive Web App",
         "Mobile App"
+      ],
+      "projectImage": [
+        "/images/portfolio/resid/1.png",
+        "/images/portfolio/resid/2.png",
+        "/images/portfolio/resid/3.png",
+        "/images/portfolio/resid/4.png",
+        "/images/portfolio/resid/5.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png"
+      ],
+      "projectInfo": {
+        "domainName": "matrimony.com",
+        "clientName": "Locumasterinc",
+        "category": "Chat",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "chat"
+      }
+    },
+    {
+      "id": 7,
+      "icon": "/images/shaadii-biyaah.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
+      "iconTitle": "Shaadii Biyaah",
+      "bottomImage": "/images/shaadii-biyaah-app.png",
+      "title": [
+        "UI/UX",
+        "Responsive Web App",
+        "Mobile App"
+      ],
+      "projectImage": [
+        "/images/portfolio/resid/1.png",
+        "/images/portfolio/resid/2.png",
+        "/images/portfolio/resid/3.png",
+        "/images/portfolio/resid/4.png",
+        "/images/portfolio/resid/5.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png"
+      ],
+      "projectInfo": {
+        "domainName": "matrimony.com",
+        "clientName": "Reuben kaponde",
+        "category": "Matrimony",
+        "stratDate": "02-Nov-2023",
+        "endDate": "03-Dec-2023",
+        "tag": "Matrimony"
+      }
+    },
+    {
+      "id": 8,
+      "icon": "/images/chat-genie.png",
+      "caseStudy": "https://i.ibb.co/8z5yV3Q/Profile.png",
+      "iconTitle": "Chat Genie",
+      "bottomImage": "/images/chat-genie-app.png",
+      "title": [
+        "UI/UX",
+        "Responsive Web App",
+        "Mobile App"
+      ],
+      "projectImage": [
+        "/images/portfolio/resid/1.png",
+        "/images/portfolio/resid/2.png",
+        "/images/portfolio/resid/3.png",
+        "/images/portfolio/resid/4.png",
+        "/images/portfolio/resid/5.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png",
+        "/images/portfolio/resid/6.png"
       ],
       "projectInfo": {
         "domainName": "matrimony.com",

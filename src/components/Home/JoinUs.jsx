@@ -1,3 +1,4 @@
+import { dm_sans } from "@/pages/_app";
 import TopHeading from "../Common/TopHeading";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
@@ -10,7 +11,7 @@ const JoinUs = () => {
       </div>
 
       <div className="relative lg:p-[84px] p-4 mb-[84px] rounded-3xl -mt-6 bg-gradient-to-b from-[#353534] to-[#5C5C5C]">
-        <img className="absolute top-[100px] right-0 z-0 lg:visible invisible" src="/images/message.png" alt="" />
+        {/* <img className="absolute top-[100px] right-0 z-0 lg:visible invisible" src="/images/message.png" alt="" /> */}
         <TopHeading blueText={'Contacts'} description="Get free consultation" />
         <div className="grid lg:grid-cols-2 gap-8 mt-8">
           <Input placeholder="Full Name" className="bg-[#333333] border-0 text-white placeholder:text-white" />
@@ -20,7 +21,13 @@ const JoinUs = () => {
           placeholder="Your Message"
           className="h-[225px] mt-4 bg-[#333333] border-0 text-white placeholder:text-white"
         />
-        <img className="absolute bottom-[50px] left-0 z-0 lg:visible invisible" src="/images/message.png" alt="" />
+
+        <div className="text-center">
+          <Button className={`${dm_sans.className} bg-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all hover:bg-[#99D31B]`}>
+            SEND MASSAGE
+          </Button>
+        </div>
+        {/* <img className="absolute bottom-[50px] left-0 z-0 lg:visible invisible" src="/images/message.png" alt="" /> */}
       </div>
 
       <div className='relative'>

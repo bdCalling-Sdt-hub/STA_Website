@@ -62,19 +62,25 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <Icon>
                 {/* <Facebook color="#99D31B" /> */}
-                <FaFacebookF color="#99D31B" size={20} />
+                <Link target="_blank" href={'https://www.facebook.com/Hellosparktech/'}>
+                  <FaFacebookF color="#99D31B" size={20} />
+                </Link>
               </Icon>
               <Icon>
-                {/* <Linkedin color="#99D31B" /> */}
-                <FaLinkedinIn color="#99D31B" size={24} />
+                <Link target="_blank" href={'https://www.linkedin.com/in/sparktech-agency/'}>
+                  <FaLinkedinIn color="#99D31B" size={24} />
+                </Link>
               </Icon>
               <Icon>
-                {/* <Youtube color="#99D31B" /> */}
-                <FaDribbble color="#99D31B" size={20} />
+                <Link target="_blank" href={'https://dribbble.com/SparkTech_agency'}>
+                  <FaDribbble color="#99D31B" size={20} />
+                </Link>
               </Icon>
               <Icon>
-                {/* <Mail color="#99D31B" /> */}
-                <FaBehance color="#99D31B" size={22} />
+                <Link target="_blank" href={'https://www.behance.net/sparktechagency'}>
+                  <FaBehance color="#99D31B" size={22} />
+                </Link>
+
               </Icon>
               {/* <Icon>
                 <Send color="#99D31B" />

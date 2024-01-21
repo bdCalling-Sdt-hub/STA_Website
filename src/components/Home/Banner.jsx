@@ -97,13 +97,16 @@ const Banner = () => {
         </div>
 
         {/* --------------- */}
-        <div className="flex justify-center items-center lg:w-[563px] lg:h-[549px] z-10  lg:col-span-4 col-span-12 mt-[47px]" data-aos="fade-down">
+        {/* <div className="flex justify-center items-center lg:w-[563px] lg:h-[549px] z-10  lg:col-span-4 col-span-12 mt-[47px]" data-aos="fade-down">
           <Lottie
             loop
             animationData={weblottie}
             play
             style={{ width: 500, height: 500 }}
           />
+        </div> */}
+        <div className="   flex justify-center items-center w-[563px] h-[549px] lg:mt-32 col-span-4">
+          <img style={{ height: '536px', width: "524px" }} src="/images/banner.png" alt="banner image" />
         </div>
 
         {/* --------------- */}

@@ -30,12 +30,21 @@ const OurClients = () => {
         <div className="pt-[150px] pb-14 container">
 
             <div className='text-center'>
-                <div data-aos="zoom-in">
+                {/* <div data-aos="zoom-in">
                     <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>OUR CLIENTS</p>
                     <h1 className={`${poppins.className} mt-[15px] font-semibold lg:text-[54px] text-[30px] leading-tights`}>
                         <span className="text-white">We Have Had The Pleasure Of</span>
                         <br />
                         <span className="text-white">Working Some Clients</span>
+                    </h1>
+
+                </div> */}
+                <div data-aos="zoom-in">
+                    <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>OUR PARTNERS</p>
+                    <h1 className={`${poppins.className} mt-[15px] font-semibold lg:text-[54px] text-[30px] leading-tights`}>
+                        <span className="text-white">Empowering Your Vision</span>
+                        <br />
+                        <span className="text-white">Our Supportive Partnerships</span>
                     </h1>
 
                 </div>

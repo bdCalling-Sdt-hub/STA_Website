@@ -1,4 +1,5 @@
 import Services from '@/components/Home/Services';
+import TechStack from '@/components/Home/TechStack';
 import Testimonial from '@/components/Home/Testimonial';
 import RootLayout from '@/components/Layouts/RootLayout';
 import Achievement from '@/components/Services/Achievement';
@@ -17,6 +18,7 @@ const servicesPage = () => {
             <Breadcrumbs />
             <Choose />
             <Services />
+            <TechStack />
             <Achievement />
             <Testimonial />
             <FreeConsulting />

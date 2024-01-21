@@ -141,144 +141,173 @@
     }
   ],
   "teamList": [
+    
     {
       "image": "/images/team-member/babul.png",
       "name": "Babul Mridha",
+      "teamCategory": "management",
       "title": "Software Consultant"
     },
     {
       "image": "/images/team-member/shiku.png",
       "name": "Rakibul Islam Shiku",
+      "teamCategory": "management",
       "title": "AGM"
     },
     {
       "image": "/images/team-member/azmol.png",
       "name": "Azmal Hossain",
+      "teamCategory": "management",
       "title": "QAE"
     },
     {
       "image": "/images/team-member/farvez.png",
       "name": "Farvez Hossain",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/tushar1.png",
       "name": "MD.Shehabuddin tushar",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/tohid.png",
       "name": "Towhidul Islam",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/sahinur.png",
       "name": "Sahinur Islam",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/fahim.png",
       "name": "Saiful Islam (Fahim)",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/sakib.png",
       "name": "Al Shakib E Elahi",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/opu.png",
       "name": "Md Nur Mohammod",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/jusef.png",
       "name": "Md Jusef",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/abdur.png",
       "name": "Abdur Rahman",
+      "teamCategory": "backend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/palash.png",
       "name": "Palash Chandra Barman",
+      "teamCategory": "frontend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/rafsan.png",
       "name": "Rafsan Hossain Opi",
+      "teamCategory": "frontend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/humayan.png",
       "name": "Humayun Kabir",
+      "teamCategory": "frontend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/nadim.png",
       "name": "Nadim Hasan",
+      "teamCategory": "frontend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/shanto.png",
       "name": "Hasibul Hasan Shanto",
+      "teamCategory": "frontend",
       "title": "Software Engineer"
     },
     {
       "image": "/images/team-member/ratul.png",
       "name": "Md Fozle Rabby",
+      "teamCategory": "uxui",
       "title": "UX/UI Engineer"
     },
     {
       "image": "/images/team-member/amrin.png",
       "name": "Amrin",
+      "teamCategory": "uxui",
       "title": "UX/UI Engineer"
     },
     {
       "image": "/images/team-member/aumi.png",
       "name": "Aumi",
+      "teamCategory": "uxui",
       "title": "UX/UI Engineer"
     },
     {
       "image": "/images/team-member/arfan.png",
       "name": "Afran Kazi Rana",
+      "teamCategory": "uxui",
       "title": "UX/UI Engineer"
     },
     {
       "image": "/images/team-member/diba.png",
       "name": "Tanzila Diva",
+      "teamCategory": "uxui",
       "title": "UX/UI Engineer"
     },
     {
       "image": "/images/team-member/gazi.png",
       "name": "Gazi Alauddin",
+      "teamCategory": "management",
       "title": "Sales Executive"
     },
     {
       "image": "/images/team-member/mohiuddin.png",
       "name": "Mohi Uddin",
+      "teamCategory": "management",
       "title": "Sales Executive"
     },
     {
       "image": "/images/team-member/mahmud.png",
       "name": "Mahmud Mozumdar",
+      "teamCategory": "management",
       "title": "Sales Executive"
     },
     {
       "image": "/images/team-member/ismail.png",
       "name": "Ismail Hossain",
+      "teamCategory": "management",
       "title": "Sales Executive"
     },
     {
       "image": "/images/team-member/sumaiya.png",
       "name": "Sumaiya Dolon",
+      "teamCategory": "management",
       "title": "Sales Executive"
     },
     {
       "image": "/images/team-member/arif.png",
       "name": "Arif",
+      "teamCategory": "management",
       "title": "Sales Executive"
     }
   ]
