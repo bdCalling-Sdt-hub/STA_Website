@@ -10,16 +10,16 @@ const JoinUs = () => {
       <div className="h-14 rounded-t-3xl bg-[#99D31B]">
       </div>
 
-      <div className="relative lg:p-[84px] p-4 mb-[84px] rounded-3xl -mt-6 bg-gradient-to-b from-[#353534] to-[#5C5C5C]">
+      <div className="relative lg:p-[84px] p-4 mb-[84px] rounded-3xl -mt-6 bg-gradient-to-b from-[#1a1a19] to-[#323131]">
         {/* <img className="absolute top-[100px] right-0 z-0 lg:visible invisible" src="/images/message.png" alt="" /> */}
         <TopHeading blueText={'Contacts'} description="Get free consultation" />
         <div className="grid lg:grid-cols-2 gap-8 mt-8">
-          <Input placeholder="Full Name" className="bg-[#333333] border-0 text-white placeholder:text-white" />
-          <Input placeholder="Address" className="bg-[#333333] border-0 text-white placeholder:text-white" />
+          <Input placeholder="Full Name" className={`${dm_sans.className} bg-[#333333] border-0 text-white placeholder:text-white`} />
+          <Input placeholder="Address" className={`${dm_sans.className} bg-[#333333] border-0 text-white placeholder:text-white`} />
         </div>
         <Textarea
           placeholder="Your Message"
-          className="h-[225px] mt-4 bg-[#333333] border-0 text-white placeholder:text-white"
+          className={`${dm_sans.className} h-[225px] mt-4 bg-[#333333] border-0 text-white placeholder:text-white`}
         />
 
         <div className="text-center">

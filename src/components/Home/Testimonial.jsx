@@ -31,9 +31,7 @@ const Testimonial = () => {
 
         <div className="lg:col-span-6 col-span-12">
           <Swiper
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos="fade-right"
             modules={[Navigation]}
             spaceBetween={60}
             // slidesPerView={1}

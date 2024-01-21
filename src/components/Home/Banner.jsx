@@ -105,8 +105,8 @@ const Banner = () => {
             style={{ width: 500, height: 500 }}
           />
         </div> */}
-        <div className="   flex justify-center items-center w-[563px] h-[549px] lg:mt-32 col-span-4">
-          <img style={{ height: '536px', width: "524px" }} src="/images/banner.png" alt="banner image" />
+        <div className="   flex justify-center items-center lg:w-[563px] lg:h-[524px] w-[350px] h-[524px lg:mt-32 mt-16 col-span-4">
+          <img src="/images/banner.png" alt="banner image" />
         </div>
 
         {/* --------------- */}
@@ -137,6 +137,9 @@ const Banner = () => {
 
         <img className="absolute lg:bottom-[200px] lg:right-[20px] right-[0px] bottom-[-370px] lg:w-[92px] lg:h-[92px] h-[40px] w-[40px] animate-round-rotate inline-block" src="/images/shape/1.png" alt="" />
         <img className="absolute lg:-top-[20px] lg:right-[13px] hidden lg:visible" src="/images/shape/8.png" alt="" />
+
+        <img className="absolute -top-[450px] -left-[400px] lg:visible invisible animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
+        <img className="absolute -top-[450px] -right-[400px] lg:visible invisible animate-round-rotate inline-block" src="/images/shape/8.png" alt="" />
       </div>
 
       {/* <img className="absolute bottom-[200px] left-[1180px] animate-round-rotate" src="/images/shape/7.png" alt="" /> */}

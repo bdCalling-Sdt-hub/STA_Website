@@ -22,7 +22,8 @@
     background-repeat: no-repeat;
     height: 732px;
     width: 636px;
-    transition: clip-path 4s, height 0.5s ease, width 0.5s ease;
+    /* transition: clip-path 4s, height 0.5s ease, width 0.5s ease; */
+    transition: clip-path 0.5s, height 0.5s ease, width 0.5s ease;
 }
 
 .bkImage:hover {

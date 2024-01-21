@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <footer className={style.bkImage}>
 
-      <div className="container py-16 bg-[#333] rounded-[40px]">
+      <div className="container py-16 bg-[#111] rounded-[40px]">
         <div className="grid grid-cols-6 gap-8 text-base-content">
           <aside className="lg:col-span-2 col-span-12 px-8">
             <a href="#">

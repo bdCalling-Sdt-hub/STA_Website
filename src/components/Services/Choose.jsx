@@ -5,7 +5,7 @@ const Choose = () => {
   return (
     <div className="grid lg:grid-cols-2 grid-cols-1  items-center container mt-[150px]">
       <div data-aos="fade-down-left">
-        <img src="/images/services/services.png" alt="banner image" />
+        <img className="lg:w-[618px] lg:h-[618px]" src="/images/services/services.png" alt="banner image" />
       </div>
       <div>
         <div className="lgmt-[0px] mt-[40px]" data-aos="fade-down-right">

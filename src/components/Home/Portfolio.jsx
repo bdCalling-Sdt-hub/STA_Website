@@ -4,6 +4,7 @@ import { FaArrowRight } from 'react-icons/fa6';
 import portfolio from "../../../public/db/portfolio.json";
 import "swiper/css";
 import "swiper/css/navigation";
+import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { dm_sans, poppins } from '@/pages/_app';
 import Link from 'next/link';
@@ -58,6 +59,11 @@ const Portfolio = () => {
                             },
                         }}
                         style={swiperContainerStyle}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        modules={[Autoplay]}
                     >
                         {portfolioList.map((portfolio, index) => (
                             <SwiperSlide key={index}>

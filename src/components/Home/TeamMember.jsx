@@ -22,6 +22,7 @@ const TeamMember = () => {
                         <span className="text-white">Meet Our Team</span>
                     </h1>
                 </div>
+                
 
                 <div className="container grid lg:grid-cols-3 grid-cols-1 mt-[274px] gap-y-[200px]">
                     {

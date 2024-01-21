@@ -68,7 +68,7 @@ const PortfolioDetails = () => {
                     </div>
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
                         <p>CLIENT DOMAIN</p>
-                        <p>{portfolio?.projectInfo?.domainName}</p>
+                        <Link href={'#'}><p>{portfolio?.projectInfo?.domainName}</p></Link>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />
                     <div className={`${dm_sans.className} text-start text-white p-4`}>

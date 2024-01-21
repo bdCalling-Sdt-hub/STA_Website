@@ -136,7 +136,7 @@ const TechStack = () => {
                                 <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
 
                                     <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/nextjs.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>JavaScript</p>
+                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Next JS</p>
                                 </div>
                                 <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
                                     {/* <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">

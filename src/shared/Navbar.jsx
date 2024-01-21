@@ -27,7 +27,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [prevScrollY]);
 
   const items = [
@@ -55,7 +55,7 @@ const Navbar = () => {
 
   return (
     // <div className="bg-[#333] sticky top-0 z-50 py-4">
-    <div className={`bg-[#333] sticky top-0 z-50 py-4 transition-all duration-300 ${isVisible ? '' : 'transform -translate-y-full'} shadow-lg`}>
+    <div className={`bg-[#111] sticky top-0 z-50 py-4 transition-all duration-300 ${isVisible ? '' : 'transform -translate-y-full'} shadow-lg`}>
       <nav className="container lg:flex items-center w-full justify-between">
         <div className="flex items-center justify-between">
           <Link href="/">
@@ -92,7 +92,7 @@ const Navbar = () => {
         </Button> */}
 
         <Link href={'/contact'}>
-          <div className="hidden lg:flex items-center justify-center gap-2 bg-[#333] border-[1px] w-[183px] border-[#99D31B] text-[#99D31B] px-[30px] py-[16px] rounded-lg
+          <div className="hidden lg:flex items-center justify-center gap-2 bg-[#111] border-[1px] w-[183px] border-[#99D31B] text-[#99D31B] px-[30px] py-[16px] rounded-lg
         hover:bg-[#99D31B] hover:text-white">
             <p>Contact Us</p>
             <p><FaArrowRight></FaArrowRight></p>
