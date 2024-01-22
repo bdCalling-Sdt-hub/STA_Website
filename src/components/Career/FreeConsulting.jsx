@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa6";
 import { Button } from "../ui/button";
 import { dm_sans, poppins } from "@/pages/_app";
+import Link from "next/link";
 
 const FreeConsulting = () => {
 
@@ -16,9 +17,11 @@ const FreeConsulting = () => {
           >Looking for the Best software development <br /> company?</p>
         </div>
         <div className="items-center lg:text-end text-center">
-          <Button className={`${dm_sans.className} bg-[#99D31B] border hover:bg-white hover:text-[#99D31B] lg:mt-[85px] mt-[30px] text-[18px] font-normal  px-[30px] py-[20px] h-[60px]`}>Free Consulting
-            <span className='ms-2'><FaArrowRight></FaArrowRight></span>
-          </Button>
+          <Link href='/contact'>
+            <Button className={`${dm_sans.className} bg-[#99D31B] border hover:bg-white hover:text-[#99D31B] lg:mt-[85px] mt-[30px] text-[18px] font-normal  px-[30px] py-[20px] h-[60px]`}>Free Consulting
+              <span className='ms-2'><FaArrowRight></FaArrowRight></span>
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
