@@ -155,9 +155,9 @@
     },
     {
       "image": "/images/team-member/azmol.png",
-      "name": "Azmal Hossain",
+      "name": "Azmal Hossain", 
       "teamCategory": "Management",
-      "title": "QA Engineer"
+      "title": "QA Engineer" 
     },
     {
       "image": "/images/team-member/farvez.png",

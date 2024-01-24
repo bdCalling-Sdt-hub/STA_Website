@@ -1,8 +1,5 @@
 import { dm_sans, poppins } from '@/pages/_app';
 import React from 'react';
-import nextjslottie from '../../../public/lottie/nextjslottie'
-import phplottie from '../../../public/lottie/phplottie'
-import Lottie from 'react-lottie-player';
 
 const TechStack = () => {
     return (
@@ -174,12 +171,6 @@ const TechStack = () => {
                                 </div>
                                 <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
 
-                                    {/* <Lottie
-                                        loop
-                                        animationData={phplottie}
-                                        play
-                                        style={{ width: 100, height: 100 }}
-                                    /> */}
                                     <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/php.png" alt="" />
                                     <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>PHP</p>
                                 </div>

@@ -13,8 +13,6 @@ import { useEffect } from "react";
 import { dm_sans, poppins } from "@/pages/_app";
 import Image from "next/image";
 import Link from "next/link";
-import Lottie from "react-lottie-player";
-import weblottie from "../../../public/lottie/weblottie";
 
 const Banner = () => {
 
@@ -98,12 +96,7 @@ const Banner = () => {
 
         {/* --------------- */}
         {/* <div className="flex justify-center items-center lg:w-[563px] lg:h-[549px] z-10  lg:col-span-4 col-span-12 mt-[47px]" data-aos="fade-down">
-          <Lottie
-            loop
-            animationData={weblottie}
-            play
-            style={{ width: 500, height: 500 }}
-          />
+          
         </div> */}
         <div className="   flex justify-center items-center lg:w-[563px] lg:h-[524px] w-[350px] h-[524px lg:mt-32 mt-16 col-span-4">
           <img src="/images/banner.png" alt="banner image" />

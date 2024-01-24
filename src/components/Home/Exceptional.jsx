@@ -29,7 +29,7 @@ const Exceptional = () => {
             <p>Awesome Awards</p>
           </div>
         </div>
-        {/* <LottiePlane /> */}
+       
       </div>
       <div className="space-y-5">
         <h1 className="text-4xl font-bold">Why We’re Exceptional</h1>
