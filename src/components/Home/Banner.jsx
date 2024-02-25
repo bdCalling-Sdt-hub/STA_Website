@@ -69,7 +69,7 @@ const Banner = () => {
             <span className="text-white">Spectacular</span>
           </h1>
           <p className={`${dm_sans.className} text-white lg:text-[20px] lg:mt-[60px] mr-8 text-[16px] mt-[15px] lg:text-left text-center`}>
-            Sparktech specializes in turning ideas into amazing software solutions such as mobile apps, web design, and UI/UX design. Our expertise fuels creativity, bringing your concepts to life with cutting-edge technology. With our specialized software services, you may get from inspiration to extraordinary results.
+            Sparktech specializes in turning ideas into amazing software solutions such as mobile apps, web design, and UX/UI design. Our expertise fuels creativity, bringing your concepts to life with cutting-edge technology. With our specialized software services, you may get from inspiration to extraordinary results.
           </p>
 
           {/* <Button className={`${dm_sans.className} bg-gradient-to-r from-[#6D9613] via-[#6D9613] to-[#99D31B] mt-[60px] h-[60px] w-[185px] text-[18px] transition-all z-30 hover:bg-gradient-to-r from-[#99D31B] to-[#6D9613]`}>
@@ -107,7 +107,7 @@ const Banner = () => {
 
       <div className={`${poppins.className} bg-[#99D31B] h-[100px] lg:mt-[60px] mt-[60px] flex items-center justify-center transform`}>
 
-        <marquee width="2200" scrollamount="25" className="text-[52px] text-white text-center font-bold">MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UI/UX DESIGNER</marquee>
+        <marquee width="2200" scrollamount="25" className="text-[52px] text-white text-center font-bold">MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UX/UI DESIGN - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UX/UI DESIGN - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UX/UI DESIGN - MOBILE APP DEVELOPMENT - WEB DESIGN & DEVELOPMENT - UX/UI DESIGN</marquee>
 
       </div>
 

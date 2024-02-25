@@ -251,11 +251,6 @@
   ],
   "expertList": [
     {
-      "image": "/images/expert5.png",
-      "name": "Babul Mridha",
-      "title": "Certified APP Developer with Flutter"
-    },
-    {
       "image": "/images/expert6.png",
       "name": "Rakibul Islam Shiku",
       "title": "Certified APP Developer with Flutter"
@@ -273,7 +268,7 @@
     {
       "image": "/images/expert3.png",
       "name": "Ashraful",
-      "title": "Certified UI/UX Designer"
+      "title": "Certified UX/UI Designer"
     },
     {
       "image": "/images/expert4.png",

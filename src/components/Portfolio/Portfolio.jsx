@@ -29,7 +29,7 @@ const Portfolio = () => {
                                 </div>
                                 <div>
                                     <p className={`${poppins.className} text-[#99D31B] text-[34px] font-semibold font-family: Roboto mt-[20px]`}>{portfolio.iconTitle}</p>
-                                    <p className={`${dm_sans.className} text-white text-[22px] font-medium font-family: Roboto mt-[20px] mb-[48px]`}>Mobile App UI/UX Design</p>
+                                    <p className={`${dm_sans.className} text-white text-[22px] font-medium font-family: Roboto mt-[20px] mb-[48px]`}>Mobile App UX/UI Design</p>
                                 </div>
                             </div>
                         </Link>

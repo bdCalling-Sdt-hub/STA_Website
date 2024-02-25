@@ -5,7 +5,7 @@ const Event = () => {
   const events = [
     {
       image: "/images/event2.png",
-      title: "UI/UX Design",
+      title: "UX/UI Design",
       date: "30 March, 2023",
       time: "4:00 pm - 6:00 pm",
     },

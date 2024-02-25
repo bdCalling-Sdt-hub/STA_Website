@@ -8,7 +8,7 @@ const TeamPage = () => {
     return (
         <div>
             <Head>
-                <title>Team | Spark Tech</title>
+                <title>Team | Sparktech Agency</title>
             </Head>
             <Breadcrumbs />
             <TeamList />

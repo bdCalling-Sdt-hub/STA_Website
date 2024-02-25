@@ -18,8 +18,8 @@ const Achievement = () => {
                             <div className='my-auto flex flex-col justify-center items-center'>
                                 <img className='items-center justify-center' src="/images/phones.png" alt="" />
                                 <p className={`${dm_sans.className} text-white text-[24px] mt-[10px] font-medium`}>Phone Number</p>
-                                <p className={`${dm_sans.className} text-white text-[18px] mt-[10px] font-normal`}>+88 01321231802</p>
-                                <p className={`${dm_sans.className} text-white text-[18px] mt-[10px] font-normal`}>+88 01321231802</p>
+                                <p className={`${dm_sans.className} text-white text-[18px] mt-[10px] font-normal`}>+8801992-079649</p>
+                                <p className={`${dm_sans.className} text-white text-[18px] mt-[10px] font-normal`}>+8801992-079649</p>
                             </div>
 
                         </div>

@@ -13,7 +13,7 @@ const PortfolioPage = () => {
     return (
         <div>
             <Head>
-                <title>Portfolio | Spark Tech</title>
+                <title>Portfolio | Sparktech Agency</title>
             </Head>
             <Breadcrumbs />
             <Portfolio />

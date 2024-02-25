@@ -2,7 +2,7 @@
     "serviceList": [
         {
             "id": "1",
-            "title": "UI/UX Design",
+            "title": "UX/UI Design",
             "description": "We take a personalized approach to creating web applications that perfectly align with your business objectives. From concept to deployment, we ensure your digital solution is as unique as your vision.",
             "image": "/images/services/ux.png"
         },
@@ -22,7 +22,7 @@
     "homeServiceList": [
         {
             "id": "1",
-            "title": "UI/UX Design",
+            "title": "UX/UI Design",
             "description": "We take a personalized approach to creating web applications that perfectly align with your business objectives. From concept to deployment, we ensure your digital solution is as unique as your vision.",
             "image": "/images/pc-image.png"
         },

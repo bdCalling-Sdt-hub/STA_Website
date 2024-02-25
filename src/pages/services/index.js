@@ -13,7 +13,7 @@ const servicesPage = () => {
     return (
         <div>
             <Head>
-                <title>Service | Spark Tech</title>
+                <title>Service | Sparktech Agency</title>
             </Head>
             <Breadcrumbs />
             <Choose />

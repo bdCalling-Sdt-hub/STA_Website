@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
     return (
         <div>
             <Head>
-                <title>Privacy Policy | Spark Tech</title>
+                <title>Privacy Policy | Sparktech Agency</title>
             </Head>
             <Breadcrumbs />
             <PrivacyPolicyPage />

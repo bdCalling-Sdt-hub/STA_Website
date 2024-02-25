@@ -17,7 +17,7 @@ const PaymentMethod = () => {
               />
               <div>
                 <h1 className="font-medium text-lg">
-                  Certified UI/UX Designer Course{" "}
+                  Certified UX/UI Designer Course{" "}
                 </h1>
                 <p className="text-sm">Starts on: Thursday, 26 October</p>
                 <p className="text-sm">Time: 04:pm 06:pm</p>
@@ -55,7 +55,7 @@ const PaymentMethod = () => {
           <div className="w-7 h-7 bg-white shadow flex items-center justify-center rounded-full">
             <PhoneCall size={18} color="#2492EB" />
           </div>
-          <p>For Any Queries, Call +88 01321231802</p>
+          <p>For Any Queries, Call +8801992-079649</p>
         </div>
       </div>
       <div className="border border-[#2492EB] rounded-md p-4">

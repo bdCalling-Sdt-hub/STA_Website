@@ -15,7 +15,7 @@ const AboutPage = () => {
   return (
     <div>
       <Head>
-        <title>About | Spark Tech</title>
+        <title>About | Sparktech Agency</title>
       </Head>
       <Breadcrumbs />
       <About />

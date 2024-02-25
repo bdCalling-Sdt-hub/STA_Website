@@ -17,7 +17,7 @@ const JobDetails = ({ jobList, id }) => {
 
                 <div className='grid grid-cols-3 gap-16 mt-[70px]'>
                     <div className='col-span-2'>
-                        <p className={`${dm_sans.className} font-medium text-[22px]`} data-aos="fade-right">We&#39;re on the hunt for enthusiastic and dedicated UI/UX Designers (Entry-Level) to join our dynamic team. While a background in design education is a plus, it&#39;s not a deal-breaker for us. What we value most is your passion for the UI/UX domain and your drive to excel in your career. If you possess a creative flair and an unwavering work ethic, you&#39;re the candidate we&#39;re looking for.</p>
+                        <p className={`${dm_sans.className} font-medium text-[22px]`} data-aos="fade-right">We&#39;re on the hunt for enthusiastic and dedicated UX/UI Designers (Entry-Level) to join our dynamic team. While a background in design education is a plus, it&#39;s not a deal-breaker for us. What we value most is your passion for the UX/UI domain and your drive to excel in your career. If you possess a creative flair and an unwavering work ethic, you&#39;re the candidate we&#39;re looking for.</p>
 
                         <p className={`mt-[40px] ${dm_sans.className} font-medium text-[22px]`} data-aos="fade-left">We offer a work environment that is conducive to your professional growth and development. With us, you don&#39;t just get a job; you get an opportunity to make a significant impact while expanding your skill set. If you&#39;re eager to embrace new challenges and take your abilities to the next level, don&#39;t hesitate—apply today and let&#39;s create something amazing together!</p>
                     </div>

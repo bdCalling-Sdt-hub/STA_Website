@@ -18,7 +18,7 @@ const HomePage = () => {
   return (
     <div>
       <Head>
-        <title>Home | Spark Tech</title>
+        <title>Home | Sparktech Agency</title>
       </Head>
       <Banner />
       <MidBanner />

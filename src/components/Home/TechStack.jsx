@@ -13,173 +13,141 @@ const TechStack = () => {
                 </div>
 
                 {/* UX UI Design */}
-                <p className={`${poppins.className} text-white lg:text-[30px] text-[22px] mt-8 lg:ms-6`}>UX/UI Designer</p>
-                <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                <p className={`${poppins.className} text-white lg:text-[30px] text-[22px] mt-8`}>UX/UI Design</p>
+                <hr style={{ borderColor: '#99D31B', }} />
 
-                    <div>
-                        <div className='lg:p-6 p-2 lg:col-span-6 col-span-12'>
 
-                            <p className={`${poppins.className} text-[#99D31B] lg:text-[24px] text-[18px] mt-4`}>UX Design</p>
-                         
-                            <hr style={{ borderColor: '#99D31B' }} />
-                            <div className="flex mt-4">
-                                <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/sketch.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Sketch</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/flow.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>FlowMapp</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/balsamiq.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Balsamiq</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/userflow.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>User Flow </p>
-                                </div>
-                            </div>
-                        </div>
+                <div className="flex flex-wrap gap-4 mt-4">
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[94px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/miro.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Miro</p>
                     </div>
-                    <div>
-                        <div className='lg:p-6 p-2 lg:col-span-6 col-span-12'>
-                            <p className={`${poppins.className} text-[#99D31B] lg:text-[24px] text-[18px] mt-4`}>UI Design</p>
-                            <hr style={{ borderColor: '#99D31B' }} />
-                            <div className="flex mt-4">
-                                <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[44px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/figma.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Figma</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/uxcam.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>uxcam</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/photoshop.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Photoshop</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[110px] lg:h-[35px] w-[60px] h-[30px]' src="/images/tech/marvel.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Marvel</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/sketch.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Sketch</p>
                     </div>
 
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[44px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/figma.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Figma</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/xd.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Adobe XD</p>
+                    </div>
+
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[76px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/photoshop.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Photoshop</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[70px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/illustrator.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Illustrator</p>
+                    </div>
                 </div>
+
+
 
                 {/* App Development */}
-                <p className={`${poppins.className} text-white lg:text-[30px] text-[22px] mt-8 lg:ms-6`}>Mobile App Development</p>
-                <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
-                    <div>
-                        <div className='lg:p-6 p-2 lg:col-span-6 col-span-12'>
+                <p className={`${poppins.className} text-white lg:text-[30px] text-[22px] mt-8`}>Mobile App Development</p>
+                <hr style={{ borderColor: '#99D31B' }} />
 
-                            <p className={`${poppins.className} text-[#99D31B] lg:text-[24px] text-[18px] mt-4`}>Hybrid</p>
-                            <hr style={{ borderColor: '#99D31B' }} />
-                            <div className="flex mt-4">
-                                <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/flutter.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Flutter</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    {/* <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
-                                    <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="none" stroke="#000001" stroke-miterlimit="10" stroke-width="3.3" d="M23.783,22.352v9.819 c0,3.764-4.38,4.022-6.283,0.802"></path><path fill="none" stroke="#000001" stroke-miterlimit="10" stroke-width="3.3" d="M34.69,25.343 c-1.739-2.727-5.674-2.345-5.84,0.558c-0.214,3.757,6.768,2.938,6.247,7.107c-0.365,2.92-4.874,3.858-7.193-0.065"></path>
-                                </svg> */}
-                                    <img className='lg:w-[80px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/react_n.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>React Native</p>
-                                </div>
-                            </div>
-                        </div>
+                <div className="flex flex-wrap gap-4 mt-4">
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/flutter.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Flutter</p>
                     </div>
-                    <div>
-                        <div className='lg:p-6 p-2 lg:col-span-6 col-span-12'>
-                            <p className={`${poppins.className} text-[#99D31B] lg:text-[24px] text-[18px] mt-4`}>Native</p>
-                            <hr style={{ borderColor: '#99D31B' }} />
-                            <div className="flex mt-4">
-                                <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/swift.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Swift</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/kotlin.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Kotlin</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/java.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Java</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[80px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/react_n.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>React Native</p>
                     </div>
-
-
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/swift.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Swift</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/kotlin.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Kotlin</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/java.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Java</p>
+                    </div>
                 </div>
 
-
                 {/* Web Development */}
-                <p className={`${poppins.className} text-white lg:text-[30px] text-[22px] mt-8 lg:ms-6`}>Web Development</p>
-                <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
-                    <div>
-                        <div className='lg:p-6 p-2 lg:col-span-6 col-span-12'>
+                <p className={`${poppins.className} text-white lg:text-[30px] text-[22px] mt-8`}>Web Development</p>
+                <hr style={{ borderColor: '#99D31B' }} />
 
-                            <p className={`${poppins.className} text-[#99D31B] lg:text-[24px] text-[18px] mt-4`}>Frontend</p>
-                            <hr style={{ borderColor: '#99D31B' }} />
-                            <div className="flex mt-4">
-                                <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/reactjs.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>React JS</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/nextjs.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Next JS</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    {/* <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
-                                        <rect width="36" height="36" x="6" y="6" fill="#1976d2"></rect><polygon fill="#fff" points="27.49,22 14.227,22 14.227,25.264 18.984,25.264 18.984,40 22.753,40 22.753,25.264 27.49,25.264"></polygon><path fill="#fff" d="M39.194,26.084c0,0-1.787-1.192-3.807-1.192s-2.747,0.96-2.747,1.986 c0,2.648,7.381,2.383,7.381,7.712c0,8.209-11.254,4.568-11.254,4.568V35.22c0,0,2.152,1.622,4.733,1.622s2.483-1.688,2.483-1.92 c0-2.449-7.315-2.449-7.315-7.878c0-7.381,10.658-4.469,10.658-4.469L39.194,26.084z"></path>
-                                    </svg> */}
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/vuejs.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Vue JS</p>
-                                </div>
-                            </div>
-                        </div>
+                <div className="flex flex-wrap gap-4 mt-4">
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/reactjs.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>React JS</p>
                     </div>
-                    <div>
-                        <div className='lg:p-6 p-2 lg:col-span-6 col-span-12'>
-                            <p className={`${poppins.className} text-[#99D31B] lg:text-[24px] text-[18px] mt-4`}>Backend</p>
-                            <hr style={{ borderColor: '#99D31B' }} />
-                            {/* sm:w-2/4 md:w-1/3 xl:w-3/4 */}
-                            <div className="flex mt-4">
-                                <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/nodejs.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Node JS</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    {/* <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
-                                    <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="none" stroke="#000001" stroke-miterlimit="10" stroke-width="3.3" d="M23.783,22.352v9.819 c0,3.764-4.38,4.022-6.283,0.802"></path><path fill="none" stroke="#000001" stroke-miterlimit="10" stroke-width="3.3" d="M34.69,25.343 c-1.739-2.727-5.674-2.345-5.84,0.558c-0.214,3.757,6.768,2.938,6.247,7.107c-0.365,2.92-4.874,3.858-7.193-0.065"></path>
-                                </svg> */}
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/js.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>JavaScript</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
-                                    {/* <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
-                                        <rect width="36" height="36" x="6" y="6" fill="#1976d2"></rect><polygon fill="#fff" points="27.49,22 14.227,22 14.227,25.264 18.984,25.264 18.984,40 22.753,40 22.753,25.264 27.49,25.264"></polygon><path fill="#fff" d="M39.194,26.084c0,0-1.787-1.192-3.807-1.192s-2.747,0.96-2.747,1.986 c0,2.648,7.381,2.383,7.381,7.712c0,8.209-11.254,4.568-11.254,4.568V35.22c0,0,2.152,1.622,4.733,1.622s2.483-1.688,2.483-1.92 c0-2.449-7.315-2.449-7.315-7.878c0-7.381,10.658-4.469,10.658-4.469L39.194,26.084z"></path>
-                                    </svg> */}
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/ts.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>TypeScript</p>
-                                </div>
-                                <div className='ms-8 bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
 
-                                    <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/php.png" alt="" />
-                                    <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>PHP</p>
-                                </div>
-                                {/* <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 80 80">
-                                    <path fill="#dcd5f2" d="M40,61.5C18.22,61.5,0.5,51.855,0.5,40S18.22,18.5,40,18.5S79.5,28.145,79.5,40S61.78,61.5,40,61.5z"></path><path fill="#8b75a1" d="M40,19c21.505,0,39,9.421,39,21S61.505,61,40,61S1,51.579,1,40S18.495,19,40,19 M40,18 C17.909,18,0,27.85,0,40s17.909,22,40,22s40-9.85,40-22S62.091,18,40,18L40,18z"></path><path fill="#36404d" d="M25.112 34c1.725 0 3.214.622 4.084 1.706.749.934.981 2.171.668 3.577C29.023 43.074 27.395 44 21.57 44h-4.14l1.75-10H25.112M25.112 32H17.5L14 52h2l1.056-6h4.515c5.863 0 9.053-.905 10.246-6.284C32.842 35.096 29.436 32 25.112 32L25.112 32zM61.112 34c1.725 0 3.214.622 4.084 1.706.749.934.981 2.171.668 3.577C65.023 43.074 63.395 44 57.57 44h-4.14l1.75-10H61.112M61.112 32H53.5L50 52h2l1.056-6h4.515c5.863 0 9.053-.905 10.246-6.284C68.842 35.096 65.436 32 61.112 32L61.112 32z"></path><g><path fill="#36404d" d="M49.072,33.212C48.193,32.348,46.644,32,44.334,32h-5.538L40,26h-2.1L34,46h1.99l2.388-12h0.419 h5.538c2.338,0,3.094,0.4,3.335,0.637c0.343,0.338,0.424,1.226,0.217,2.363l-1.767,9h2.106l1.626-8.63 C50.199,35.462,49.936,34.062,49.072,33.212z"></path></g>
-                                </svg> */}
-                                {/* <img src="/images/tech/php.gif" alt="" style={{ width: "100px", height: "100px" }} /> */}
-                            </div>
-                        </div>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/nextjs.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Next JS</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/vuejs.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Vue JS</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/nodejs.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Node JS</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/js.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>JavaScript</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/ts.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>TypeScript</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/php.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>PHP</p>
+                    </div>
+                </div>
+
+                {/* QAE */}
+                <p className={`${poppins.className} text-white lg:text-[30px] text-[22px] mt-8`}>Quality Assurance Technologies</p>
+                <hr style={{ borderColor: '#99D31B' }} />
+
+                <div className="flex flex-wrap gap-4 mt-4">
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/selenium.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Selenium Java</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/appium.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Appium</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/uiautomator.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>UI Automator</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/testng.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>TestNG</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/jmeter.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Apache JMeter</p>
+                    </div>
+                    <div className='bg-[#303032] lg:h-[144px] lg:w-[144px] h-[80px] w-[80px] lg:rounded-2xl rounded-lg text-center flex flex-col justify-center items-center lg:gap-4 gap-2'>
+
+                        <img className='lg:w-[64px] lg:h-[70px] w-[35px] h-[38px]' src="/images/tech/gatling.png" alt="" />
+                        <p className={`${poppins.className} text-center text-white lg:text-[16px] text-[8px]`}>Gatling</p>
                     </div>
                 </div>
 

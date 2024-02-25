@@ -51,7 +51,7 @@ const Services = () => {
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-5000">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
                             <div className='my-auto'>
-                                <h1 className={`${poppins.className} text-white font-bold text-[24px]`}>UI/UX Design</h1>
+                                <h1 className={`${poppins.className} text-white font-bold text-[24px]`}>UX/UI Design</h1>
                                 <p className={`${dm_sans.className} text-white text-[16px] mt-[28px] p-2`}>Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero.</p>
                             </div>
                             <Button className="absolute -bottom-[40px] rounded-full h-[80px] w-[80px] bg-[#99D31B] border-[#333] border-4 hover:bg-[#99D31B] group-hover:border-white transition duration-5000" variant="outline" size="icon">
@@ -63,7 +63,7 @@ const Services = () => {
                         <div className="flex flex-col items-center border-[1px] border-[#99D31B] transform -skew-y-6 rounded-[50px] h-[300px] hover:bg-[#99D31B] transition duration-5000">
                             <img className='absolute -top-16' src="/images/pc-image.png" alt="" />
                             <div className='my-auto'>
-                                <h1 className={`${poppins.className} text-white font-bold text-[24px]`}>UI/UX Design</h1>
+                                <h1 className={`${poppins.className} text-white font-bold text-[24px]`}>UX/UI Design</h1>
                                 <p className={`${dm_sans.className} text-white text-[16px] mt-[28px] p-2`}>Lorem ipsum dolor sit amet consectetur. Ipsum sed elementum nibh potenti pulvinar nibh. Feugiat neque ut fermentum quam pellentesque ullamcorper libero.</p>
                             </div>
                             <Button className="absolute -bottom-[40px] rounded-full h-[80px] w-[80px] bg-[#99D31B] border-[#333] border-4 hover:bg-[#99D31B] group-hover:border-white transition duration-5000" variant="outline" size="icon">

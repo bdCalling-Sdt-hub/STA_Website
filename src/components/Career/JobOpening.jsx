@@ -52,7 +52,7 @@ const JobOpening = () => {
                         }
 
                         {/* <div class="" data-aos="fade-left">
-                            <p className={`${poppins.className} text-white text-[34px] font-semibold mt-[15px] pt-[41px]`}>UI/UX Designers (Entry-Level)</p>
+                            <p className={`${poppins.className} text-white text-[34px] font-semibold mt-[15px] pt-[41px]`}>UX/UI Designers (Entry-Level)</p>
                             <div className='grid grid-cols-4 text-white  pt-[40px] pb-[51px]'>
                                 <div>
                                     <p className={`${poppins.className} text-[18px]`}>Address</p>
@@ -67,7 +67,7 @@ const JobOpening = () => {
                                     <p className={`${dm_sans.className} text-[22px] pt-[25px]`}>31-Oct-2023</p>
                                 </div>
                                 <div>
-                                    <Link href={`career/2?UI/UX Designers (Entry-Level)`}>
+                                    <Link href={`career/2?UX/UI Designers (Entry-Level)`}>
                                         <Button data-aos="flip-up" className='w-[211px] h-[59px] bg-[#333] text-[#99D31B] border-2 border-[#99D31B] rounded-[50px] hover:bg-[#99D31B] hover:text-white mt-4{`${poppins.className } text-[18px]`}font-normal px-[30px] py-[20px]'>Apply Now
                                             <span className='ms-2'><FaArrowRight></FaArrowRight></span>
                                         </Button>

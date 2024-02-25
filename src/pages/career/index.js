@@ -14,7 +14,7 @@ const CareerPage = () => {
     return (
         <div>
             <Head>
-                <title>Career | Spark Tech</title>
+                <title>Career | Sparktech Agency</title>
             </Head>
             <Breadcrumbs />
             <Choose />

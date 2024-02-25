@@ -14,7 +14,7 @@ const ContactPage = () => {
   return (
     <div>
       <Head>
-        <title>Contact | Spark Tech</title>
+        <title>Contact | Sparktech Agency</title>
       </Head>
       <Breadcrumbs />
       <Achievement />

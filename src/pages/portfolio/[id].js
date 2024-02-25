@@ -67,7 +67,7 @@ const PortfolioDetails = () => {
                         <p className={`${poppins.className} text-white text-[34px] font-semibold justify-center`}>Project Information</p>
                     </div>
                     <div className={`${dm_sans.className} text-start text-white p-4`}>
-                        <p>CLIENT DOMAIN</p>
+                        <p>Domain link or Play store link</p>
                         <Link href={'#'}><p>{portfolio?.projectInfo?.domainName}</p></Link>
                     </div>
                     <hr style={{ marginLeft: '15px', marginRight: '15px', borderColor: '#5C5C5C' }} />

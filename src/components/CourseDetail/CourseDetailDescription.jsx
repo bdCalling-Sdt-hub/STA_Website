@@ -13,7 +13,7 @@ const CourseDetailDescription = () => {
           <p>Top Rated Freelancer at Upwork</p>
         </div>
         <div className="bg-primary text-white p-[2px] rounded">
-          <p>UI/UX Designer</p>
+          <p>UX/UI Designer</p>
         </div>
         <div className="flex items-center gap-1">
           <div className="flex">

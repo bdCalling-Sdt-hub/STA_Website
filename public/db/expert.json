@@ -110,11 +110,6 @@
   ],
   "expertList": [
     {
-      "image": "/images/expert5.png",
-      "name": "Babul Mridha",
-      "title": "Certified APP Developer with Flutter"
-    },
-    {
       "image": "/images/expert6.png",
       "name": "Rakibul Islam Shiku",
       "title": "Certified APP Developer with Flutter"
@@ -132,7 +127,7 @@
     {
       "image": "/images/expert3.png",
       "name": "Ashraful",
-      "title": "Certified UI/UX Designer"
+      "title": "Certified UX/UI Designer"
     },
     {
       "image": "/images/expert4.png",
@@ -142,12 +137,6 @@
   ],
   "teamList": [
     {
-      "image": "/images/team-member/babul.png",
-      "name": "Babul Mridha",
-      "teamCategory": "Management",
-      "title": "Software Consultant"
-    },
-    {
       "image": "/images/team-member/shiku.png",
       "name": "Rakibul Islam Shiku",
       "teamCategory": "Management",
@@ -155,9 +144,9 @@
     },
     {
       "image": "/images/team-member/azmol.png",
-      "name": "Azmal Hossain", 
+      "name": "Azmal Hossain",
       "teamCategory": "Management",
-      "title": "QA Engineer" 
+      "title": "QA Engineer"
     },
     {
       "image": "/images/team-member/farvez.png",
@@ -247,31 +236,25 @@
       "image": "/images/team-member/ratul.png",
       "name": "Md Fozle Rabby",
       "teamCategory": "UX/UI Engineer",
-      "title": "UX/UI Engineer"
-    },
-    {
-      "image": "/images/team-member/amrin.png",
-      "name": "Amrin",
-      "teamCategory": "UX/UI Engineer",
-      "title": "UX/UI Engineer"
+      "title": "UX/UI Designer"
     },
     {
       "image": "/images/team-member/aumi.png",
       "name": "Aumi",
       "teamCategory": "UX/UI Engineer",
-      "title": "UX/UI Engineer"
+      "title": "UX/UI Designer"
     },
     {
       "image": "/images/team-member/arfan.png",
       "name": "Afran Kazi Rana",
       "teamCategory": "UX/UI Engineer",
-      "title": "UX/UI Engineer"
+      "title": "UX/UI Designer"
     },
     {
       "image": "/images/team-member/diba.png",
       "name": "Tanzila Diva",
       "teamCategory": "UX/UI Engineer",
-      "title": "UX/UI Engineer"
+      "title": "UX/UI Designer"
     },
     {
       "image": "/images/team-member/gazi.png",

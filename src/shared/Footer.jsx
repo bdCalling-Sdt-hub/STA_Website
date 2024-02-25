@@ -47,7 +47,7 @@ const Footer = () => {
               <Icon>
                 <Phone color="#99D31B" size={24} />
               </Icon>
-              <p className={`${dm_sans.className} text-[#ADADAD]`}>+88 01321231802</p>
+              <p className={`${dm_sans.className} text-[#ADADAD]`}>+8801992-079649</p>
             </div>
             <div className="flex items-center gap-2 mt-[15px]">
               <Icon>

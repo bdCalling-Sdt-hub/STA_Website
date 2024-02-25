@@ -21,9 +21,7 @@ const OurClients = () => {
         "/images/c3.png",
         "/images/c4.png",
         "/images/c5.png",
-        "/images/c5.png",
-        "/images/c5.png",
-        "/images/c5.png",
+        "/images/c6.png",
     ]
 
     return (
@@ -40,7 +38,7 @@ const OurClients = () => {
 
                 </div> */}
                 <div data-aos="zoom-in">
-                    <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>OUR PARTNERS</p>
+                    <p className={`${dm_sans.className} text-[#99D31B] text-[24px]`}>OUR CLIENTS </p>
                     <h1 className={`${poppins.className} mt-[15px] font-semibold lg:text-[54px] text-[30px] leading-tights`}>
                         <span className="text-white">Empowering Your Vision</span>
                         <br />

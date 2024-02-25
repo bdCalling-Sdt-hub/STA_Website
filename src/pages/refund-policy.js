@@ -9,7 +9,7 @@ const RefundPolicy = () => {
     return (
         <div>
             <Head>
-                <title>Refund Policy | Spark Tech</title>
+                <title>Refund Policy | Sparktech Agency</title>
             </Head>
             <Breadcrumbs />
             <RefundPolicyPage />

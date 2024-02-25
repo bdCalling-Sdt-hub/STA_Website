@@ -9,7 +9,7 @@ const termsAndConditions = () => {
     return (
         <div>
             <Head>
-                <title>Terms & Conditions | Spark Tech</title>
+                <title>Terms & Conditions | Sparktech Agency</title>
             </Head>
             <Breadcrumbs />
             <TermsConditions />

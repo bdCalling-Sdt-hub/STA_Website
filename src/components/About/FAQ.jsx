@@ -191,14 +191,14 @@ const FAQ = () => {
                         />
 
                         <div className={`${poppins.className} collapse-title text-xl font-semibold text-[24px] ${selectedItem === "my-accordion-7" ? 'text-[#99D31B]' : 'text-white'}`}>
-                            07. UI/UX Design
+                            07. UX/UI Design
                         </div>
                         <div className={`${dm_sans.className} collapse-content text-white text-[16px]`}>
                             <p>Engage and retain your users with intuitive, captivating, and responsive design. We create user-centric interfaces to ensure improved customer experience.</p>
                             <div className='flex gap-16 mt-4 items-center'>
                                 <div className='flex items-center gap-2'>
                                     <img src="/images/shape/2.png" alt="" />
-                                    <p className={`${dm_sans.className} text-[16px]`}>UI/UX Design Services</p>
+                                    <p className={`${dm_sans.className} text-[16px]`}>UX/UI Design Services</p>
                                 </div>
                             </div>
                         </div>
